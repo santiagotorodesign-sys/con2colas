@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="300" viewBox="0 0 400 300" role="img" aria-label="Proyecto 4">
+  <defs><linearGradient id="g4" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0984e3"/><stop offset="1" stop-color="#74b9ff"/></linearGradient></defs>
+  <rect width="400" height="300" fill="url(#g4)"/>
+  <rect x="40" y="60" width="180" height="14" rx="7" fill="#ffffff" opacity="0.85"/>
+  <rect x="40" y="92" width="120" height="10" rx="5" fill="#dfe6ee" opacity="0.7"/>
+  <rect x="40" y="140" width="320" height="110" rx="12" fill="#ffffff" opacity="0.25"/>
+  <circle cx="330" cy="70" r="28" fill="#ffffff" opacity="0.4"/>
+</svg>

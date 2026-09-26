@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Playground — un espacio para explorar, crear y compartir ideas." />
+  <title>Playground</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+    rel="stylesheet"
+  />
+  <link rel="stylesheet" href="./css/main.css" />
+  <script type="module" src="./js/main.js"></script>
+</head>
+<body>
+  <!-- ===== HEADER ===== -->
+  <header class="header">
+    <div class="container header__inner">
+      <a href="#" class="header__logo" aria-label="Playground — inicio">
+        <span class="header__logo-mark" aria-hidden="true"></span>
+        Playground
+      </a>
+
+      <nav class="nav" id="primary-nav" aria-label="Navegación principal">
+        <ul class="nav__list">
+          <li class="nav__item"><a class="nav__link nav__link--active" href="#inicio">Inicio</a></li>
+          <li class="nav__item"><a class="nav__link" href="#explorar">Explorar</a></li>
+          <li class="nav__item"><a class="nav__link" href="#caracteristicas">Características</a></li>
+          <li class="nav__item"><a class="nav__link" href="#contacto">Contacto</a></li>
+        </ul>
+      </nav>
+
+      <div class="header__actions">
+        <a href="#contacto" class="btn btn--ghost btn--sm">Iniciar sesión</a>
+        <a href="#explorar" class="btn btn--primary btn--sm">Comenzar</a>
+        <button
+          class="nav-toggle"
+          type="button"
+          id="nav-toggle"
+          aria-expanded="false"
+          aria-controls="primary-nav"
+          aria-label="Abrir menú de navegación"
+        >
+          <span class="nav-toggle__bar"></span>
+          <span class="nav-toggle__bar"></span>
+          <span class="nav-toggle__bar"></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main class="main" id="inicio">
+    <!-- ===== HERO ===== -->
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="container hero__inner">
+        <div class="hero__content">
+          <p class="hero__eyebrow">✨ Nuevo · Playground 2.0</p>
+          <h1 class="hero__title" id="hero-title">
+            Un espacio para <span class="hero__highlight">explorar</span>,
+            crear y compartir ideas
+          </h1>
+          <p class="hero__subtitle">
+            Prototipa sin límites. Construye, experimenta y colabora en tiempo
+            real desde un solo lugar.
+          </p>
+          <div class="hero__cta-group">
+            <a href="#explorar" class="btn btn--primary btn--lg">Empieza gratis</a>
+            <a href="#caracteristicas" class="btn btn--outline btn--lg">Ver demo</a>
+          </div>
+          <ul class="hero__stats" role="list">
+            <li class="hero__stat">
+              <span class="hero__stat-value" data-counter="12000">0</span>
+              <span class="hero__stat-label">Proyectos creados</span>
+            </li>
+            <li class="hero__stat">
+              <span class="hero__stat-value" data-counter="98">0</span>
+              <span class="hero__stat-label">% Satisfacción</span>
+            </li>
+            <li class="hero__stat">
+              <span class="hero__stat-value" data-counter="4500">0</span>
+              <span class="hero__stat-label">Creadores activos</span>
+            </li>
+          </ul>
+        </div>
+
+        <figure class="hero__media">
+          <img
+            class="hero__image"
+            src="./assets/images/hero-preview.svg"
+            alt="Vista previa de la interfaz de Playground con un lienzo de trabajo colaborativo"
+            width="640"
+            height="480"
+            loading="lazy"
+          />
+        </figure>
+      </div>
+    </section>
+
+    <!-- ===== EXPLORAR / GALERÍA ===== -->
+    <section class="explore" id="explorar" aria-labelledby="explore-title">
+      <div class="container">
+        <header class="section-header">
+          <h2 class="section-header__title" id="explore-title">Explora la galería</h2>
+          <p class="section-header__desc">
+            Descubre proyectos de la comunidad y encuentra inspiración.
+          </p>
+        </header>
+
+        <div class="filter" role="group" aria-label="Filtrar proyectos por categoría">
+          <button class="filter__btn filter__btn--active" type="button" data-filter="all">Todos</button>
+          <button class="filter__btn" type="button" data-filter="diseno">Diseño</button>
+          <button class="filter__btn" type="button" data-filter="codigo">Código</button>
+          <button class="filter__btn" type="button" data-filter="arte">Arte</button>
+        </div>
+
+        <div class="gallery" id="gallery" role="list">
+          <!-- Las tarjetas se renderizan desde ./js/modules/gallery.js -->
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== CARACTERÍSTICAS ===== -->
+    <section class="features" id="caracteristicas" aria-labelledby="features-title">
+      <div class="container">
+        <header class="section-header">
+          <h2 class="section-header__title" id="features-title">Todo lo que necesitas</h2>
+          <p class="section-header__desc">
+            Herramientas pensadas para que te concentres en crear.
+          </p>
+        </header>
+
+        <div class="features__grid">
+          <article class="feature-card" role="listitem">
+            <span class="feature-card__icon" aria-hidden="true">⚡</span>
+            <h3 class="feature-card__title">Rápido por diseño</h3>
+            <p class="feature-card__text">
+              Lienzos instantáneos sin tiempos de espera, incluso con proyectos grandes.
+            </p>
+          </article>
+
+          <article class="feature-card" role="listitem">
+            <span class="feature-card__icon" aria-hidden="true">🤝</span>
+            <h3 class="feature-card__title">Colaboración en vivo</h3>
+            <p class="feature-card__text">
+              Trabaja con tu equipo en tiempo real con cursores y comentarios.
+            </p>
+          </article>
+
+          <article class="feature-card" role="listitem">
+            <span class="feature-card__icon" aria-hidden="true">🧩</span>
+            <h3 class="feature-card__title">Componentes reutilizables</h3>
+            <p class="feature-card__text">
+              Crea una vez, usa en todas partes con nuestro sistema de piezas.
+            </p>
+          </article>
+
+          <article class="feature-card" role="listitem">
+            <span class="feature-card__icon" aria-hidden="true">🔒</span>
+            <h3 class="feature-card__title">Privado y seguro</h3>
+            <p class="feature-card__text">
+              Control total sobre quién ve y edita cada uno de tus espacios.
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== CTA ===== -->
+    <section class="cta" aria-labelledby="cta-title">
+      <div class="container cta__inner">
+        <h2 class="cta__title" id="cta-title">¿Listo para jugar con tus ideas?</h2>
+        <p class="cta__desc">Crea tu cuenta gratuita en menos de un minuto.</p>
+        <form class="cta__form" id="signup-form" novalidate>
+          <label class="visually-hidden" for="signup-email">Correo electrónico</label>
+          <input
+            class="cta__input"
+            type="email"
+            id="signup-email"
+            name="email"
+            placeholder="tucorreo@ejemplo.com"
+            autocomplete="email"
+            required
+          />
+          <button class="btn btn--primary" type="submit">Crear cuenta</button>
+          <p class="cta__feedback" id="signup-feedback" role="status" aria-live="polite"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer" id="contacto">
+    <div class="container footer__inner">
+      <div class="footer__brand">
+        <a href="#inicio" class="footer__logo">Playground</a>
+        <p class="footer__tagline">Explora, crea y comparte.</p>
+      </div>
+
+      <nav class="footer__nav" aria-label="Enlaces del pie de página">
+        <ul class="footer__list">
+          <li class="footer__item"><a class="footer__link" href="#explorar">Explorar</a></li>
+          <li class="footer__item"><a class="footer__link" href="#caracteristicas">Características</a></li>
+          <li class="footer__item"><a class="footer__link" href="#">Precios</a></li>
+          <li class="footer__item"><a class="footer__link" href="#">Soporte</a></li>
+        </ul>
+      </nav>
+
+      <ul class="footer__social" aria-label="Redes sociales">
+        <li class="footer__social-item">
+          <a class="footer__social-link" href="#" aria-label="Twitter / X">𝕏</a>
+        </li>
+        <li class="footer__social-item">
+          <a class="footer__social-link" href="#" aria-label="GitHub">GH</a>
+        </li>
+        <li class="footer__social-item">
+          <a class="footer__social-link" href="#" aria-label="LinkedIn">in</a>
+        </li>
+      </ul>
+    </div>
+    <div class="footer__bottom">
+      <p class="footer__copy">© 2026 Playground. Todos los derechos reservados.</p>
+    </div>
+  </footer>
+</body>
+</html>
