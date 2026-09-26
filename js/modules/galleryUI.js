@@ -1,65 +1,157 @@
 /**
- * galleryUI.js — Capa de UI de la galería.
- * Renderiza tarjetas desde datos y gestiona el filtrado por categoría.
- * (La lógica de datos vive en ./projects.js; aquí solo se toca el DOM.)
+ * galleryUI.js — renderiza secciones dinámicas desde content.js:
+ * características, problemas+productos, testimonios, recursos y footer.
  */
 
-import { getProjects, filterProjects, getCategoryLabel, formatNumber } from "./projects.js";
+import { icon } from "./icons.js";
+import {
+  features,
+  problems,
+  testimonials,
+  resources,
+  footerColumns,
+} from "./content.js";
 
-/** Genera el HTML de una tarjeta de proyecto a partir de sus datos. */
-const buildCardMarkup = (project) => `
-  <article class="card-project" data-category="${project.category}" role="listitem">
-    <img
-      class="card-project__media"
-      src="${project.image}"
-      alt="Captura del proyecto ${project.title}"
-      width="400"
-      height="300"
-      loading="lazy"
-    />
-    <div class="card-project__body">
-      <span class="card-project__category">${getCategoryLabel(project.category)}</span>
-      <h3 class="card-project__title">${project.title}</h3>
-      <p class="card-project__desc">${project.description}</p>
-      <div class="card-project__meta">
-        <span>${project.author}</span>
-        <span class="card-project__likes" aria-label="${formatNumber(project.likes)} me gusta">
-          ♥ ${formatNumber(project.likes)}
-        </span>
-      </div>
-    </div>
-  </article>
-`;
+const IMG_BASE = "./assets/images/";
 
-/** Renderiza todas las tarjetas en el contenedor de la galería. */
-export const renderGallery = (container) => {
-  container.innerHTML = getProjects().map(buildCardMarkup).join("");
-};
+/** Helper para crear elementos con markup interno. */
+function el(tag, className, html = "") {
+  const node = document.createElement(tag);
+  if (className) node.className = className;
+  node.innerHTML = html;
+  return node;
+}
 
-/** Muestra u oculta tarjetas según la categoría elegida. */
-export const applyFilter = (container, category) => {
-  const visibleIds = new Set(filterProjects(category).map((p) => p.title));
+/* ---------- Características ---------- */
+function renderFeatures() {
+  const grid = document.getElementById("features-grid");
+  if (!grid) return;
 
-  container.querySelectorAll(".card-project").forEach((card) => {
-    const title = card.querySelector(".card-project__title")?.textContent ?? "";
-    card.hidden = !visibleIds.has(title);
+  features.forEach((f) => {
+    const card = el("li", "feature-card");
+    card.innerHTML = `
+      <span class="feature-card__icon">${icon(f.icon)}</span>
+      <h3 class="feature-card__title">${f.title}</h3>
+      <p class="feature-card__text">${f.text}</p>`;
+    grid.appendChild(card);
   });
-};
+}
 
-/** Enlaza los botones de filtro con el renderizado de la galería. */
-export const initGallery = ({ container, filterGroup }) => {
-  if (!container || !filterGroup) return;
+/* ---------- Problemas + productos ---------- */
+function renderProblems(onAddToCart) {
+  const list = document.getElementById("problems-list");
+  if (!list) return;
 
-  renderGallery(container);
+  problems.forEach((p) => {
+    const block = el("article", "problem");
+    block.id = p.id;
 
-  filterGroup.addEventListener("click", (event) => {
-    const button = event.target.closest(".filter__btn");
-    if (!button) return;
+    const cards = p.products
+      .map(
+        (prod, i) => `
+        <li class="product-card">
+          <div class="product-card__media">
+            <img class="product-card__img" src="${IMG_BASE}${prod.img}"
+                 alt="${prod.name}" loading="lazy" width="380" height="285" />
+          </div>
+          <h4 class="product-card__title">${prod.name}</h4>
+          <p class="product-card__price">$${prod.price.toFixed(2)}</p>
+          <button class="btn btn--outline btn--sm product-card__add" type="button"
+                  data-name="${prod.name}" data-price="${prod.price}">
+            Añadir al carrito
+          </button>
+        </li>`
+      )
+      .join("");
 
-    filterGroup
-      .querySelectorAll(".filter__btn")
-      .forEach((btn) => btn.classList.toggle("filter__btn--active", btn === button));
+    block.innerHTML = `
+      <header class="problem__head">
+        <div>
+          <h3 class="problem__title">${p.title}</h3>
+          <p class="problem__desc">${p.desc}</p>
+        </div>
+        <a href="#contacto" class="btn btn--ghost btn--sm">Ver más →</a>
+      </header>
+      <ul class="problem__grid" role="list">${cards}</ul>
+      <hr class="problem__divider" />`;
 
-    applyFilter(container, button.dataset.filter ?? "all");
+    // Delegación de "añadir al carrito" dentro del bloque
+    block.addEventListener("click", (e) => {
+      const btn = e.target.closest(".product-card__add");
+      if (!btn) return;
+      onAddToCart({
+        name: btn.dataset.name,
+        price: Number(btn.dataset.price),
+      });
+    });
+
+    list.appendChild(block);
   });
-};
+}
+
+/* ---------- Testimonios ---------- */
+function renderTestimonials() {
+  const grid = document.getElementById("testimonials-grid");
+  if (!grid) return;
+
+  testimonials.forEach((t) => {
+    const card = el("li", "testimonial-card");
+    card.innerHTML = `
+      <span class="testimonial-card__quote-icon" aria-hidden="true">${icon("quote", 26)}</span>
+      <blockquote class="testimonial-card__text">${t.text}</blockquote>
+      <figcaption class="testimonial-card__author">
+        <img class="testimonial-card__avatar" src="${IMG_BASE}${t.avatar}"
+             alt="Foto de ${t.name}" loading="lazy" width="48" height="48" />
+        <div>
+          <p class="testimonial-card__name">${t.name}</p>
+          <p class="testimonial-card__role">${t.role}</p>
+        </div>
+      </figcaption>`;
+    grid.appendChild(card);
+  });
+}
+
+/* ---------- Recursos gratuitos ---------- */
+function renderResources() {
+  const grid = document.getElementById("resources-grid");
+  if (!grid) return;
+
+  const icons = ["pdf", "play", "check"];
+  resources.forEach((r, i) => {
+    const card = el("li", "resource-card");
+    card.innerHTML = `
+      <span class="feature-card__icon">${icon(icons[i] ?? "spark")}</span>
+      <h3 class="resource-card__title">${r.title}</h3>
+      <p class="resource-card__text">${r.text}</p>
+      <a class="resource-card__link" href="${r.href}">${r.cta} →</a>`;
+    grid.appendChild(card);
+  });
+}
+
+/* ---------- Footer ---------- */
+function renderFooter() {
+  const cols = document.getElementById("footer-cols");
+  if (!cols) return;
+
+  footerColumns.forEach((col) => {
+    const wrap = el("div", "footer__col");
+    wrap.innerHTML = `
+      <h3 class="footer__col-title">${col.title}</h3>
+      <ul class="footer__list" role="list">
+        ${col.links.map((l) => `<li><a class="footer__link" href="#">${l}</a></li>`).join("")}
+      </ul>`;
+    cols.appendChild(wrap);
+  });
+}
+
+/**
+ * Inicializa todas las secciones dinámicas.
+ * @param {(item:{name:string,price:number}) => void} onAddToCart callback
+ */
+export function initGallery(onAddToCart) {
+  renderFeatures();
+  renderProblems(onAddToCart);
+  renderTestimonials();
+  renderResources();
+  renderFooter();
+}

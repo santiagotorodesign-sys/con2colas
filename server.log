@@ -1,0 +1,31 @@
+ INFO  Accepting connections at http://localhost:3000
+ HTTP  9/26/2026 11:08:04 PM 127.0.0.1 GET /
+ HTTP  9/26/2026 11:08:04 PM 127.0.0.1 Returned 200 in 21 ms
+ HTTP  9/26/2026 11:08:30 PM ::1 GET /
+ HTTP  9/26/2026 11:08:30 PM ::1 Returned 200 in 4 ms
+ HTTP  9/26/2026 11:08:30 PM ::1 GET /css/main.css
+ HTTP  9/26/2026 11:08:30 PM ::1 Returned 200 in 2 ms
+ HTTP  9/26/2026 11:08:30 PM ::1 GET /js/main.js
+ HTTP  9/26/2026 11:08:30 PM ::1 Returned 200 in 1 ms
+ HTTP  9/26/2026 11:08:30 PM ::1 GET /css/base.css
+ HTTP  9/26/2026 11:08:30 PM ::1 Returned 200 in 1 ms
+ HTTP  9/26/2026 11:08:30 PM ::1 GET /css/components.css
+ HTTP  9/26/2026 11:08:30 PM ::1 Returned 200 in 2 ms
+ HTTP  9/26/2026 11:08:30 PM ::1 GET /css/layout.css
+ HTTP  9/26/2026 11:08:30 PM ::1 Returned 200 in 1 ms
+ HTTP  9/26/2026 11:08:30 PM ::1 GET /js/modules/navigationUI.js
+ HTTP  9/26/2026 11:08:30 PM ::1 Returned 200 in 1 ms
+ HTTP  9/26/2026 11:08:30 PM ::1 GET /js/modules/galleryUI.js
+ HTTP  9/26/2026 11:08:30 PM ::1 GET /js/modules/countersUI.js
+ HTTP  9/26/2026 11:08:30 PM ::1 Returned 200 in 5 ms
+ HTTP  9/26/2026 11:08:30 PM ::1 Returned 200 in 4 ms
+ HTTP  9/26/2026 11:08:30 PM ::1 GET /assets/images/romina-video.png
+ HTTP  9/26/2026 11:08:30 PM ::1 GET /assets/images/hero-dog.png
+ HTTP  9/26/2026 11:08:30 PM ::1 Returned 200 in 5 ms
+ HTTP  9/26/2026 11:08:30 PM ::1 Returned 200 in 4 ms
+ HTTP  9/26/2026 11:08:30 PM ::1 GET /js/modules/icons.js
+ HTTP  9/26/2026 11:08:30 PM ::1 Returned 200 in 2 ms
+ HTTP  9/26/2026 11:08:30 PM ::1 GET /js/modules/content.js
+ HTTP  9/26/2026 11:08:30 PM ::1 Returned 200 in 1 ms
+ HTTP  9/26/2026 11:08:30 PM ::1 GET /assets/images/favicon.svg
+ HTTP  9/26/2026 11:08:30 PM ::1 Returned 200 in 1 ms

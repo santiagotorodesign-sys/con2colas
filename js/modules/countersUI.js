@@ -1,42 +1,30 @@
 /**
- * countersUI.js — Animación de contadores del hero (UI only).
- * La lógica numérica pura se mantiene separada en countUp().
+ * countersUI.js — contador del carrito en el header.
+ * Muestra cantidad y total acumulados desde las tarjetas de producto.
  */
 
-/** Calcula el valor interpolado para un progreso dado (0..1). Lógica pura. */
-export const countUp = (target, progress) =>
-  Math.round(target * (1 - (1 - progress) ** 3)); // ease-out cúbico
+export function initCounters() {
+  const countEl = document.querySelector(".cart__count");
+  const totalEl = document.querySelector(".cart__total");
+  if (!countEl || !totalEl) return () => {};
 
-const DURATION_MS = 1600;
+  let count = 0;
+  let total = 0;
 
-const animateElement = (element) => {
-  const target = Number(element.dataset.counter ?? 0);
-  const start = performance.now();
-
-  const frame = (now) => {
-    const progress = Math.min((now - start) / DURATION_MS, 1);
-    element.textContent = new Intl.NumberFormat("es-ES").format(countUp(target, progress));
-    if (progress < 1) requestAnimationFrame(frame);
+  const render = () => {
+    countEl.textContent = String(count);
+    totalEl.textContent = `$${total.toFixed(2)}`;
+    // pequeño feedback visual al actualizar
+    countEl.animate(
+      [{ transform: "scale(1.35)" }, { transform: "scale(1)" }],
+      { duration: 250, easing: "ease-out" }
+    );
   };
 
-  requestAnimationFrame(frame);
-};
-
-/** Anima los contadores cuando entran en viewport (una sola vez). */
-export const initCounters = () => {
-  const elements = document.querySelectorAll("[data-counter]");
-  if (!elements.length) return;
-
-  const observer = new IntersectionObserver(
-    (entries, obs) => {
-      entries.forEach((entry) => {
-        if (!entry.isIntersecting) return;
-        animateElement(entry.target);
-        obs.unobserve(entry.target);
-      });
-    },
-    { threshold: 0.4 }
-  );
-
-  elements.forEach((el) => observer.observe(el));
-};
+  /** @param {{name:string, price:number}} item */
+  return function addToCart(item) {
+    count += 1;
+    total += item.price;
+    render();
+  };
+}

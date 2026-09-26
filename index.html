@@ -3,13 +3,13 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="Playground — un espacio para explorar, crear y compartir ideas." />
-  <title>Playground</title>
+  <meta name="description" content="Con 2 colas — Mascotas felices, familias en paz. Asesoría y productos de conducta animal sin castigos y desde el respeto." />
+  <title>Con 2 colas — Mascotas felices, familias en paz</title>
   <link rel="icon" type="image/svg+xml" href="./assets/images/favicon.svg" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link
-    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+    href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Inter:wght@400;500;600&display=swap"
     rel="stylesheet"
   />
   <link rel="stylesheet" href="./css/main.css" />
@@ -19,31 +19,31 @@
   <!-- ===== HEADER ===== -->
   <header class="header">
     <div class="container header__inner">
-      <a href="#" class="header__logo" aria-label="Playground — inicio">
-        <span class="header__logo-mark" aria-hidden="true"></span>
-        Playground
+      <a href="#inicio" class="header__logo" aria-label="Con 2 colas — inicio">
+        Con <span class="header__logo-num">2</span> colas
       </a>
 
       <nav class="nav" id="primary-nav" aria-label="Navegación principal">
-        <ul class="nav__list">
-          <li class="nav__item"><a class="nav__link nav__link--active" href="#inicio">Inicio</a></li>
-          <li class="nav__item"><a class="nav__link" href="#explorar">Explorar</a></li>
-          <li class="nav__item"><a class="nav__link" href="#caracteristicas">Características</a></li>
+        <ul class="nav__list" role="list">
+          <li class="nav__item"><a class="nav__link" href="#paseo">Paseo</a></li>
+          <li class="nav__item"><a class="nav__link" href="#ansiedad">Ansiedad</a></li>
+          <li class="nav__item"><a class="nav__link" href="#cachorros">Cachorros</a></li>
           <li class="nav__item"><a class="nav__link" href="#contacto">Contacto</a></li>
         </ul>
       </nav>
 
       <div class="header__actions">
-        <a href="#contacto" class="btn btn--ghost btn--sm">Iniciar sesión</a>
-        <a href="#explorar" class="btn btn--primary btn--sm">Comenzar</a>
-        <button
-          class="nav-toggle"
-          type="button"
-          id="nav-toggle"
-          aria-expanded="false"
-          aria-controls="primary-nav"
-          aria-label="Abrir menú de navegación"
-        >
+        <a href="#contacto" class="btn btn--ghost btn--sm">Sign In</a>
+        <button class="cart" type="button" aria-label="Carrito de compras">
+          <svg class="cart__icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+            <circle cx="9" cy="21" r="1"></circle>
+            <circle cx="20" cy="21" r="1"></circle>
+            <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.87a2 2 0 0 0 2-1.61L23 6H6"></path>
+          </svg>
+          <span class="cart__count">0</span>
+          <span class="cart__total">$0.00</span>
+        </button>
+        <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="primary-nav" aria-label="Abrir menú">
           <span class="nav-toggle__bar"></span>
           <span class="nav-toggle__bar"></span>
           <span class="nav-toggle__bar"></span>
@@ -52,177 +52,188 @@
     </div>
   </header>
 
-  <main class="main" id="inicio">
+  <main id="contenido">
     <!-- ===== HERO ===== -->
-    <section class="hero" aria-labelledby="hero-title">
-      <div class="container hero__inner">
+    <section class="hero" id="inicio" aria-labelledby="hero-title">
+      <div class="container hero__grid">
         <div class="hero__content">
-          <p class="hero__eyebrow">✨ Nuevo · Playground 2.0</p>
-          <h1 class="hero__title" id="hero-title">
-            Un espacio para <span class="hero__highlight">explorar</span>,
-            crear y compartir ideas
-          </h1>
-          <p class="hero__subtitle">
-            Prototipa sin límites. Construye, experimenta y colabora en tiempo
-            real desde un solo lugar.
+          <h1 class="hero__title" id="hero-title">Mascotas felices, familias en paz</h1>
+          <p class="hero__text">
+            Cuéntanos qué desafío vives hoy en casa. Te asesoramos personalmente para encontrar
+            la solución, sin usar castigos y desde el respeto.
           </p>
-          <div class="hero__cta-group">
-            <a href="#explorar" class="btn btn--primary btn--lg">Empieza gratis</a>
-            <a href="#caracteristicas" class="btn btn--outline btn--lg">Ver demo</a>
+          <div class="hero__actions">
+            <a href="#contacto" class="btn btn--primary">💬 Cuéntanos tu caso</a>
+            <a href="#soluciones" class="btn btn--outline">Ver soluciones</a>
           </div>
-          <ul class="hero__stats" role="list">
-            <li class="hero__stat">
-              <span class="hero__stat-value" data-counter="12000">0</span>
-              <span class="hero__stat-label">Proyectos creados</span>
-            </li>
-            <li class="hero__stat">
-              <span class="hero__stat-value" data-counter="98">0</span>
-              <span class="hero__stat-label">% Satisfacción</span>
-            </li>
-            <li class="hero__stat">
-              <span class="hero__stat-value" data-counter="4500">0</span>
-              <span class="hero__stat-label">Creadores activos</span>
-            </li>
-          </ul>
         </div>
 
         <figure class="hero__media">
           <img
-            class="hero__image"
-            src="./assets/images/hero-preview.svg"
-            alt="Vista previa de la interfaz de Playground con un lienzo de trabajo colaborativo"
-            width="640"
-            height="480"
+            class="hero__img"
+            src="./assets/images/hero-dog.png"
+            alt="Perro feliz junto a su familia en el parque"
             loading="lazy"
+            width="600"
+            height="467"
           />
         </figure>
       </div>
-    </section>
 
-    <!-- ===== EXPLORAR / GALERÍA ===== -->
-    <section class="explore" id="explorar" aria-labelledby="explore-title">
-      <div class="container">
-        <header class="section-header">
-          <h2 class="section-header__title" id="explore-title">Explora la galería</h2>
-          <p class="section-header__desc">
-            Descubre proyectos de la comunidad y encuentra inspiración.
-          </p>
-        </header>
-
-        <div class="filter" role="group" aria-label="Filtrar proyectos por categoría">
-          <button class="filter__btn filter__btn--active" type="button" data-filter="all">Todos</button>
-          <button class="filter__btn" type="button" data-filter="diseno">Diseño</button>
-          <button class="filter__btn" type="button" data-filter="codigo">Código</button>
-          <button class="filter__btn" type="button" data-filter="arte">Arte</button>
-        </div>
-
-        <div class="gallery" id="gallery" role="list">
-          <!-- Las tarjetas se renderizan desde ./js/modules/gallery.js -->
-        </div>
+      <div class="container brands">
+        <p class="brands__label">Marcas seleccionadas por expertos en conducta</p>
+        <ul class="brands__list" role="list">
+          <li class="brands__item">Ruffwear</li>
+          <li class="brands__item">Kong</li>
+          <li class="brands__item">Benebone</li>
+          <li class="brands__item">LickiMat</li>
+          <li class="brands__item">Feather &amp; Bone</li>
+        </ul>
       </div>
     </section>
 
-    <!-- ===== CARACTERÍSTICAS ===== -->
-    <section class="features" id="caracteristicas" aria-labelledby="features-title">
-      <div class="container">
-        <header class="section-header">
-          <h2 class="section-header__title" id="features-title">Todo lo que necesitas</h2>
-          <p class="section-header__desc">
-            Herramientas pensadas para que te concentres en crear.
-          </p>
-        </header>
-
-        <div class="features__grid">
-          <article class="feature-card" role="listitem">
-            <span class="feature-card__icon" aria-hidden="true">⚡</span>
-            <h3 class="feature-card__title">Rápido por diseño</h3>
-            <p class="feature-card__text">
-              Lienzos instantáneos sin tiempos de espera, incluso con proyectos grandes.
-            </p>
-          </article>
-
-          <article class="feature-card" role="listitem">
-            <span class="feature-card__icon" aria-hidden="true">🤝</span>
-            <h3 class="feature-card__title">Colaboración en vivo</h3>
-            <p class="feature-card__text">
-              Trabaja con tu equipo en tiempo real con cursores y comentarios.
-            </p>
-          </article>
-
-          <article class="feature-card" role="listitem">
-            <span class="feature-card__icon" aria-hidden="true">🧩</span>
-            <h3 class="feature-card__title">Componentes reutilizables</h3>
-            <p class="feature-card__text">
-              Crea una vez, usa en todas partes con nuestro sistema de piezas.
-            </p>
-          </article>
-
-          <article class="feature-card" role="listitem">
-            <span class="feature-card__icon" aria-hidden="true">🔒</span>
-            <h3 class="feature-card__title">Privado y seguro</h3>
-            <p class="feature-card__text">
-              Control total sobre quién ve y edita cada uno de tus espacios.
-            </p>
-          </article>
-        </div>
-      </div>
-    </section>
-
-    <!-- ===== CTA ===== -->
-    <section class="cta" aria-labelledby="cta-title">
-      <div class="container cta__inner">
-        <h2 class="cta__title" id="cta-title">¿Listo para jugar con tus ideas?</h2>
-        <p class="cta__desc">Crea tu cuenta gratuita en menos de un minuto.</p>
-        <form class="cta__form" id="signup-form" novalidate>
-          <label class="visually-hidden" for="signup-email">Correo electrónico</label>
-          <input
-            class="cta__input"
-            type="email"
-            id="signup-email"
-            name="email"
-            placeholder="tucorreo@ejemplo.com"
-            autocomplete="email"
-            required
+    <!-- ===== ROMINA (SOBRE) ===== -->
+    <section class="about" id="sobre" aria-labelledby="about-title">
+      <div class="container about__grid">
+        <!-- Link del comentario de Figma: https://youtu.be/3xOdihWVptQ?si=11KqYVNZXEVcNoCH -->
+        <button
+          class="about__video"
+          type="button"
+          id="video-open"
+          data-video-src="https://www.youtube-nocookie.com/embed/3xOdihWVptQ?autoplay=1&rel=0"
+          aria-haspopup="dialog"
+          aria-label="Reproducir video de presentación de Romina (YouTube)"
+        >
+          <img
+            class="about__video-img"
+            src="./assets/images/romina-video.png"
+            alt="Romina, especialista en comportamiento animal, con un perro durante una sesión de entrenamiento"
+            loading="lazy"
+            width="382"
+            height="673"
           />
-          <button class="btn btn--primary" type="submit">Crear cuenta</button>
-          <p class="cta__feedback" id="signup-feedback" role="status" aria-live="polite"></p>
-        </form>
+          <span class="about__play" aria-hidden="true">
+            <svg width="24" height="28" viewBox="0 0 24 28" fill="currentColor"><path d="M0 0l24 14L0 28z"/></svg>
+          </span>
+        </button>
+
+        <div class="about__content">
+          <h2 class="section-title" id="about-title">Más que un producto, una mejor calidad de vida</h2>
+          <p class="about__text">
+            Soy Romina, especialista en comportamiento animal. Muchas veces nos sentimos culpables
+            por regañar a nuestra mascota, pero ellos solo intentan comunicarse. A través de la
+            educación respetuosa, te guío paso a paso con las herramientas exactas para transformar
+            su conducta y devolverle la paz a tu hogar.
+          </p>
+          <div class="about__actions">
+            <a href="#contacto" class="btn btn--primary">💬 Hablar con Romina</a>
+            <a href="#soluciones" class="btn btn--outline">Ver soluciones</a>
+          </div>
+          <p class="about__hint">Asesoría directa y sin compromiso.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== POR QUÉ CON2COLAS ===== -->
+    <section class="features" id="caracteristicas" aria-labelledby="features-title">
+      <div class="container features__inner">
+        <h2 class="section-title section-title--center" id="features-title">¿Por qué elegir el método Con2colas?</h2>
+        <ul class="features__grid" id="features-grid" role="list"></ul>
+      </div>
+    </section>
+
+    <!-- ===== SOLUCIONES POR PROBLEMA ===== -->
+    <section class="problems" id="soluciones" aria-labelledby="problems-title">
+      <h2 class="visually-hidden" id="problems-title">Soluciones por problema de conducta</h2>
+      <div class="container problems__inner" id="problems-list"></div>
+    </section>
+
+    <!-- ===== HISTORIA DESTACADA (LUNA) ===== -->
+    <section class="story" id="historias" aria-labelledby="story-title">
+      <div class="container story__card">
+        <figure class="story__media">
+          <img
+            class="story__img"
+            src="./assets/images/story-luna-1.png"
+            alt="Luna, una perra que superó su fobia social paseando por la calle"
+            loading="lazy"
+            width="395"
+            height="560"
+          />
+        </figure>
+        <div class="story__body">
+          <p class="story__brand">Con 2 colas</p>
+          <h2 class="story__title" id="story-title">
+            Pasó de no salir del patio en años a viajar a su nuevo hogar en el extranjero
+          </h2>
+          <p class="story__text">
+            Llevaba años encerrado en el patio sin atreverse a cruzar la puerta por miedo.
+            Trabajamos un proceso gradual de desensibilización para que perdiera el temor al
+            exterior. No solo aprendió a pasear tranquilo por la calle, sino que superó la
+            preparación para viajar a otro país y acompañamos a sus nuevos tutores para asegurar
+            una transición perfecta.
+          </p>
+          <div class="story__author">
+            <p class="story__name">Luna</p>
+            <p class="story__role">Fobia social, paseo y mudanza internacional.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== TESTIMONIOS ===== -->
+    <section class="testimonials" id="testimonios" aria-labelledby="testimonials-title">
+      <div class="container testimonials__inner">
+        <div class="testimonials__rating" aria-label="Valoración: 4.9 de 5 estrellas">
+          <p class="testimonials__stars" aria-hidden="true">★★★★★</p>
+          <h2 class="testimonials__headline" id="testimonials-title">Excellent 4.9 of 5 stars rating</h2>
+          <p class="testimonials__sub">Based on 5,000+ real users reviews</p>
+        </div>
+        <ul class="testimonials__grid" id="testimonials-grid" role="list"></ul>
+      </div>
+    </section>
+
+    <!-- ===== RECURSOS GRATUITOS ===== -->
+    <section class="resources" id="recursos" aria-labelledby="resources-title">
+      <div class="container resources__inner">
+        <h2 class="section-title" id="resources-title">Recursos gratuitos</h2>
+        <ul class="resources__grid" id="resources-grid" role="list"></ul>
+      </div>
+    </section>
+
+    <!-- ===== CTA FINAL ===== -->
+    <section class="cta" id="contacto" aria-labelledby="cta-title">
+      <div class="container cta__inner">
+        <h2 class="cta__title" id="cta-title">¿Listo para mejorar la relación con tu mejor amigo?</h2>
+        <p class="cta__text">Toda compra incluye asesoría y una guía de uso paso a paso.</p>
+        <a href="#inicio" class="btn btn--white">💬 Cuéntanos tu caso</a>
       </div>
     </section>
   </main>
 
   <!-- ===== FOOTER ===== -->
-  <footer class="footer" id="contacto">
-    <div class="container footer__inner">
-      <div class="footer__brand">
-        <a href="#inicio" class="footer__logo">Playground</a>
-        <p class="footer__tagline">Explora, crea y comparte.</p>
-      </div>
-
-      <nav class="footer__nav" aria-label="Enlaces del pie de página">
-        <ul class="footer__list">
-          <li class="footer__item"><a class="footer__link" href="#explorar">Explorar</a></li>
-          <li class="footer__item"><a class="footer__link" href="#caracteristicas">Características</a></li>
-          <li class="footer__item"><a class="footer__link" href="#">Precios</a></li>
-          <li class="footer__item"><a class="footer__link" href="#">Soporte</a></li>
-        </ul>
-      </nav>
-
-      <ul class="footer__social" aria-label="Redes sociales">
-        <li class="footer__social-item">
-          <a class="footer__social-link" href="#" aria-label="Twitter / X">𝕏</a>
-        </li>
-        <li class="footer__social-item">
-          <a class="footer__social-link" href="#" aria-label="GitHub">GH</a>
-        </li>
-        <li class="footer__social-item">
-          <a class="footer__social-link" href="#" aria-label="LinkedIn">in</a>
-        </li>
+  <footer class="footer">
+    <div class="container footer__cols" id="footer-cols"></div>
+    <div class="container footer__bottom">
+      <p class="footer__copy">© 2026 Con 2 colas. Powered by WordPress.</p>
+      <ul class="footer__social" role="list" aria-label="Redes sociales">
+        <li class="footer__social-item"><a class="footer__social-link" href="#" aria-label="Instagram">IG</a></li>
+        <li class="footer__social-item"><a class="footer__social-link" href="#" aria-label="Facebook">FB</a></li>
+        <li class="footer__social-item"><a class="footer__social-link" href="#" aria-label="YouTube">YT</a></li>
+        <li class="footer__social-item"><a class="footer__social-link" href="#" aria-label="TikTok">TT</a></li>
       </ul>
-    </div>
-    <div class="footer__bottom">
-      <p class="footer__copy">© 2026 Playground. Todos los derechos reservados.</p>
+      <p class="footer__tagline">Con 2 colas.</p>
     </div>
   </footer>
+
+  <!-- ===== LIGHTBOX DE VIDEO (fuente: comentario Figma -> https://youtu.be/3xOdihWVptQ) ===== -->
+  <div class="lightbox" id="video-lightbox" role="dialog" aria-modal="true" aria-labelledby="lightbox-title" hidden>
+    <button class="lightbox__backdrop" type="button" data-lightbox-close aria-label="Cerrar video"></button>
+    <div class="lightbox__panel">
+      <h2 class="lightbox__title" id="lightbox-title">Video de presentación — Romina</h2>
+      <button class="lightbox__close" type="button" data-lightbox-close aria-label="Cerrar video">✕</button>
+      <div class="lightbox__frame" data-lightbox-frame></div>
+    </div>
+  </div>
 </body>
 </html>

@@ -1,35 +1,17 @@
 /**
- * main.js — Punto de entrada (ES Module).
- * Orquesta los módulos de UI; no contiene lógica de negocio ni de datos.
+ * main.js — punto de entrada ES Modules.
+ * Orquesta navegación, render de secciones dinámicas y carrito.
  */
 
+import { initNavigation } from "./modules/navigationUI.js";
 import { initGallery } from "./modules/galleryUI.js";
-import { initMobileNav, initScrollSpy } from "./modules/navigationUI.js";
 import { initCounters } from "./modules/countersUI.js";
-import { initSignupForm } from "./modules/formUI.js";
+import { initLightbox } from "./modules/lightboxUI.js";
 
-const bootstrap = () => {
-  initMobileNav({
-    nav: document.querySelector("#primary-nav"),
-    toggle: document.querySelector("#nav-toggle"),
-  });
+document.addEventListener("DOMContentLoaded", () => {
+  initNavigation();
+  initLightbox();
 
-  initScrollSpy({
-    links: [...document.querySelectorAll(".nav__link")],
-  });
-
-  initGallery({
-    container: document.querySelector("#gallery"),
-    filterGroup: document.querySelector(".filter"),
-  });
-
-  initCounters();
-
-  initSignupForm({
-    form: document.querySelector("#signup-form"),
-    input: document.querySelector("#signup-email"),
-    feedback: document.querySelector("#signup-feedback"),
-  });
-};
-
-document.addEventListener("DOMContentLoaded", bootstrap);
+  const addToCart = initCounters();
+  initGallery(addToCart);
+});

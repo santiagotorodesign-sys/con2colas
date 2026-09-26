@@ -1,63 +1,58 @@
 /**
- * navigationUI.js — Capa de UI del menú (hamburguesa + estado activo).
+ * navigationUI.js — menú móvil (hamburguesa) y resaltado de link activo
+ * según la sección visible (IntersectionObserver).
  */
 
-const OPEN_CLASS = "nav--open";
-const TOGGLE_OPEN_CLASS = "nav-toggle--open";
-
-/** Alterna la visibilidad del menú móvil y sincroniza ARIA. */
-export const initMobileNav = ({ nav, toggle }) => {
-  if (!nav || !toggle) return;
+export function initNavigation() {
+  const toggle = document.querySelector(".nav-toggle");
+  const nav = document.getElementById("primary-nav");
+  if (!toggle || !nav) return;
 
   const setOpen = (open) => {
-    nav.classList.toggle(OPEN_CLASS, open);
-    toggle.classList.toggle(TOGGLE_OPEN_CLASS, open);
     toggle.setAttribute("aria-expanded", String(open));
-    toggle.setAttribute("aria-label", open ? "Cerrar menú de navegación" : "Abrir menú de navegación");
+    toggle.setAttribute("aria-label", open ? "Cerrar menú" : "Abrir menú");
+    nav.classList.toggle("nav--open", open);
   };
 
   toggle.addEventListener("click", () => {
-    setOpen(!nav.classList.contains(OPEN_CLASS));
+    setOpen(toggle.getAttribute("aria-expanded") !== "true");
   });
 
-  // Cierra el menú al elegir una opción (mejora UX en móvil).
-  nav.addEventListener("click", (event) => {
-    if (event.target.closest(".nav__link")) setOpen(false);
+  // Cerrar al elegir una opción o al salir del foco con Escape
+  nav.addEventListener("click", (e) => {
+    if (e.target.closest(".nav__link")) setOpen(false);
   });
 
-  // Accesibilidad: cerrar con Escape.
-  document.addEventListener("keydown", (event) => {
-    if (event.key === "Escape" && nav.classList.contains(OPEN_CLASS)) {
-      setOpen(false);
-      toggle.focus();
-    }
+  document.addEventListener("keydown", (e) => {
+    if (e.key === "Escape") setOpen(false);
   });
-};
 
-/** Marca el enlace correspondiente a la sección visible al hacer scroll. */
-export const initScrollSpy = ({ links, offset = 80 }) => {
-  if (!links.length) return;
+  highlightActiveLink();
+}
+
+/** Marca con .nav__link--active el enlace de la sección más visible. */
+function highlightActiveLink() {
+  const links = [...document.querySelectorAll(".nav__link[href^='#']")];
+  if (!links.length || !("IntersectionObserver" in window)) return;
 
   const sections = links
-    .map((link) => document.querySelector(link.hash))
+    .map((l) => document.querySelector(l.getAttribute("href")))
     .filter(Boolean);
 
-  const onScroll = () => {
-    const scrollY = window.scrollY + offset;
-    let current = sections[0];
+  const observer = new IntersectionObserver(
+    (entries) => {
+      entries.forEach((entry) => {
+        if (!entry.isIntersecting) return;
+        links.forEach((l) =>
+          l.classList.toggle(
+            "nav__link--active",
+            l.getAttribute("href") === `#${entry.target.id}`
+          )
+        );
+      });
+    },
+    { rootMargin: "-40% 0px -55% 0px" }
+  );
 
-    sections.forEach((section) => {
-      if (section.offsetTop <= scrollY) current = section;
-    });
-
-    links.forEach((link) => {
-      link.classList.toggle(
-        "nav__link--active",
-        current && link.hash === `#${current.id}`
-      );
-    });
-  };
-
-  window.addEventListener("scroll", onScroll, { passive: true });
-  onScroll();
-};
+  sections.forEach((s) => observer.observe(s));
+}
