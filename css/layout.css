@@ -42,7 +42,7 @@
 }
 
 .hero__media {
-  aspect-ratio: 600 / 467;
+  aspect-ratio: auto;
 }
 
 .brands {
