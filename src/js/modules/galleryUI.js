@@ -13,7 +13,7 @@ import {
   footerColumns,
 } from "./content.js";
 
-const IMG_BASE = "../public/images/";
+const IMG_BASE = "/images/";
 
 /** Helper para crear elementos con markup interno. */
 function el(tag, className, html = "") {

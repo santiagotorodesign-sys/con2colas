@@ -1,23 +1,2 @@
-# Logs y temporales
+# Logs
 *.log
-nohup.out
-
-# Screenshots de verificación
-shot-*.png
-preview-*.png
-
-# Artefactos Figma / datos de trabajo
-figma_*.json
-figma_*.png
-img_urls.json
-pw_exec.txt
-
-# Node
-node_modules/
-package-lock.json
-
-# Scripts de prueba
-test-*.js
-verify_changes.js
-shot.js
-shot-hero.js
