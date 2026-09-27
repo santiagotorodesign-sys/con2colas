@@ -1,0 +1,95 @@
+{
+  "faqs": [
+    {
+      "id": "faq-001",
+      "question": "¿Cómo ayudo a mi perro con: ansiedad por separación?",
+      "category": "Enriquecimiento Alimenticio",
+      "answer": "Comer rápido dispara el estrés. El enriquecimiento alimenticio convierte cada toma en trabajo cognitivo: lamer y masticar activa la calma real. Recomendamos: Kong Classic Rellenable.",
+      "related_products": [
+        "kong-classic"
+      ],
+      "tags": [
+        "enriquecimiento",
+        "ansiedad",
+        "masticación",
+        "calma"
+      ]
+    },
+    {
+      "id": "faq-002",
+      "question": "¿Cómo ayudo a mi perro con: masticación destructiva?",
+      "category": "Enriquecimiento Alimenticio",
+      "answer": "Comer rápido dispara el estrés. El enriquecimiento alimenticio convierte cada toma en trabajo cognitivo: lamer y masticar activa la calma real. Recomendamos: Kong Classic Rellenable.",
+      "related_products": [
+        "kong-classic"
+      ],
+      "tags": [
+        "enriquecimiento",
+        "ansiedad",
+        "masticación",
+        "calma"
+      ]
+    },
+    {
+      "id": "faq-003",
+      "question": "¿Cómo ayudo a mi perro con: tirar de la correa?",
+      "category": "Paseo Estructurado",
+      "answer": "Antes se creía que tirar de la correa era un problema de jerarquía, pero la ciencia muestra que suele ser dolor o sobrecarga ambiental. Un arnés en Y libera su anatomía y una correa larga le permite gestionar distancias. Recomendamos: Arnés Ergonómico en Y.",
+      "related_products": [
+        "arnes-y"
+      ],
+      "tags": [
+        "paseo",
+        "arnés",
+        "ergonómico",
+        "sin-aversivos"
+      ]
+    },
+    {
+      "id": "faq-004",
+      "question": "¿Cómo ayudo a mi perro con: estrés en paseos?",
+      "category": "Paseo Estructurado",
+      "answer": "Antes se creía que tirar de la correa era un problema de jerarquía, pero la ciencia muestra que suele ser dolor o sobrecarga ambiental. Un arnés en Y libera su anatomía y una correa larga le permite gestionar distancias. Recomendamos: Arnés Ergonómico en Y.",
+      "related_products": [
+        "arnes-y"
+      ],
+      "tags": [
+        "paseo",
+        "arnés",
+        "ergonómico",
+        "sin-aversivos"
+      ]
+    },
+    {
+      "id": "faq-005",
+      "question": "¿Cómo ayudo a mi perro con: ansiedad por tormentas?",
+      "category": "Dispositivos de Calma",
+      "answer": "El lamiendo repetitivo activa el sistema nervioso parasimpático y baja el pulso. No es un truco: es fisiología aplicada al bienestar. Recomendamos: LickiMat Calma.",
+      "related_products": [
+        "lickimat"
+      ],
+      "tags": [
+        "enriquecimiento",
+        "ansiedad",
+        "fobias",
+        "calma"
+      ]
+    },
+    {
+      "id": "faq-006",
+      "question": "¿Cómo ayudo a mi perro con: estrés por visitas?",
+      "category": "Dispositivos de Calma",
+      "answer": "El lamiendo repetitivo activa el sistema nervioso parasimpático y baja el pulso. No es un truco: es fisiología aplicada al bienestar. Recomendamos: LickiMat Calma.",
+      "related_products": [
+        "lickimat"
+      ],
+      "tags": [
+        "enriquecimiento",
+        "ansiedad",
+        "fobias",
+        "calma"
+      ]
+    }
+  ],
+  "last_updated": "2026-09-27T03:07:46Z"
+}

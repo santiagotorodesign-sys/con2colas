@@ -1,1 +1,12 @@
 *.log
+node_modules/
+preview-*.png
+shot-*.png
+figma_*.json
+figma_*.png
+img_urls.json
+pw_exec.txt
+verify_changes.js
+shot.js
+shot-hero.js
+assets/
