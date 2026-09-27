@@ -299,3 +299,269 @@
  HTTP  9/26/2026 11:34:18 PM ::1 Returned 304 in 0 ms
  HTTP  9/26/2026 11:34:18 PM ::1 GET /assets/images/prod-5.png
  HTTP  9/26/2026 11:34:18 PM ::1 Returned 304 in 1 ms
+ HTTP  9/26/2026 11:41:04 PM ::1 GET /?spm=a2ty_o07.30620332.0.0.60593da9AcUT5U
+ HTTP  9/26/2026 11:41:04 PM ::1 Returned 200 in 1 ms
+ HTTP  9/26/2026 11:41:05 PM ::1 GET /js/main.js
+ HTTP  9/26/2026 11:41:05 PM ::1 Returned 200 in 1 ms
+ HTTP  9/26/2026 11:41:05 PM ::1 GET /css/main.css
+ HTTP  9/26/2026 11:41:05 PM ::1 Returned 304 in 0 ms
+ HTTP  9/26/2026 11:41:06 PM ::1 GET /css/base.css
+ HTTP  9/26/2026 11:41:06 PM ::1 Returned 200 in 1 ms
+ HTTP  9/26/2026 11:41:06 PM ::1 GET /css/layout.css
+ HTTP  9/26/2026 11:41:06 PM ::1 Returned 304 in 2 ms
+ HTTP  9/26/2026 11:41:06 PM ::1 GET /css/components.css
+ HTTP  9/26/2026 11:41:06 PM ::1 Returned 304 in 0 ms
+ HTTP  9/26/2026 11:41:06 PM ::1 GET /js/modules/navigationUI.js
+ HTTP  9/26/2026 11:41:06 PM ::1 GET /js/modules/galleryUI.js
+ HTTP  9/26/2026 11:41:06 PM ::1 Returned 304 in 2 ms
+ HTTP  9/26/2026 11:41:06 PM ::1 Returned 304 in 1 ms
+ HTTP  9/26/2026 11:41:06 PM ::1 GET /js/modules/lightboxUI.js
+ HTTP  9/26/2026 11:41:06 PM ::1 Returned 304 in 1 ms
+ HTTP  9/26/2026 11:41:07 PM ::1 GET /js/modules/icons.js
+ HTTP  9/26/2026 11:41:07 PM ::1 Returned 304 in 1 ms
+ HTTP  9/26/2026 11:41:07 PM ::1 GET /js/modules/content.js
+ HTTP  9/26/2026 11:41:07 PM ::1 Returned 304 in 0 ms
+ HTTP  9/26/2026 11:41:07 PM ::1 GET /js/modules/countersUI.js
+ HTTP  9/26/2026 11:41:07 PM ::1 Returned 200 in 1 ms
+ HTTP  9/26/2026 11:41:07 PM ::1 GET /assets/images/hero-dog.png
+ HTTP  9/26/2026 11:41:07 PM ::1 Returned 304 in 1 ms
+ HTTP  9/26/2026 11:41:08 PM ::1 GET /assets/images/romina-video.png
+ HTTP  9/26/2026 11:41:08 PM ::1 Returned 304 in 1 ms
+ HTTP  9/26/2026 11:41:21 PM ::1 GET /assets/images/prod-3.png
+ HTTP  9/26/2026 11:41:21 PM ::1 GET /assets/images/prod-1.png
+ HTTP  9/26/2026 11:41:21 PM ::1 Returned 304 in 1 ms
+ HTTP  9/26/2026 11:41:21 PM ::1 Returned 304 in 1 ms
+ HTTP  9/26/2026 11:41:21 PM ::1 GET /assets/images/prod-2.png
+ HTTP  9/26/2026 11:41:21 PM ::1 Returned 304 in 0 ms
+ HTTP  9/26/2026 11:41:22 PM ::1 GET /assets/images/prod-6.png
+ HTTP  9/26/2026 11:41:22 PM ::1 GET /assets/images/prod-4.png
+ HTTP  9/26/2026 11:41:22 PM ::1 Returned 304 in 1 ms
+ HTTP  9/26/2026 11:41:22 PM ::1 Returned 304 in 1 ms
+ HTTP  9/26/2026 11:41:22 PM ::1 GET /assets/images/prod-5.png
+ HTTP  9/26/2026 11:41:22 PM ::1 Returned 304 in 0 ms
+ HTTP  9/26/2026 11:41:23 PM ::1 GET /assets/images/prod-7.png
+ HTTP  9/26/2026 11:41:23 PM ::1 Returned 304 in 1 ms
+ HTTP  9/26/2026 11:41:23 PM ::1 GET /assets/images/prod-9.png
+ HTTP  9/26/2026 11:41:23 PM ::1 GET /assets/images/prod-8.png
+ HTTP  9/26/2026 11:41:23 PM ::1 Returned 304 in 0 ms
+ HTTP  9/26/2026 11:41:23 PM ::1 Returned 304 in 1 ms
+ HTTP  9/26/2026 11:41:24 PM ::1 GET /assets/images/prod-10.png
+ HTTP  9/26/2026 11:41:24 PM ::1 Returned 304 in 1 ms
+ HTTP  9/26/2026 11:41:24 PM ::1 GET /assets/images/prod-11.png
+ HTTP  9/26/2026 11:41:24 PM ::1 Returned 304 in 0 ms
+ HTTP  9/26/2026 11:41:24 PM ::1 GET /assets/images/prod-12.png
+ HTTP  9/26/2026 11:41:24 PM ::1 Returned 304 in 1 ms
+ HTTP  9/26/2026 11:41:25 PM ::1 GET /assets/images/prod-13.png
+ HTTP  9/26/2026 11:41:25 PM ::1 GET /assets/images/prod-15.png
+ HTTP  9/26/2026 11:41:25 PM ::1 Returned 304 in 1 ms
+ HTTP  9/26/2026 11:41:25 PM ::1 Returned 304 in 1 ms
+ HTTP  9/26/2026 11:41:25 PM ::1 GET /assets/images/prod-14.png
+ HTTP  9/26/2026 11:41:25 PM ::1 Returned 304 in 1 ms
+ HTTP  9/26/2026 11:41:26 PM ::1 GET /assets/images/story-luna-1.png
+ HTTP  9/26/2026 11:41:26 PM ::1 Returned 304 in 1 ms
+ HTTP  9/26/2026 11:41:27 PM ::1 GET /assets/images/avatar-3.png
+ HTTP  9/26/2026 11:41:27 PM ::1 Returned 304 in 1 ms
+ HTTP  9/26/2026 11:41:27 PM ::1 GET /assets/images/avatar-1.png
+ HTTP  9/26/2026 11:41:27 PM ::1 Returned 304 in 0 ms
+ HTTP  9/26/2026 11:41:27 PM ::1 GET /assets/images/avatar-2.png
+ HTTP  9/26/2026 11:41:27 PM ::1 Returned 304 in 1 ms
+ HTTP  9/26/2026 11:53:35 PM ::1 GET /?spm=a2ty_o07.30620332.0.0.60593da9AcUT5U
+ HTTP  9/26/2026 11:53:35 PM ::1 Returned 200 in 1 ms
+ HTTP  9/26/2026 11:53:36 PM ::1 GET /css/main.css
+ HTTP  9/26/2026 11:53:36 PM ::1 Returned 304 in 1 ms
+ HTTP  9/26/2026 11:53:37 PM ::1 GET /css/base.css
+ HTTP  9/26/2026 11:53:37 PM ::1 GET /js/main.js
+ HTTP  9/26/2026 11:53:37 PM ::1 Returned 200 in 3 ms
+ HTTP  9/26/2026 11:53:37 PM ::1 Returned 200 in 1 ms
+ HTTP  9/26/2026 11:53:37 PM ::1 GET /css/components.css
+ HTTP  9/26/2026 11:53:37 PM ::1 Returned 304 in 2 ms
+ HTTP  9/26/2026 11:53:37 PM ::1 GET /css/layout.css
+ HTTP  9/26/2026 11:53:37 PM ::1 Returned 304 in 1 ms
+ HTTP  9/26/2026 11:53:37 PM ::1 GET /js/modules/galleryUI.js
+ HTTP  9/26/2026 11:53:37 PM ::1 Returned 304 in 1 ms
+ HTTP  9/26/2026 11:53:37 PM ::1 GET /js/modules/navigationUI.js
+ HTTP  9/26/2026 11:53:37 PM ::1 Returned 304 in 0 ms
+ HTTP  9/26/2026 11:53:37 PM ::1 GET /js/modules/lightboxUI.js
+ HTTP  9/26/2026 11:53:37 PM ::1 Returned 304 in 0 ms
+ HTTP  9/26/2026 11:53:37 PM ::1 GET /js/modules/countersUI.js
+ HTTP  9/26/2026 11:53:37 PM ::1 Returned 200 in 1 ms
+ HTTP  9/26/2026 11:53:38 PM ::1 GET /assets/images/Kong.png
+ HTTP  9/26/2026 11:53:38 PM ::1 Returned 200 in 1 ms
+ HTTP  9/26/2026 11:53:38 PM ::1 GET /assets/images/ruffwear.png
+ HTTP  9/26/2026 11:53:38 PM ::1 GET /assets/images/Moderna.png
+ HTTP  9/26/2026 11:53:38 PM ::1 Returned 200 in 1 ms
+ HTTP  9/26/2026 11:53:38 PM ::1 Returned 200 in 1 ms
+ HTTP  9/26/2026 11:53:38 PM ::1 GET /assets/images/LickiMat.png
+ HTTP  9/26/2026 11:53:38 PM ::1 GET /assets/images/Benebone.png
+ HTTP  9/26/2026 11:53:38 PM ::1 Returned 200 in 1 ms
+ HTTP  9/26/2026 11:53:38 PM ::1 GET /assets/images/romina-video.png
+ HTTP  9/26/2026 11:53:38 PM ::1 Returned 200 in 1 ms
+ HTTP  9/26/2026 11:53:38 PM ::1 Returned 304 in 1 ms
+ HTTP  9/26/2026 11:53:38 PM ::1 GET /assets/images/Hero-con2colas.png
+ HTTP  9/26/2026 11:53:38 PM ::1 Returned 200 in 2 ms
+ HTTP  9/26/2026 11:53:38 PM ::1 GET /js/modules/content.js
+ HTTP  9/26/2026 11:53:38 PM ::1 Returned 304 in 1 ms
+ HTTP  9/26/2026 11:53:38 PM ::1 GET /js/modules/icons.js
+ HTTP  9/26/2026 11:53:38 PM ::1 Returned 304 in 1 ms
+ HTTP  9/26/2026 11:53:44 PM ::1 GET /assets/images/prod-2.png
+ HTTP  9/26/2026 11:53:44 PM ::1 GET /assets/images/prod-1.png
+ HTTP  9/26/2026 11:53:44 PM ::1 Returned 304 in 1 ms
+ HTTP  9/26/2026 11:53:44 PM ::1 Returned 304 in 1 ms
+ HTTP  9/26/2026 11:53:44 PM ::1 GET /assets/images/prod-6.png
+ HTTP  9/26/2026 11:53:44 PM ::1 Returned 304 in 1 ms
+ HTTP  9/26/2026 11:53:44 PM ::1 GET /assets/images/prod-5.png
+ HTTP  9/26/2026 11:53:44 PM ::1 Returned 304 in 1 ms
+ HTTP  9/26/2026 11:53:44 PM ::1 GET /assets/images/prod-4.png
+ HTTP  9/26/2026 11:53:44 PM ::1 Returned 304 in 1 ms
+ HTTP  9/26/2026 11:53:44 PM ::1 GET /assets/images/prod-9.png
+ HTTP  9/26/2026 11:53:44 PM ::1 Returned 304 in 1 ms
+ HTTP  9/26/2026 11:53:44 PM ::1 GET /assets/images/prod-8.png
+ HTTP  9/26/2026 11:53:44 PM ::1 Returned 304 in 0 ms
+ HTTP  9/26/2026 11:53:44 PM ::1 GET /assets/images/prod-7.png
+ HTTP  9/26/2026 11:53:44 PM ::1 Returned 304 in 0 ms
+ HTTP  9/26/2026 11:53:44 PM ::1 GET /assets/images/prod-3.png
+ HTTP  9/26/2026 11:53:44 PM ::1 Returned 304 in 0 ms
+ HTTP  9/26/2026 11:53:44 PM ::1 GET /assets/images/prod-12.png
+ HTTP  9/26/2026 11:53:44 PM ::1 Returned 304 in 0 ms
+ HTTP  9/26/2026 11:53:44 PM ::1 GET /assets/images/prod-10.png
+ HTTP  9/26/2026 11:53:44 PM ::1 Returned 304 in 1 ms
+ HTTP  9/26/2026 11:53:44 PM ::1 GET /assets/images/prod-11.png
+ HTTP  9/26/2026 11:53:44 PM ::1 Returned 304 in 0 ms
+ HTTP  9/26/2026 11:53:45 PM ::1 GET /assets/images/prod-14.png
+ HTTP  9/26/2026 11:53:45 PM ::1 Returned 304 in 1 ms
+ HTTP  9/26/2026 11:53:45 PM ::1 GET /assets/images/prod-15.png
+ HTTP  9/26/2026 11:53:45 PM ::1 Returned 304 in 1 ms
+ HTTP  9/26/2026 11:53:45 PM ::1 GET /assets/images/prod-13.png
+ HTTP  9/26/2026 11:53:45 PM ::1 Returned 304 in 1 ms
+ HTTP  9/26/2026 11:53:46 PM ::1 GET /assets/images/story-luna-1.png
+ HTTP  9/26/2026 11:53:46 PM ::1 Returned 304 in 1 ms
+ HTTP  9/26/2026 11:53:48 PM ::1 GET /assets/images/avatar-2.png
+ HTTP  9/26/2026 11:53:48 PM ::1 Returned 304 in 1 ms
+ HTTP  9/26/2026 11:53:48 PM ::1 GET /assets/images/avatar-1.png
+ HTTP  9/26/2026 11:53:48 PM ::1 Returned 304 in 0 ms
+ HTTP  9/26/2026 11:53:49 PM ::1 GET /assets/images/avatar-3.png
+ HTTP  9/26/2026 11:53:49 PM ::1 Returned 304 in 1 ms
+ HTTP  9/26/2026 11:54:06 PM 127.0.0.1 GET /
+ HTTP  9/26/2026 11:54:06 PM 127.0.0.1 Returned 200 in 1 ms
+ HTTP  9/26/2026 11:54:15 PM ::1 GET /
+ HTTP  9/26/2026 11:54:15 PM ::1 Returned 200 in 2 ms
+ HTTP  9/26/2026 11:54:15 PM ::1 GET /css/main.css
+ HTTP  9/26/2026 11:54:15 PM ::1 Returned 200 in 1 ms
+ HTTP  9/26/2026 11:54:15 PM ::1 GET /js/main.js
+ HTTP  9/26/2026 11:54:15 PM ::1 GET /css/base.css
+ HTTP  9/26/2026 11:54:15 PM ::1 GET /css/components.css
+ HTTP  9/26/2026 11:54:15 PM ::1 GET /css/layout.css
+ HTTP  9/26/2026 11:54:15 PM ::1 Returned 200 in 1 ms
+ HTTP  9/26/2026 11:54:15 PM ::1 Returned 200 in 2 ms
+ HTTP  9/26/2026 11:54:15 PM ::1 Returned 200 in 3 ms
+ HTTP  9/26/2026 11:54:15 PM ::1 Returned 200 in 3 ms
+ HTTP  9/26/2026 11:54:15 PM ::1 GET /assets/images/Hero-con2colas.png
+ HTTP  9/26/2026 11:54:15 PM ::1 Returned 200 in 2 ms
+ HTTP  9/26/2026 11:54:15 PM ::1 GET /assets/images/ruffwear.png
+ HTTP  9/26/2026 11:54:15 PM ::1 GET /assets/images/Kong.png
+ HTTP  9/26/2026 11:54:15 PM ::1 Returned 200 in 37 ms
+ HTTP  9/26/2026 11:54:15 PM ::1 Returned 200 in 39 ms
+ HTTP  9/26/2026 11:54:15 PM ::1 GET /assets/images/Moderna.png
+ HTTP  9/26/2026 11:54:15 PM ::1 Returned 200 in 4 ms
+ HTTP  9/26/2026 11:54:15 PM ::1 GET /assets/images/LickiMat.png
+ HTTP  9/26/2026 11:54:15 PM ::1 Returned 200 in 1 ms
+ HTTP  9/26/2026 11:54:15 PM ::1 GET /assets/images/Benebone.png
+ HTTP  9/26/2026 11:54:15 PM ::1 Returned 200 in 3 ms
+ HTTP  9/26/2026 11:54:15 PM ::1 GET /js/modules/navigationUI.js
+ HTTP  9/26/2026 11:54:15 PM ::1 GET /js/modules/galleryUI.js
+ HTTP  9/26/2026 11:54:15 PM ::1 GET /js/modules/countersUI.js
+ HTTP  9/26/2026 11:54:15 PM ::1 GET /assets/images/romina-video.png
+ HTTP  9/26/2026 11:54:15 PM ::1 GET /js/modules/lightboxUI.js
+ HTTP  9/26/2026 11:54:15 PM ::1 Returned 200 in 2 ms
+ HTTP  9/26/2026 11:54:15 PM ::1 Returned 200 in 2 ms
+ HTTP  9/26/2026 11:54:15 PM ::1 Returned 200 in 2 ms
+ HTTP  9/26/2026 11:54:15 PM ::1 Returned 200 in 1 ms
+ HTTP  9/26/2026 11:54:15 PM ::1 Returned 200 in 1 ms
+ HTTP  9/26/2026 11:54:15 PM ::1 GET /js/modules/icons.js
+ HTTP  9/26/2026 11:54:15 PM ::1 GET /js/modules/content.js
+ HTTP  9/26/2026 11:54:15 PM ::1 Returned 200 in 1 ms
+ HTTP  9/26/2026 11:54:15 PM ::1 Returned 200 in 1 ms
+ HTTP  9/26/2026 11:54:15 PM ::1 GET /assets/images/favicon.svg
+ HTTP  9/26/2026 11:54:15 PM ::1 Returned 200 in 1 ms
+ HTTP  9/26/2026 11:54:18 PM ::1 GET /
+ HTTP  9/26/2026 11:54:18 PM ::1 Returned 200 in 1 ms
+ HTTP  9/26/2026 11:54:18 PM ::1 GET /css/main.css
+ HTTP  9/26/2026 11:54:18 PM ::1 Returned 200 in 0 ms
+ HTTP  9/26/2026 11:54:18 PM ::1 GET /css/base.css
+ HTTP  9/26/2026 11:54:18 PM ::1 Returned 200 in 1 ms
+ HTTP  9/26/2026 11:54:18 PM ::1 GET /js/main.js
+ HTTP  9/26/2026 11:54:18 PM ::1 Returned 200 in 2 ms
+ HTTP  9/26/2026 11:54:18 PM ::1 GET /css/components.css
+ HTTP  9/26/2026 11:54:18 PM ::1 Returned 200 in 1 ms
+ HTTP  9/26/2026 11:54:18 PM ::1 GET /css/layout.css
+ HTTP  9/26/2026 11:54:18 PM ::1 Returned 200 in 1 ms
+ HTTP  9/26/2026 11:54:18 PM ::1 GET /js/modules/navigationUI.js
+ HTTP  9/26/2026 11:54:18 PM ::1 Returned 200 in 2 ms
+ HTTP  9/26/2026 11:54:18 PM ::1 GET /js/modules/galleryUI.js
+ HTTP  9/26/2026 11:54:18 PM ::1 Returned 200 in 1 ms
+ HTTP  9/26/2026 11:54:18 PM ::1 GET /js/modules/countersUI.js
+ HTTP  9/26/2026 11:54:18 PM ::1 Returned 200 in 0 ms
+ HTTP  9/26/2026 11:54:18 PM ::1 GET /js/modules/lightboxUI.js
+ HTTP  9/26/2026 11:54:18 PM ::1 Returned 200 in 0 ms
+ HTTP  9/26/2026 11:54:18 PM ::1 GET /assets/images/Hero-con2colas.png
+ HTTP  9/26/2026 11:54:18 PM ::1 Returned 200 in 1 ms
+ HTTP  9/26/2026 11:54:18 PM ::1 GET /assets/images/ruffwear.png
+ HTTP  9/26/2026 11:54:18 PM ::1 Returned 200 in 1 ms
+ HTTP  9/26/2026 11:54:18 PM ::1 GET /assets/images/Kong.png
+ HTTP  9/26/2026 11:54:18 PM ::1 Returned 200 in 1 ms
+ HTTP  9/26/2026 11:54:18 PM ::1 GET /assets/images/Benebone.png
+ HTTP  9/26/2026 11:54:18 PM ::1 Returned 200 in 1 ms
+ HTTP  9/26/2026 11:54:18 PM ::1 GET /assets/images/LickiMat.png
+ HTTP  9/26/2026 11:54:18 PM ::1 Returned 200 in 0 ms
+ HTTP  9/26/2026 11:54:18 PM ::1 GET /assets/images/Moderna.png
+ HTTP  9/26/2026 11:54:18 PM ::1 Returned 200 in 6 ms
+ HTTP  9/26/2026 11:54:18 PM ::1 GET /assets/images/romina-video.png
+ HTTP  9/26/2026 11:54:18 PM ::1 Returned 200 in 0 ms
+ HTTP  9/26/2026 11:54:18 PM ::1 GET /js/modules/icons.js
+ HTTP  9/26/2026 11:54:18 PM ::1 GET /js/modules/content.js
+ HTTP  9/26/2026 11:54:18 PM ::1 Returned 200 in 5 ms
+ HTTP  9/26/2026 11:54:18 PM ::1 Returned 200 in 2 ms
+ HTTP  9/26/2026 11:54:19 PM ::1 GET /assets/images/favicon.svg
+ HTTP  9/26/2026 11:54:19 PM ::1 Returned 200 in 1 ms
+ HTTP  9/26/2026 11:54:25 PM ::1 GET /
+ HTTP  9/26/2026 11:54:25 PM ::1 Returned 200 in 1 ms
+ HTTP  9/26/2026 11:58:41 PM ::1 GET /?spm=a2ty_o07.30620332.0.0.60593da9AcUT5U
+ HTTP  9/26/2026 11:58:41 PM ::1 Returned 200 in 1 ms
+ HTTP  9/26/2026 11:58:42 PM ::1 GET /js/main.js
+ HTTP  9/26/2026 11:58:42 PM ::1 Returned 200 in 1 ms
+ HTTP  9/26/2026 11:58:42 PM ::1 GET /css/main.css
+ HTTP  9/26/2026 11:58:42 PM ::1 Returned 304 in 0 ms
+ HTTP  9/26/2026 11:58:42 PM ::1 GET /css/base.css
+ HTTP  9/26/2026 11:58:42 PM ::1 Returned 200 in 1 ms
+ HTTP  9/26/2026 11:58:42 PM ::1 GET /css/components.css
+ HTTP  9/26/2026 11:58:42 PM ::1 Returned 200 in 0 ms
+ HTTP  9/26/2026 11:58:42 PM ::1 GET /js/modules/countersUI.js
+ HTTP  9/26/2026 11:58:42 PM ::1 Returned 200 in 1 ms
+ HTTP  9/26/2026 11:58:42 PM ::1 GET /js/modules/galleryUI.js
+ HTTP  9/26/2026 11:58:42 PM ::1 Returned 304 in 1 ms
+ HTTP  9/26/2026 11:58:43 PM ::1 GET /js/modules/content.js
+ HTTP  9/26/2026 11:58:43 PM ::1 Returned 304 in 1 ms
+ HTTP  9/26/2026 11:58:43 PM ::1 GET /js/modules/icons.js
+ HTTP  9/26/2026 11:58:43 PM ::1 Returned 304 in 1 ms
+ HTTP  9/26/2026 11:58:43 PM ::1 GET /css/layout.css
+ HTTP  9/26/2026 11:58:43 PM ::1 Returned 200 in 1 ms
+ HTTP  9/26/2026 11:58:43 PM ::1 GET /js/modules/lightboxUI.js
+ HTTP  9/26/2026 11:58:43 PM ::1 Returned 304 in 1 ms
+ HTTP  9/26/2026 11:58:43 PM ::1 GET /js/modules/navigationUI.js
+ HTTP  9/26/2026 11:58:43 PM ::1 Returned 304 in 1 ms
+ HTTP  9/26/2026 11:58:44 PM ::1 GET /assets/images/Kong.png
+ HTTP  9/26/2026 11:58:44 PM ::1 Returned 304 in 1 ms
+ HTTP  9/26/2026 11:58:44 PM ::1 GET /assets/images/ruffwear.png
+ HTTP  9/26/2026 11:58:44 PM ::1 Returned 304 in 0 ms
+ HTTP  9/26/2026 11:58:44 PM ::1 GET /assets/images/romina-video.png
+ HTTP  9/26/2026 11:58:44 PM ::1 Returned 304 in 1 ms
+ HTTP  9/26/2026 11:58:44 PM ::1 GET /assets/images/Moderna.png
+ HTTP  9/26/2026 11:58:44 PM ::1 GET /assets/images/Benebone.png
+ HTTP  9/26/2026 11:58:44 PM ::1 Returned 304 in 0 ms
+ HTTP  9/26/2026 11:58:44 PM ::1 Returned 304 in 1 ms
+ HTTP  9/26/2026 11:58:44 PM ::1 GET /assets/images/Hero-con2colas.png
+ HTTP  9/26/2026 11:58:44 PM ::1 Returned 304 in 0 ms
+ HTTP  9/26/2026 11:58:44 PM ::1 GET /assets/images/LickiMat.png
+ HTTP  9/26/2026 11:58:44 PM ::1 Returned 304 in 1 ms
+ HTTP  9/26/2026 11:59:06 PM ::1 GET /?spm=a2ty_o07.30620332.0.0.60593da9AcUT5U
+ HTTP  9/26/2026 11:59:06 PM ::1 Returned 200 in 1 ms

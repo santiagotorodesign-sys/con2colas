@@ -271,14 +271,7 @@
   height: clamp(2rem, 4vw, 3rem);
   width: auto;
   object-fit: contain;
-  filter: grayscale(100%);
-  opacity: 0.55;
-  transition:
-    opacity var(--transition-fast),
-    filter var(--transition-fast);
-}
-
-.brands__logo:hover {
+  scale: 0.7;
   filter: grayscale(0%);
   opacity: 1;
 }

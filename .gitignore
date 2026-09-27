@@ -1,5 +1,2 @@
-# Dependencies
-node_modules/
-
-# Logs and temp files
+# Logs
 *.log
