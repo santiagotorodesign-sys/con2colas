@@ -4,6 +4,8 @@
  */
 
 export function initNavigation() {
+  initHeaderState();
+
   const toggle = document.querySelector(".nav-toggle");
   const nav = document.getElementById("primary-nav");
   if (!toggle || !nav) return;
@@ -55,4 +57,34 @@ function highlightActiveLink() {
   );
 
   sections.forEach((s) => observer.observe(s));
+}
+
+/**
+ * Header inteligente: transparente en reposo; glassmorphism (.header--scrolled)
+ * al superar 50px de scroll. Con prefers-reduced-motion la transición CSS
+ * ya se neutraliza globalmente (animations.css).
+ */
+function initHeaderState() {
+  const header = document.querySelector(".header");
+  if (!header) return;
+
+  const THRESHOLD = 50;
+  let ticking = false;
+
+  const update = () => {
+    header.classList.toggle("header--scrolled", window.scrollY > THRESHOLD);
+    ticking = false;
+  };
+
+  window.addEventListener(
+    "scroll",
+    () => {
+      if (ticking) return;
+      ticking = true;
+      requestAnimationFrame(update);
+    },
+    { passive: true }
+  );
+
+  update(); // estado inicial correcto si la página carga con scroll restaurado
 }
