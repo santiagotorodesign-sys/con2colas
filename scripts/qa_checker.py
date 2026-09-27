@@ -19,7 +19,7 @@ import sys
 from pathlib import Path
 
 # Rutas base: todo relativo a la carpeta de este script
-BASE_DIR = Path(__file__).resolve().parent
+BASE_DIR = Path(__file__).resolve().parent.parent  # raíz del proyecto (scripts/)
 CONFIG_PATH = BASE_DIR / "qa_checks.json"
 
 # Códigos ANSI para colores en terminal
