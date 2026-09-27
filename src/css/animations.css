@@ -39,14 +39,16 @@
 
 /* ---------- Efecto "shine" en botones CTA primarios ---------- */
 .btn--primary,
-.btn--secondary {
+.btn--secondary,
+.btn--cta {
   position: relative;
   overflow: hidden;
   isolation: isolate;
 }
 
 .btn--primary::before,
-.btn--secondary::before {
+.btn--secondary::before,
+.btn--cta::before {
   content: "";
   position: absolute;
   inset: 0 auto 0 -100%;
@@ -65,20 +67,24 @@
 
 .btn--primary:hover::before,
 .btn--secondary:hover::before,
+.btn--cta:hover::before,
 .btn--primary:focus-visible::before,
-.btn--secondary:focus-visible::before {
+.btn--secondary:focus-visible::before,
+.btn--cta:focus-visible::before {
   left: 140%;
 }
 
-/* Hover con lift + scale sutil (CTA de conversión) */
+/* Hover con lift + scale sutil (CTA de conversión): hover:scale-105 hover:shadow-lg */
 .btn--primary:hover,
-.btn--secondary:hover {
-  transform: translateY(-2px) scale(1.03);
-  box-shadow: var(--shadow-md);
+.btn--secondary:hover,
+.btn--cta:hover {
+  transform: translateY(-2px) scale(1.05);
+  box-shadow: var(--shadow-lg);
 }
 
 .btn--primary:active,
-.btn--secondary:active {
+.btn--secondary:active,
+.btn--cta:active {
   transform: translateY(0) scale(0.98);
 }
 
@@ -208,5 +214,6 @@
 
   .parallax { transform: none !important; }
   .btn--primary::before,
-  .btn--secondary::before { display: none; }
+  .btn--secondary::before,
+  .btn--cta::before { display: none; }
 }
