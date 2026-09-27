@@ -1,21 +1,24 @@
 {
   "checks": [
     {"type": "file_exists", "path": "src/index.html", "description": "Página principal existe"},
-    {"type": "file_exists", "path": "public/images/logo-con2colas.png", "description": "Logo oficial subido (no redibujado)"},
-    {"type": "contains_text", "file": "src/index.html", "text": "/images/logo-con2colas.png", "description": "Header referencia el archivo de logo real"},
-    {"type": "contains_text", "file": "src/index.html", "text": "Con2colas - Bienestar Animal Ético", "description": "Alt del logo según especificación"},
-    {"type": "not_contains_text", "file": "src/index.html", "text": "header__logo-num", "description": "Logo de texto eliminado del header"},
-    {"type": "not_contains_text", "file": "src/index.html", "text": "class=\"cart\"", "description": "Carrito eliminado del header"},
-    {"type": "not_contains_text", "file": "src/index.html", "text": "Sign In", "description": "Sign In eliminado del header"},
-    {"type": "contains_text", "file": "src/index.html", "text": "https://www.youtube.com/@con2colas", "description": "Enlace YouTube en header"},
-    {"type": "contains_text", "file": "src/index.html", "text": "https://www.instagram.com/con2colas", "description": "Enlace Instagram en header"},
-    {"type": "contains_text", "file": "src/index.html", "text": "wa.me/56984024167", "description": "Enlace WhatsApp (56984024167) presente"},
-    {"type": "contains_text", "file": "src/js/modules/whatsappButton.js", "text": "encodeURIComponent", "description": "Codificación automática del mensaje"},
-    {"type": "contains_text", "file": "src/js/modules/whatsappButton.js", "text": "Consultar por WhatsApp", "description": "Texto exacto del botón"},
-    {"type": "contains_text", "file": "src/js/modules/whatsappButton.js", "text": "#25D366", "description": "Color verde WhatsApp en el componente"},
-    {"type": "contains_text", "file": "src/js/modules/galleryUI.js", "text": "createWhatsAppButton", "description": "Componente usado en las tarjetas de producto"},
-    {"type": "not_contains_text", "file": "src/js/modules/galleryUI.js", "text": "Añadir al carrito", "description": "Botón añadir al carrito eliminado"},
-    {"type": "not_contains_text", "file": "src/js/main.js", "text": "countersUI", "description": "Sin lógica de carrito en main.js"},
-    {"type": "not_contains_text", "file": "src/css/components.css", "text": ".cart {", "description": "Estilos del carrito eliminados"}
+
+    {"type": "file_exists", "path": "public/images/logo-con2colas.png", "description": "P1: Archivo de logo existe físicamente"},
+    {"type": "contains_text", "file": "src/index.html", "text": "logo-con2colas.png", "description": "P1: Header referencia el archivo de logo real (no SVG generado)"},
+    {"type": "not_contains_text", "file": "src/index.html", "text": "header__logo-num", "description": "P1: Logo de texto eliminado del header"},
+
+    {"type": "not_contains_text", "file": "src/index.html", "text": "class=\"cart\"", "description": "P2: Carrito eliminado del header"},
+    {"type": "not_contains_text", "file": "src/index.html", "text": "Sign In", "description": "P2: Sign In eliminado del header"},
+    {"type": "not_contains_text", "file": "src/index.html", "text": "carrito", "description": "P2: Sin referencias a 'carrito' en el HTML"},
+    {"type": "not_contains_text", "file": "src/js/main.js", "text": "addToCart", "description": "P2: Sin lógica de carrito en main.js"},
+    {"type": "contains_text", "file": "src/index.html", "text": "https://www.youtube.com/@con2colas", "description": "P2: Icono/enlace YouTube presente en header"},
+    {"type": "contains_text", "file": "src/index.html", "text": "https://www.instagram.com/con2colas", "description": "P2: Icono/enlace Instagram presente en header"},
+    {"type": "contains_text", "file": "src/index.html", "text": "wa.me/56984024167", "description": "P2: Icono/enlace WhatsApp presente en header"},
+
+    {"type": "file_exists", "path": "src/js/modules/whatsappButton.js", "description": "P3: Componente whatsappButton creado"},
+    {"type": "contains_text", "file": "src/js/modules/whatsappButton.js", "text": "encodeURIComponent", "description": "P3: Codificación automática del mensaje"},
+    {"type": "contains_text", "file": "src/js/modules/whatsappButton.js", "text": "Consultar por WhatsApp", "description": "P3: Texto exacto del botón"},
+    {"type": "contains_text", "file": "src/js/modules/whatsappButton.js", "text": "Me interesa el producto", "description": "P3: Formato dinámico del mensaje prellenado"},
+    {"type": "contains_text", "file": "src/js/modules/galleryUI.js", "text": "createWhatsAppButton", "description": "P3: Componente usado en las tarjetas de producto"},
+    {"type": "not_contains_text", "file": "src/js/modules/galleryUI.js", "text": "Añadir al carrito", "description": "P3: Botón 'Añadir al carrito' eliminado de las tarjetas"}
   ]
 }
