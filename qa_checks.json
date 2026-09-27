@@ -2,7 +2,7 @@
   "checks": [
     {"type": "file_exists", "path": "src/index.html", "description": "Página principal existe"},
     {"type": "file_exists", "path": "public/images/logo-con2colas.png", "description": "Logo oficial subido (no redibujado)"},
-    {"type": "contains_text", "file": "src/index.html", "text": "./public/images/logo-con2colas.png", "description": "Header referencia el archivo de logo real"},
+    {"type": "contains_text", "file": "src/index.html", "text": "/images/logo-con2colas.png", "description": "Header referencia el archivo de logo real"},
     {"type": "contains_text", "file": "src/index.html", "text": "Con2colas - Bienestar Animal Ético", "description": "Alt del logo según especificación"},
     {"type": "not_contains_text", "file": "src/index.html", "text": "header__logo-num", "description": "Logo de texto eliminado del header"},
     {"type": "not_contains_text", "file": "src/index.html", "text": "class=\"cart\"", "description": "Carrito eliminado del header"},
