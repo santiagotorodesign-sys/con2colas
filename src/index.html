@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Con 2 colas — Mascotas felices, familias en paz. Asesoría y productos de conducta animal sin castigos y desde el respeto." />
+  <title>Con 2 colas — Mascotas felices, familias en paz</title>
+  <link rel="icon" type="image/svg+xml" href="/images/favicon.svg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Inter:wght@400;500;600&display=swap"
+    rel="stylesheet"
+  />
+  <link rel="stylesheet" href="./css/main.css" />
+  <script type="module" src="./js/main.js"></script>
+</head>
+<body>
+  <!-- ===== HEADER ===== -->
+  <header class="header">
+    <div class="container header__inner">
+      <!-- CAMBIO 1: logo oficial (archivo real, NO redibujado) -->
+      <a href="#inicio" class="header__logo" aria-label="Con 2 colas — inicio">
+        <img class="header__logo-img" src="/images/logo-con2colas.png"
+             alt="Con2colas - Bienestar Animal Ético" width="280" height="60" />
+      </a>
+
+      <nav class="nav" id="primary-nav" aria-label="Navegación principal">
+        <ul class="nav__list" role="list">
+          <li class="nav__item"><a class="nav__link" href="#paseo">Paseo</a></li>
+          <li class="nav__item"><a class="nav__link" href="#ansiedad">Ansiedad</a></li>
+          <li class="nav__item"><a class="nav__link" href="#cachorros">Cachorros</a></li>
+          <li class="nav__item"><a class="nav__link" href="#contacto">Contacto</a></li>
+        </ul>
+      </nav>
+
+      <div class="header__actions">
+        <!-- CAMBIO 2: RRSS en el orden YouTube → Instagram → WhatsApp -->
+        <ul class="header__social" role="list" aria-label="Redes sociales">
+          <li class="header__social-item">
+            <a class="header__social-link header__social-link--youtube"
+               href="https://www.youtube.com/@con2colas" target="_blank" rel="noopener noreferrer"
+               aria-label="YouTube de Con2colas">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M23.5 6.19a3.02 3.02 0 0 0-2.12-2.14C19.5 3.55 12 3.55 12 3.55s-7.5 0-9.38.5A3.02 3.02 0 0 0 .5 6.19 31.6 31.6 0 0 0 0 12a31.6 31.6 0 0 0 .5 5.81 3.02 3.02 0 0 0 2.12 2.14c1.88.5 9.38.5 9.38.5s7.5 0 9.38-.5a3.02 3.02 0 0 0 2.12-2.14A31.6 31.6 0 0 0 24 12a31.6 31.6 0 0 0-.5-5.81zM9.55 15.57V8.43L15.82 12z"/></svg>
+            </a>
+          </li>
+          <li class="header__social-item">
+            <a class="header__social-link header__social-link--instagram"
+               href="https://www.instagram.com/con2colas" target="_blank" rel="noopener noreferrer"
+               aria-label="Instagram de Con2colas">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2.16c3.2 0 3.58.01 4.85.07 3.25.15 4.77 1.69 4.92 4.92.06 1.27.07 1.65.07 4.85s-.01 3.58-.07 4.85c-.15 3.23-1.66 4.77-4.92 4.92-1.27.06-1.65.07-4.85.07s-3.58-.01-4.85-.07c-3.26-.15-4.77-1.7-4.92-4.92C2.17 15.58 2.16 15.2 2.16 12s.01-3.58.07-4.85C2.38 3.92 3.9 2.38 7.15 2.23 8.42 2.17 8.8 2.16 12 2.16zM12 0C8.74 0 8.33.01 7.05.07 2.7.27.27 2.69.06 7.05 0 8.33 0 8.74 0 12s.01 3.67.07 4.95c.2 4.36 2.62 6.78 6.98 6.98C8.33 24 8.74 24 12 24s3.67-.01 4.95-.07c4.35-.2 6.78-2.62 6.98-6.98C24 15.67 24 15.26 24 12s-.01-3.67-.07-4.95C23.73 2.7 21.31.27 16.95.06 15.67 0 15.26 0 12 0zm0 5.84A6.16 6.16 0 1 0 18.16 12 6.16 6.16 0 0 0 12 5.84zM12 16a4 4 0 1 1 4-4 4 4 0 0 1-4 4zm6.41-11.85a1.44 1.44 0 1 0 1.44 1.44 1.44 1.44 0 0 0-1.44-1.44z"/></svg>
+            </a>
+          </li>
+          <li class="header__social-item">
+            <a class="header__social-link header__social-link--whatsapp"
+               href="https://wa.me/56984024167?text=Hola%20Con2colas!%20%F0%9F%91%8B%20Quiero%20asesor%C3%ADa%20sobre%20mi%20mascota."
+               target="_blank" rel="noopener noreferrer"
+               aria-label="WhatsApp de Con2colas">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M19.05 4.91A9.82 9.82 0 0 0 12.04 2c-5.46 0-9.91 4.45-9.91 9.91 0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38a9.9 9.9 0 0 0 4.74 1.21h.01c5.46 0 9.91-4.45 9.91-9.91a9.86 9.86 0 0 0-2.91-7.13zM12.05 20.15h-.01a8.2 8.2 0 0 1-4.19-1.15l-.3-.18-3.12.82.83-3.04-.2-.31a8.2 8.2 0 0 1-1.26-4.38c0-4.54 3.7-8.24 8.25-8.24a8.2 8.2 0 0 1 8.24 8.25c0 4.54-3.7 8.23-8.24 8.23zm4.52-6.16c-.25-.12-1.47-.72-1.69-.81-.23-.08-.39-.12-.56.13-.16.24-.64.8-.78.97-.14.16-.29.18-.54.06-.25-.13-1.05-.39-1.99-1.23a7.5 7.5 0 0 1-1.38-1.72c-.14-.25-.02-.38.11-.51.11-.11.25-.29.37-.43.13-.15.17-.25.25-.42.08-.16.04-.31-.02-.43-.06-.13-.56-1.35-.77-1.85-.2-.48-.41-.42-.56-.43h-.48c-.16 0-.43.06-.66.31-.22.25-.87.85-.87 2.07 0 1.22.89 2.4 1.01 2.56.13.17 1.75 2.68 4.24 3.76.59.26 1.05.41 1.41.52.59.19 1.13.16 1.56.1.48-.07 1.47-.6 1.67-1.18.21-.58.21-1.07.15-1.18-.06-.1-.23-.16-.48-.28z"/></svg>
+            </a>
+          </li>
+        </ul>
+        <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="primary-nav" aria-label="Abrir menú">
+          <span class="nav-toggle__bar"></span>
+          <span class="nav-toggle__bar"></span>
+          <span class="nav-toggle__bar"></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main id="contenido">
+    <!-- ===== HERO ===== -->
+    <section class="hero" id="inicio" aria-labelledby="hero-title">
+      <div class="container hero__grid">
+        <div class="hero__content">
+          <h1 class="hero__title" id="hero-title">Mascotas felices, familias en paz</h1>
+          <p class="hero__text">
+            Cuéntanos qué desafío vives hoy en casa. Te asesoramos personalmente para encontrar
+            la solución, sin usar castigos y desde el respeto.
+          </p>
+          <div class="hero__actions">
+            <a
+              href="https://wa.me/56984024167?text=Hola%2C%20quiero%20asesor%C3%ADa%20sobre%20mi%20mascota"
+              class="btn btn--primary"
+              target="_blank"
+              rel="noopener noreferrer"
+              >💬 Cuéntanos tu caso</a
+            >
+            <a href="#soluciones" class="btn btn--secondary">Ver soluciones</a>
+          </div>
+        </div>
+
+        <figure class="hero__media">
+          <img
+            class="hero__img"
+            src="/images/Hero-con2colas.png"
+            alt="hero con2colas"
+            title="hero con2colas"
+            loading="lazy"
+            width="1411"
+            height="1226"
+          />
+        </figure>
+      </div>
+
+      <div class="container brands">
+        <p class="brands__label">Marcas seleccionadas por expertos en conducta</p>
+        <ul class="brands__list brands__list--logos" role="list">
+          <li class="brands__item">
+            <img class="brands__logo" src="/images/ruffwear.png" alt="ruffwear" loading="lazy" width="150" height="50" />
+          </li>
+          <li class="brands__item">
+            <img class="brands__logo" src="/images/Kong.png" alt="kong" loading="lazy" width="120" height="50" />
+          </li>
+          <li class="brands__item">
+            <img class="brands__logo" src="/images/Benebone.png" alt="benebone" loading="lazy" width="150" height="47" />
+          </li>
+          <li class="brands__item">
+            <img class="brands__logo" src="/images/LickiMat.png" alt="lickimat" loading="lazy" width="150" height="50" />
+          </li>
+          <li class="brands__item">
+            <img class="brands__logo" src="/images/Moderna.png" alt="moderna" loading="lazy" width="150" height="50" />
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ===== ROMINA (SOBRE) ===== -->
+    <section class="about" id="sobre" aria-labelledby="about-title">
+      <div class="container about__grid">
+        <!-- Link del comentario de Figma: https://youtu.be/3xOdihWVptQ?si=11KqYVNZXEVcNoCH -->
+        <button
+          class="about__video"
+          type="button"
+          id="video-open"
+          data-video-src="https://www.youtube-nocookie.com/embed/3xOdihWVptQ?autoplay=1&rel=0"
+          aria-haspopup="dialog"
+          aria-label="Reproducir video de presentación de Romina (YouTube)"
+        >
+          <img
+            class="about__video-img"
+            src="/images/romina-video.png"
+            alt="Romina, especialista en comportamiento animal, con un perro durante una sesión de entrenamiento"
+            loading="lazy"
+            width="382"
+            height="673"
+          />
+        </button>
+
+        <div class="about__content">
+          <h2 class="section-title" id="about-title">Más que un producto, una mejor calidad de vida</h2>
+          <p class="about__text">
+            Soy Romina, especialista en comportamiento animal. Muchas veces nos sentimos culpables
+            por regañar a nuestra mascota, pero ellos solo intentan comunicarse. A través de la
+            educación respetuosa, te guío paso a paso con las herramientas exactas para transformar
+            su conducta y devolverle la paz a tu hogar.
+          </p>
+          <div class="about__actions">
+            <a href="#contacto" class="btn btn--primary">💬 Hablar con Romina</a>
+            <a href="#soluciones" class="btn btn--outline">Ver soluciones</a>
+          </div>
+          <p class="about__hint">Asesoría directa y sin compromiso.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== POR QUÉ CON2COLAS ===== -->
+    <section class="features" id="caracteristicas" aria-labelledby="features-title">
+      <div class="container features__inner">
+        <h2 class="section-title section-title--center" id="features-title">¿Por qué elegir el método Con2colas?</h2>
+        <ul class="features__grid" id="features-grid" role="list"></ul>
+      </div>
+    </section>
+
+    <!-- ===== SOLUCIONES POR PROBLEMA ===== -->
+    <section class="problems" id="soluciones" aria-labelledby="problems-title">
+      <h2 class="visually-hidden" id="problems-title">Soluciones por problema de conducta</h2>
+      <div class="container problems__inner" id="problems-list"></div>
+    </section>
+
+    <!-- ===== HISTORIA DESTACADA (LUNA) ===== -->
+    <section class="story" id="historias" aria-labelledby="story-heading">
+      <div class="container story__header">
+        <h2 class="story__heading" id="story-heading">Historias de transformación y convivencia</h2>
+        <p class="story__description">
+          Cómo ayudamos a perros y tutores a superar miedos y desafíos de conducta desde la
+          ciencia y el respeto.
+        </p>
+      </div>
+      <div class="container story__card">
+        <figure class="story__media">
+          <img
+            class="story__img"
+            src="/images/story-luna-1.png"
+            alt="Luna, una perra que superó su fobia social paseando por la calle"
+            loading="lazy"
+            width="395"
+            height="560"
+          />
+        </figure>
+        <div class="story__body">
+          <p class="story__brand">Con 2 colas</p>
+          <h3 class="story__title" id="story-title">
+            Pasó de no salir del patio en años a viajar a su nuevo hogar en el extranjero
+          </h3>
+          <p class="story__text">
+            Llevaba años encerrado en el patio sin atreverse a cruzar la puerta por miedo.
+            Trabajamos un proceso gradual de desensibilización para que perdiera el temor al
+            exterior. No solo aprendió a pasear tranquilo por la calle, sino que superó la
+            preparación para viajar a otro país y acompañamos a sus nuevos tutores para asegurar
+            una transición perfecta.
+          </p>
+          <div class="story__author">
+            <p class="story__name">Luna</p>
+            <p class="story__role">Fobia social, paseo y mudanza internacional.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== TESTIMONIOS ===== -->
+    <section class="testimonials" id="testimonios" aria-labelledby="testimonials-title">
+      <div class="container testimonials__inner">
+        <div class="testimonials__rating" aria-label="Valoración: 4.9 de 5 estrellas">
+          <p class="testimonials__stars" aria-hidden="true">★★★★★</p>
+          <h2 class="testimonials__headline" id="testimonials-title">Excellent 4.9 of 5 stars rating</h2>
+          <p class="testimonials__sub">Based on 5,000+ real users reviews</p>
+        </div>
+        <ul class="testimonials__grid" id="testimonials-grid" role="list"></ul>
+      </div>
+    </section>
+
+    <!-- ===== RECURSOS GRATUITOS ===== -->
+    <section class="resources" id="recursos" aria-labelledby="resources-title">
+      <div class="container resources__inner">
+        <h2 class="section-title" id="resources-title">Recursos gratuitos</h2>
+        <ul class="resources__grid" id="resources-grid" role="list"></ul>
+      </div>
+    </section>
+
+    <!-- ===== CTA FINAL ===== -->
+    <section class="cta" id="contacto" aria-labelledby="cta-title">
+      <div class="container cta__inner">
+        <h2 class="cta__title" id="cta-title">¿Listo para mejorar la relación con tu mejor amigo?</h2>
+        <p class="cta__text">Toda compra incluye asesoría y una guía de uso paso a paso.</p>
+        <a href="#inicio" class="btn btn--white">💬 Cuéntanos tu caso</a>
+      </div>
+    </section>
+  </main>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer">
+    <div class="container footer__cols" id="footer-cols"></div>
+    <div class="container footer__bottom">
+      <p class="footer__copy">© 2026 Con 2 colas. Powered by WordPress.</p>
+      <ul class="footer__social" role="list" aria-label="Redes sociales">
+        <li class="footer__social-item"><a class="footer__social-link" href="#" aria-label="Instagram">IG</a></li>
+        <li class="footer__social-item"><a class="footer__social-link" href="#" aria-label="Facebook">FB</a></li>
+        <li class="footer__social-item"><a class="footer__social-link" href="#" aria-label="YouTube">YT</a></li>
+        <li class="footer__social-item"><a class="footer__social-link" href="#" aria-label="TikTok">TT</a></li>
+      </ul>
+      <p class="footer__tagline">Con 2 colas.</p>
+    </div>
+  </footer>
+
+  <!-- ===== LIGHTBOX DE VIDEO (fuente: comentario Figma -> https://youtu.be/3xOdihWVptQ) ===== -->
+  <div class="lightbox" id="video-lightbox" role="dialog" aria-modal="true" aria-labelledby="lightbox-title" hidden>
+    <button class="lightbox__backdrop" type="button" data-lightbox-close aria-label="Cerrar video"></button>
+    <div class="lightbox__panel">
+      <h2 class="lightbox__title" id="lightbox-title">Video de presentación — Romina</h2>
+      <button class="lightbox__close" type="button" data-lightbox-close aria-label="Cerrar video">✕</button>
+      <div class="lightbox__frame" data-lightbox-frame></div>
+    </div>
+  </div>
+</body>
+</html>

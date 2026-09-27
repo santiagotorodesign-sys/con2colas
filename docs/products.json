@@ -1,0 +1,62 @@
+{
+  "products": [
+    {
+      "id": "kong-classic",
+      "name": "Kong Classic Rellenable",
+      "line": "Básica",
+      "category": "Enriquecimiento Alimenticio",
+      "price": 24990,
+      "stock": 15,
+      "behavioral_function": "Fomenta el lamiendo repetitivo, libera endorfinas y reduce cortisol",
+      "sales_argument": "Transforma la hora de comer en 20 minutos de paz y calma mental",
+      "target_problem": "Ansiedad por separación, masticación destructiva",
+      "whatsapp_message": "Hola Con2colas! Me interesa el Kong Classic Rellenable. ¿Podrían asesorarme?",
+      "image_path": "/images/products/kong-classic.jpg",
+      "tags": [
+        "enriquecimiento",
+        "ansiedad",
+        "masticación",
+        "calma"
+      ]
+    },
+    {
+      "id": "arnes-y",
+      "name": "Arnés Ergonómico en Y",
+      "line": "Técnica",
+      "category": "Paseo Estructurado",
+      "price": 34990,
+      "stock": 8,
+      "behavioral_function": "Libera estructura osteoarticular del cuello y tráquea, minimiza estrés del paseo",
+      "sales_argument": "Paseos fluidos y relajados, respetando la anatomía y libertad de tu perro",
+      "target_problem": "Tirar de la correa, estrés en paseos, problemas de tráquea",
+      "whatsapp_message": "Hola Con2colas! Me interesa el Arnés Ergonómico en Y. ¿Podrían asesorarme?",
+      "image_path": "/images/products/arnes-y.jpg",
+      "tags": [
+        "paseo",
+        "arnés",
+        "ergonómico",
+        "sin-aversivos"
+      ]
+    },
+    {
+      "id": "lickimat",
+      "name": "LickiMat Calma",
+      "line": "Básica",
+      "category": "Dispositivos de Calma",
+      "price": 14990.0,
+      "stock": 22,
+      "behavioral_function": "El lamiendo sobre texturas activa el sistema nervioso parasimpático y baja el pulso",
+      "sales_argument": "Calma medible en 10 minutos durante tormentas o visitas",
+      "target_problem": "Ansiedad por tormentas, estrés por visitas",
+      "image_path": "/images/products/lickimat.jpg",
+      "tags": [
+        "enriquecimiento",
+        "ansiedad",
+        "fobias",
+        "calma"
+      ],
+      "whatsapp_message": "Hola Con2colas! Me interesa el LickiMat Calma. ¿Podrían asesorarme?"
+    }
+  ],
+  "last_updated": "2026-09-27T03:07:46Z"
+}

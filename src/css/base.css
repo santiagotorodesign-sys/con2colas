@@ -1,0 +1,14 @@
+/* ==========================================================================
+   base.css — detalles de documento y accesibilidad
+   ========================================================================== */
+
+::selection {
+  background-color: var(--color-primary);
+  color: var(--color-bg);
+}
+
+:focus-visible {
+  outline: 3px solid var(--color-primary);
+  outline-offset: 2px;
+  border-radius: var(--radius-sm);
+}
