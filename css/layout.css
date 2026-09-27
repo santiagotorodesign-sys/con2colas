@@ -228,10 +228,6 @@
     display: inline-flex;
   }
 
-  .cart__total {
-    display: none;
-  }
-
   .footer__cols {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }

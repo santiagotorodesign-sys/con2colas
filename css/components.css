@@ -1,5 +1,5 @@
 /* ==========================================================================
-   components.css — componentes BEM (botones, tarjetas, nav, cart, etc.)
+   components.css — componentes BEM (botones, tarjetas, nav, rrss, etc.)
    ========================================================================== */
 
 /* ---------- Botones ---------- */
@@ -80,11 +80,15 @@
 
 /* ---------- Header / Nav ---------- */
 .header__logo {
-  font-family: var(--font-family-heading);
-  font-size: 1.5rem;
-  font-weight: var(--font-weight-semibold);
-  color: var(--color-ink);
-  letter-spacing: -0.01em;
+  display: inline-flex;
+  align-items: center;
+}
+
+/* Logo oficial: imagen real, solo se dimensiona (no se redibuja) */
+.header__logo-img {
+  height: clamp(2.5rem, 5vw, 3.25rem);
+  width: auto;
+  display: block;
 }
 
 .header__logo-num {
@@ -170,34 +174,59 @@
   transform: translateY(-7px) rotate(-45deg);
 }
 
-/* ---------- Cart ---------- */
-.cart {
-  display: inline-flex;
+/* ---------- Header: iconos de redes sociales (reemplazan al carrito) ---------- */
+.header__social {
+  display: flex;
   align-items: center;
-  gap: var(--space-2xs);
-  color: var(--color-ink);
-  font-size: var(--font-size-sm);
-  font-weight: var(--font-weight-medium);
-  padding: var(--space-xs) var(--space-sm);
-  border-radius: var(--radius-full);
-  transition: background-color var(--transition-fast), color var(--transition-fast);
+  gap: var(--space-sm);
+  list-style: none;
 }
 
-.cart:hover {
-  background-color: var(--color-bg-mint);
-  color: var(--color-primary-deep);
-}
-
-.cart__count {
+.header__social-link {
   display: inline-grid;
   place-items: center;
-  min-width: 1.25rem;
-  height: 1.25rem;
-  padding-inline: 0.3rem;
+  width: 2.5rem;
+  height: 2.5rem;
   border-radius: var(--radius-full);
-  background-color: var(--color-primary);
-  color: var(--color-bg);
-  font-size: var(--font-size-xs);
+  color: var(--color-primary); /* verde primario de la marca (menú) */
+  transition: transform var(--transition-fast), color var(--transition-fast),
+    background-color var(--transition-fast);
+}
+
+.header__social-link:hover,
+.header__social-link:focus-visible {
+  transform: scale(1.1);
+  background-color: var(--color-bg-mint);
+}
+
+.header__social-link--youtube:hover { color: #c4302b; }
+.header__social-link--instagram:hover { color: #8a3ab9; }
+.header__social-link--whatsapp:hover { color: #25d366; }
+
+/* Botón "Consultar por WhatsApp" en tarjetas de producto */
+.product-card__wa {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--space-2xs);
+  background-color: #25d366;
+  border-color: #25d366;
+  color: #fff;
+  font-weight: var(--font-weight-semibold);
+  transition: background-color var(--transition-fast),
+    transform var(--transition-fast);
+}
+
+.product-card__wa:hover,
+.product-card__wa:focus-visible {
+  background-color: #1eb855;
+  border-color: #1eb855;
+  color: #fff;
+  transform: translateY(-2px);
+}
+
+.product-card__wa-icon {
+  flex: none;
 }
 
 /* ---------- Hero ---------- */

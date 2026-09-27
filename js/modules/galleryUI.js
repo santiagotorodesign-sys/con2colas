@@ -4,6 +4,7 @@
  */
 
 import { icon } from "./icons.js";
+import { createWhatsAppButton } from "./whatsappButton.js";
 import {
   features,
   problems,
@@ -38,7 +39,7 @@ function renderFeatures() {
 }
 
 /* ---------- Problemas + productos ---------- */
-function renderProblems(onAddToCart) {
+function renderProblems() {
   const list = document.getElementById("problems-list");
   if (!list) return;
 
@@ -46,6 +47,8 @@ function renderProblems(onAddToCart) {
     const block = el("article", "problem");
     block.id = p.id;
 
+    // CAMBIO 3: cada tarjeta usa el componente reutilizable WhatsAppButton
+    // ("Consultar por WhatsApp" con mensaje prellenado dinámico).
     const cards = p.products
       .map(
         (prod, i) => `
@@ -56,10 +59,7 @@ function renderProblems(onAddToCart) {
           </div>
           <h4 class="product-card__title">${prod.name}</h4>
           <p class="product-card__price">$${prod.price.toFixed(2)}</p>
-          <button class="btn btn--outline btn--sm product-card__add" type="button"
-                  data-name="${prod.name}" data-price="${prod.price}">
-            Añadir al carrito
-          </button>
+          <div class="product-card__actions" data-wa-slot="${i}"></div>
         </li>`
       )
       .join("");
@@ -75,14 +75,9 @@ function renderProblems(onAddToCart) {
       <ul class="problem__grid" role="list">${cards}</ul>
       <hr class="problem__divider" />`;
 
-    // Delegación de "añadir al carrito" dentro del bloque
-    block.addEventListener("click", (e) => {
-      const btn = e.target.closest(".product-card__add");
-      if (!btn) return;
-      onAddToCart({
-        name: btn.dataset.name,
-        price: Number(btn.dataset.price),
-      });
+    // Insertar los botones de WhatsApp (componente reutilizable)
+    block.querySelectorAll("[data-wa-slot]").forEach((slot) => {
+      slot.appendChild(createWhatsAppButton(p.products[Number(slot.dataset.waSlot)]));
     });
 
     list.appendChild(block);
@@ -146,11 +141,10 @@ function renderFooter() {
 
 /**
  * Inicializa todas las secciones dinámicas.
- * @param {(item:{name:string,price:number}) => void} onAddToCart callback
  */
-export function initGallery(onAddToCart) {
+export function initGallery() {
   renderFeatures();
-  renderProblems(onAddToCart);
+  renderProblems();
   renderTestimonials();
   renderResources();
   renderFooter();

@@ -1,0 +1,21 @@
+{
+  "checks": [
+    {"type": "file_exists", "path": "index.html", "description": "Página principal existe"},
+    {"type": "file_exists", "path": "assets/images/logo-con2colas.png", "description": "Logo oficial subido (no redibujado)"},
+    {"type": "contains_text", "file": "index.html", "text": "./assets/images/logo-con2colas.png", "description": "Header referencia el archivo de logo real"},
+    {"type": "contains_text", "file": "index.html", "text": "Con2colas - Bienestar Animal Ético", "description": "Alt del logo según especificación"},
+    {"type": "not_contains_text", "file": "index.html", "text": "header__logo-num", "description": "Logo de texto eliminado del header"},
+    {"type": "not_contains_text", "file": "index.html", "text": "class=\"cart\"", "description": "Carrito eliminado del header"},
+    {"type": "not_contains_text", "file": "index.html", "text": "Sign In", "description": "Sign In eliminado del header"},
+    {"type": "contains_text", "file": "index.html", "text": "https://www.youtube.com/@con2colas", "description": "Enlace YouTube en header"},
+    {"type": "contains_text", "file": "index.html", "text": "https://www.instagram.com/con2colas", "description": "Enlace Instagram en header"},
+    {"type": "contains_text", "file": "index.html", "text": "wa.me/56984024167", "description": "Enlace WhatsApp (56984024167) presente"},
+    {"type": "contains_text", "file": "js/modules/whatsappButton.js", "text": "encodeURIComponent", "description": "Codificación automática del mensaje"},
+    {"type": "contains_text", "file": "js/modules/whatsappButton.js", "text": "Consultar por WhatsApp", "description": "Texto exacto del botón"},
+    {"type": "contains_text", "file": "js/modules/whatsappButton.js", "text": "#25D366", "description": "Color verde WhatsApp en el componente"},
+    {"type": "contains_text", "file": "js/modules/galleryUI.js", "text": "createWhatsAppButton", "description": "Componente usado en las tarjetas de producto"},
+    {"type": "not_contains_text", "file": "js/modules/galleryUI.js", "text": "Añadir al carrito", "description": "Botón añadir al carrito eliminado"},
+    {"type": "not_contains_text", "file": "js/main.js", "text": "countersUI", "description": "Sin lógica de carrito en main.js"},
+    {"type": "not_contains_text", "file": "css/components.css", "text": ".cart {", "description": "Estilos del carrito eliminados"}
+  ]
+}

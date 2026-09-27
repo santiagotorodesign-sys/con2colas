@@ -1,0 +1,1 @@
+ls ~/.cache/ms-playwright 2>/dev/null; which chromium chromium-browser google-chrome 2>/dev/null; find / -name "headless_shell" -o -name "chrome" -type f 2>/dev/null | grep -v proc | head -5

@@ -47,9 +47,9 @@ export const problems = [
     title: "Tirones en el paseo",
     desc: "Pasear se ha vuelto un estrés constante, te duele el brazo y las manos...",
     products: [
-      { img: "prod-1.png", name: "Arnés en Y Walk Easy", price: 39.0 },
-      { img: "prod-2.png", name: "Correa doble amortiguada", price: 29.0 },
-      { img: "prod-3.png", name: "Cinturón de paseo manos libres", price: 25.0 },
+      { img: "prod-1.png", name: "Arnés en Y Walk Easy", price: 39.0, color: "Gris mareado", size: "M" },
+      { img: "prod-2.png", name: "Correa doble amortiguada", price: 29.0, color: "Verde bosque", size: "120 cm" },
+      { img: "prod-3.png", name: "Cinturón de paseo manos libres", price: 25.0, color: "Negro", size: "Única" },
     ],
   },
   {
@@ -57,9 +57,9 @@ export const problems = [
     title: "Ansiedad al quedarse solo",
     desc: "Llora, ladra o lo pasa muy mal cada vez que sales por la puerta.",
     products: [
-      { img: "prod-4.png", name: "LickiMat Calma + receta", price: 19.0 },
-      { img: "prod-5.png", name: "Kong Classic rellenable", price: 22.0 },
-      { img: "prod-6.png", name: "Difusor de feromonas apaciguantes", price: 29.0 },
+      { img: "prod-4.png", name: "LickiMat Calma + receta", price: 19.0, color: "Azul", size: "Clásica" },
+      { img: "prod-5.png", name: "Kong Classic rellenable", price: 22.0, color: "Rojo", size: "M" },
+      { img: "prod-6.png", name: "Difusor de feromonas apaciguantes", price: 29.0, color: "Blanco", size: "48 días" },
     ],
   },
   {
@@ -67,9 +67,9 @@ export const problems = [
     title: "Exceso de energía",
     desc: "Parece que no se cansa con nada y demanda atención todo el día.",
     products: [
-      { img: "prod-7.png", name: "Pelota interactiva ZoomBall", price: 18.0 },
-      { img: "prod-8.png", name: "Tapete de olfato Snuffle", price: 26.0 },
-      { img: "prod-9.png", name: "Juguete de arrastre TugPro", price: 21.0 },
+      { img: "prod-7.png", name: "Pelota interactiva ZoomBall", price: 18.0, color: "Naranja", size: "M" },
+      { img: "prod-8.png", name: "Tapete de olfato Snuffle", price: 26.0, color: "Gris", size: "90×60 cm" },
+      { img: "prod-9.png", name: "Juguete de arrastre TugPro", price: 21.0, color: "Azul marino", size: "L" },
     ],
   },
   {
@@ -77,9 +77,9 @@ export const problems = [
     title: "Llegada de un nuevo cachorro",
     desc: "Exceso de energía, salta todo el tiempo y muerde por juego.",
     products: [
-      { img: "prod-10.png", name: "Set de mordillores suaves", price: 24.0 },
-      { img: "prod-11.png", name: "Guía de cachorro (PDF + video)", price: 15.0 },
-      { img: "prod-12.png", name: "Arnés ajustable Puppy", price: 28.0 },
+      { img: "prod-10.png", name: "Set de mordillores suaves", price: 24.0, color: "Pastel", size: "S/M" },
+      { img: "prod-11.png", name: "Guía de cachorro (PDF + video)", price: 15.0, color: "—", size: "Digital" },
+      { img: "prod-12.png", name: "Arnés ajustable Puppy", price: 28.0, color: "Rosado", size: "XS/S" },
     ],
   },
   {
@@ -87,9 +87,9 @@ export const problems = [
     title: "Cuidados para los “senior”",
     desc: "Estimulación cognitiva, higiene y otros...",
     products: [
-      { img: "prod-13.png", name: "Rompecabezas cognitivo Brainy", price: 27.0 },
-      { img: "prod-14.png", name: "Cama ortopédica Senior Rest", price: 59.0 },
-      { img: "prod-15.png", name: "Suplemento articular (30 días)", price: 32.0 },
+      { img: "prod-13.png", name: "Rompecabezas cognitivo Brainy", price: 27.0, color: "Verde", size: "Nivel 2" },
+      { img: "prod-14.png", name: "Cama ortopédica Senior Rest", price: 59.0, color: "Beige", size: "L" },
+      { img: "prod-15.png", name: "Suplemento articular (30 días)", price: 32.0, color: "—", size: "120 comprimidos" },
     ],
   },
 ];
