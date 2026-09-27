@@ -1,0 +1,219 @@
+/* ==========================================================================
+   animations.css — micro-interacciones, reveal on scroll, parallax y
+   skeleton shimmer. Directrices CON2COLAS de UI/UX.
+   Todo respeta prefers-reduced-motion (bloque final).
+   ========================================================================== */
+
+/* ---------- 1. Header inteligente: transparente → glassmorphism ---------- */
+.header {
+  background-color: transparent;
+  backdrop-filter: none;
+  border-bottom-color: transparent;
+  transition: background-color var(--transition-base),
+              border-color var(--transition-base),
+              box-shadow var(--transition-base);
+}
+
+.header--scrolled {
+  background-color: rgb(255 255 255 / 80%);
+  backdrop-filter: blur(12px) saturate(140%);
+  -webkit-backdrop-filter: blur(12px) saturate(140%);
+  border-bottom-color: var(--color-border-mint);
+  box-shadow: var(--shadow-sm, 0 1px 3px rgb(15 23 42 / 6%));
+}
+
+/* Indicador de menú: se expande desde el CENTRO hacia afuera.
+   El estado base combina scaleX(0) con el centrado por translate, por lo que
+   la línea nace exactamente en el centro del enlace. */
+.nav__link::after {
+  left: 50%;
+  width: 100%;
+  transform: translateX(-50%) scaleX(0);
+  transform-origin: center center;
+}
+
+.nav__link:hover::after,
+.nav__link--active::after {
+  transform: translateX(-50%) scaleX(1);
+}
+
+/* ---------- Efecto "shine" en botones CTA primarios ---------- */
+.btn--primary,
+.btn--secondary,
+.btn--cta {
+  position: relative;
+  overflow: hidden;
+  isolation: isolate;
+}
+
+.btn--primary::before,
+.btn--secondary::before,
+.btn--cta::before {
+  content: "";
+  position: absolute;
+  inset: 0 auto 0 -100%;
+  width: 60%;
+  background: linear-gradient(
+    100deg,
+    transparent 20%,
+    rgb(255 255 255 / 35%) 50%,
+    transparent 80%
+  );
+  transform: skewX(-18deg);
+  transition: left 550ms ease;
+  z-index: -1;
+  pointer-events: none;
+}
+
+.btn--primary:hover::before,
+.btn--secondary:hover::before,
+.btn--cta:hover::before,
+.btn--primary:focus-visible::before,
+.btn--secondary:focus-visible::before,
+.btn--cta:focus-visible::before {
+  left: 140%;
+}
+
+/* Hover con lift + scale sutil (CTA de conversión): hover:scale-105 hover:shadow-lg */
+.btn--primary:hover,
+.btn--secondary:hover,
+.btn--cta:hover {
+  transform: translateY(-2px) scale(1.05);
+  box-shadow: var(--shadow-lg);
+}
+
+.btn--primary:active,
+.btn--secondary:active,
+.btn--cta:active {
+  transform: translateY(0) scale(0.98);
+}
+
+/* ---------- 2. Reveal on scroll (fade-up escalonado) ---------- */
+.reveal {
+  opacity: 0;
+  translate: 0 20px;
+  transition: opacity 600ms ease, translate 600ms cubic-bezier(0.22, 1, 0.36, 1);
+  will-change: opacity, translate;
+}
+
+.reveal--visible {
+  opacity: 1;
+  translate: 0 0;
+}
+
+/* Retardo escalonado por posición dentro del grupo (.reveal-group) */
+.reveal-group > .reveal:nth-child(2) { transition-delay: 90ms; }
+.reveal-group > .reveal:nth-child(3) { transition-delay: 180ms; }
+.reveal-group > .reveal:nth-child(4) { transition-delay: 270ms; }
+.reveal-group > .reveal:nth-child(5) { transition-delay: 360ms; }
+.reveal-group > .reveal:nth-child(6) { transition-delay: 450ms; }
+
+/* ---------- Parallax suave (elementos decorativos, 0.5x del scroll) ------ */
+/* JS solo actualiza la variable --parallax-y; el transform vive en CSS. */
+.parallax {
+  transform: translate3d(0, var(--parallax-y, 0px), 0);
+  will-change: transform;
+}
+
+/* ---------- 3. Skeleton shimmer (cero pantallas en blanco) ---------- */
+.skeleton {
+  position: relative;
+  overflow: hidden;
+  background-color: #e5e7eb;
+  border-radius: var(--radius-sm);
+}
+
+.skeleton::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  transform: translateX(-100%);
+  background: linear-gradient(
+    90deg,
+    transparent 0%,
+    rgb(255 255 255 / 55%) 50%,
+    transparent 100%
+  );
+  animation: skeleton-shimmer 1.4s infinite;
+}
+
+@keyframes skeleton-shimmer {
+  100% { transform: translateX(100%); }
+}
+
+/* Estructura fiel de la tarjeta de producto mientras carga */
+.skeleton-card {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-sm);
+  padding: var(--space-md);
+  border: 1px solid var(--color-border-mint);
+  border-radius: var(--radius-md);
+  background-color: var(--color-bg);
+}
+
+.skeleton-card__media { height: 11rem; }
+.skeleton-card__title { height: 1.25rem; width: 75%; }
+.skeleton-card__text  { height: 0.85rem;  width: 95%; }
+.skeleton-card__btn   { height: 2.75rem;  width: 60%; border-radius: var(--radius-sm); }
+
+/* ---------- 4. Micro-interacción de confirmación (bounce empático) ------- */
+.bounce-once {
+  animation: bounce-soft 500ms cubic-bezier(0.34, 1.56, 0.64, 1);
+}
+
+@keyframes bounce-soft {
+  0%   { transform: scale(1); }
+  35%  { transform: scale(1.25); }
+  65%  { transform: scale(0.92); }
+  100% { transform: scale(1); }
+}
+
+/* Shake suave para mensajes de error (ámbar, no rojo agresivo) */
+.shake-once {
+  animation: shake-soft 400ms ease;
+}
+
+@keyframes shake-soft {
+  0%, 100% { transform: translateX(0); }
+  25%      { transform: translateX(-4px); }
+  75%      { transform: translateX(4px); }
+}
+
+.form-error {
+  color: #b45309;                      /* ámbar suave */
+  background-color: rgb(251 191 36 / 12%);
+  border: 1px solid rgb(251 191 36 / 40%);
+  border-radius: var(--radius-sm);
+  padding: var(--space-xs) var(--space-sm);
+  font-size: var(--font-size-sm);
+}
+
+/* ---------- 5. Accesibilidad: focus visible claro ---------- */
+:where(a, button, input, [tabindex]):focus-visible {
+  outline: 3px solid rgb(84 180 53 / 55%);
+  outline-offset: 2px;
+  border-radius: var(--radius-xs, 6px);
+}
+
+/* ---------- Respeto absoluto a prefers-reduced-motion ---------- */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+
+  .reveal {
+    opacity: 1;
+    translate: none;
+  }
+
+  .parallax { transform: none !important; }
+  .btn--primary::before,
+  .btn--secondary::before,
+  .btn--cta::before { display: none; }
+}

@@ -72,28 +72,73 @@
   <main id="contenido">
     <!-- ===== HERO ===== -->
     <section class="hero" id="inicio" aria-labelledby="hero-title">
+      <!-- Capa decorativa: patrón SVG orgánico de baja opacidad (neuroestética de calma) -->
+      <div class="hero__pattern" aria-hidden="true"></div>
+
       <div class="container hero__grid">
-        <div class="hero__content">
-          <h1 class="hero__title" id="hero-title">Mascotas felices, familias en paz</h1>
+        <!-- Capa intermedia semitransparente: mejora legibilidad sobre el patrón sin perder textura -->
+        <div class="hero__content hero__content--scrim">
+          <!-- H1: Doble Autoridad (publicidad estratégica + conductismo animal), Script 2 -->
+          <h1 class="hero__title" id="hero-title">
+            Soluciones Conductuales,<br />no solo Accesorios
+          </h1>
+          <p class="hero__subtitle">Mascotas felices, familias en paz.</p>
           <p class="hero__text">
-            Cuéntanos qué desafío vives hoy en casa. Te asesoramos personalmente para encontrar
-            la solución, sin usar castigos y desde el respeto.
+            No es rebeldía, es su cerebro pidiendo estimulación. Somos especialistas en
+            conductismo animal: seleccionamos cada herramienta por su función conductual y te
+            acompañamos con asesoría personalizada, sin castigos y desde el respeto. Cada paso
+            cuenta — empieza hoy.
           </p>
           <div class="hero__actions">
             <a
               href="https://wa.me/56984024167?text=Hola%2C%20quiero%20asesor%C3%ADa%20sobre%20mi%20mascota"
-              class="btn btn--primary"
+              class="btn btn--cta group"
               target="_blank"
               rel="noopener noreferrer"
-              >💬 Cuéntanos tu caso</a
             >
-            <a href="#soluciones" class="btn btn--secondary">Ver soluciones</a>
+              <!-- Icono Heroicons "chat-bubble-bottom-cta-text" (outline) — microinteracción en hover -->
+              <svg
+                class="btn__icon btn__icon--lead"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="1.5"
+                aria-hidden="true"
+                focusable="false"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M8.625 12a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Zm0 0H8.25m4.125 0a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Zm0 0H12m4.125 0a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Zm0 0h-.375M21 12c0 4.556-4.03 8.25-9 8.25a9.764 9.764 0 0 1-2.555-.337A5.972 5.972 0 0 1 5.411 15l-2.937.856a.375.375 0 0 1-.513-.44l.608-2.513A8.256 8.256 0 0 1 2.25 9.75C2.25 5.47 6.155 2 10.5 2S18.75 5.47 18.75 9.75"
+                />
+              </svg>
+              <span>Cuéntanos tu caso</span>
+            </a>
+            <a href="#soluciones" class="btn btn--ghost group">
+              <span>Ver soluciones</span>
+              <!-- Icono Heroicons "arrow-right" (outline): se desplaza +4px al hacer hover (group-hover:translate-x-1) -->
+              <svg
+                class="btn__icon btn__icon--arrow"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="1.5"
+                aria-hidden="true"
+                focusable="false"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3"
+                />
+              </svg>
+            </a>
           </div>
         </div>
 
         <figure class="hero__media">
           <img
-            class="hero__img"
+            class="hero__img parallax"
             src="/images/Hero-con2colas.png"
             alt="hero con2colas"
             title="hero con2colas"
@@ -139,7 +184,7 @@
           aria-label="Reproducir video de presentación de Romina (YouTube)"
         >
           <img
-            class="about__video-img"
+            class="about__video-img parallax"
             src="/images/romina-video.png"
             alt="Romina, especialista en comportamiento animal, con un perro durante una sesión de entrenamiento"
             loading="lazy"
@@ -148,8 +193,8 @@
           />
         </button>
 
-        <div class="about__content">
-          <h2 class="section-title" id="about-title">Más que un producto, una mejor calidad de vida</h2>
+        <div class="about__content reveal">
+          <h2 class="section-title reveal" id="about-title">Más que un producto, una mejor calidad de vida</h2>
           <p class="about__text">
             Soy Romina, especialista en comportamiento animal. Muchas veces nos sentimos culpables
             por regañar a nuestra mascota, pero ellos solo intentan comunicarse. A través de la
@@ -168,15 +213,15 @@
     <!-- ===== POR QUÉ CON2COLAS ===== -->
     <section class="features" id="caracteristicas" aria-labelledby="features-title">
       <div class="container features__inner">
-        <h2 class="section-title section-title--center" id="features-title">¿Por qué elegir el método Con2colas?</h2>
-        <ul class="features__grid" id="features-grid" role="list"></ul>
+        <h2 class="section-title section-title--center reveal" id="features-title">¿Por qué elegir el método Con2colas?</h2>
+        <ul class="features__grid reveal-group" id="features-grid" role="list"></ul>
       </div>
     </section>
 
     <!-- ===== SOLUCIONES POR PROBLEMA ===== -->
     <section class="problems" id="soluciones" aria-labelledby="problems-title">
       <h2 class="visually-hidden" id="problems-title">Soluciones por problema de conducta</h2>
-      <div class="container problems__inner" id="problems-list"></div>
+      <div class="container problems__inner reveal-group" id="problems-list"></div>
     </section>
 
     <!-- ===== HISTORIA DESTACADA (LUNA) ===== -->
@@ -188,7 +233,7 @@
           ciencia y el respeto.
         </p>
       </div>
-      <div class="container story__card">
+      <div class="container story__card reveal">
         <figure class="story__media">
           <img
             class="story__img"
@@ -222,12 +267,12 @@
     <!-- ===== TESTIMONIOS ===== -->
     <section class="testimonials" id="testimonios" aria-labelledby="testimonials-title">
       <div class="container testimonials__inner">
-        <div class="testimonials__rating" aria-label="Valoración: 4.9 de 5 estrellas">
+        <div class="testimonials__rating reveal" aria-label="Valoración: 4.9 de 5 estrellas">
           <p class="testimonials__stars" aria-hidden="true">★★★★★</p>
           <h2 class="testimonials__headline" id="testimonials-title">Excellent 4.9 of 5 stars rating</h2>
           <p class="testimonials__sub">Based on 5,000+ real users reviews</p>
         </div>
-        <ul class="testimonials__grid" id="testimonials-grid" role="list"></ul>
+        <ul class="testimonials__grid reveal-group" id="testimonials-grid" role="list"></ul>
       </div>
     </section>
 
@@ -241,7 +286,7 @@
 
     <!-- ===== CTA FINAL ===== -->
     <section class="cta" id="contacto" aria-labelledby="cta-title">
-      <div class="container cta__inner">
+      <div class="container cta__inner reveal">
         <h2 class="cta__title" id="cta-title">¿Listo para mejorar la relación con tu mejor amigo?</h2>
         <p class="cta__text">Toda compra incluye asesoría y una guía de uso paso a paso.</p>
         <a href="#inicio" class="btn btn--white">💬 Cuéntanos tu caso</a>

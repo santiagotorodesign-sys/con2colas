@@ -7,6 +7,7 @@
 @import "./base.css";
 @import "./components.css";
 @import "./layout.css";
+@import "./animations.css"; /* último: gana en cascada (header, reveal, etc.) */
 
 /* ---------- Reset básico ---------- */
 *,
@@ -88,6 +89,10 @@ p {
   --color-bg-mint: #edfbe2;      /* secciones alternas */
   --color-border-mint: #d5ead8;  /* bordes suaves */
   --color-navy: #00263d;
+
+  /* Contraste AA sobre menta #EDFBE2 (reglas del hero) */
+  --color-green-900: #14532d;    /* H1 — text-green-900 */
+  --color-slate-800: #1e293b;    /* cuerpo — text-slate-800 */
 
   /* Tipografía (Poppins titulares / Inter cuerpo, según Figma) */
   --font-family-heading: "Poppins", system-ui, sans-serif;

@@ -5,6 +5,7 @@
 
 import { icon } from "./icons.js";
 import { createWhatsAppButton } from "./whatsappButton.js";
+import { showSkeletons, hideSkeletons } from "./skeletonUI.js";
 import {
   features,
   problems,
@@ -141,11 +142,23 @@ function renderFooter() {
 
 /**
  * Inicializa todas las secciones dinámicas.
+ * Muestra skeleton shimmer mientras se montan los datos (cero pantallas en blanco).
  */
 export function initGallery() {
-  renderFeatures();
-  renderProblems();
-  renderTestimonials();
-  renderResources();
-  renderFooter();
+  const targets = ["features-grid", "problems-list", "testimonials-grid"].map((id) =>
+    document.getElementById(id)
+  );
+  targets.forEach((t) => t && showSkeletons(t, 3));
+
+  // Simula el tick de render para que el skeleton sea perceptible sin retrasar UX
+  requestAnimationFrame(() => {
+    window.setTimeout(() => {
+      targets.forEach((t) => t && hideSkeletons(t));
+      renderFeatures();
+      renderProblems();
+      renderTestimonials();
+      renderResources();
+      renderFooter();
+    }, 250);
+  });
 }
