@@ -240,25 +240,28 @@
   color: var(--color-body);
 }
 
+/* Espaciado automático entre logos: el espacio restante de la línea se
+   reparte equitativamente (justify-content: space-between) para que todos
+   los logos queden en una sola línea, full color y sin filtros. */
 .brands__list {
   display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
+  flex-wrap: nowrap;
+  justify-content: space-between;
   align-items: center;
-  gap: clamp(var(--space-lg), 5vw, 4.5rem);
+  column-gap: clamp(var(--space-md), 3vw, 3rem); /* mínimo automático */
   margin-top: var(--space-lg);
 }
 
 .brands__item {
+  flex: 0 1 auto;
+  min-width: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   font-family: var(--font-family-heading);
   font-size: var(--font-size-xl);
   font-weight: var(--font-weight-semibold);
   color: var(--color-ink);
-  opacity: 0.45;
-  transition: opacity var(--transition-fast);
-}
-
-.brands__item:hover {
   opacity: 1;
 }
 
@@ -270,10 +273,20 @@
 .brands__logo {
   height: clamp(2rem, 4vw, 3rem);
   width: auto;
+  max-width: 100%;
   object-fit: contain;
   scale: 0.7;
-  filter: grayscale(0%);
+  filter: none;   /* siempre a color, sin filtro */
   opacity: 1;
+}
+
+/* En pantallas pequeñas sí se permite envolver para no romper el layout */
+@media (max-width: 768px) {
+  .brands__list {
+    flex-wrap: wrap;
+    justify-content: center;
+    row-gap: var(--space-md);
+  }
 }
 
 /* ---------- About (Romina) ---------- */
