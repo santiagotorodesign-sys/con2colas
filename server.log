@@ -697,3 +697,141 @@
  HTTP  9/27/2026 12:51:35 AM ::1 GET /assets/images/avatar-2.png
  HTTP  9/27/2026 12:51:35 AM ::1 Returned 304 in 1 ms
  HTTP  9/27/2026 12:51:35 AM ::1 Returned 304 in 1 ms
+ HTTP  9/27/2026 1:02:56 AM ::1 GET /?spm=a2ty_o07.30620332.0.0.60593da9AcUT5U
+ HTTP  9/27/2026 1:02:56 AM ::1 Returned 200 in 2 ms
+ HTTP  9/27/2026 1:02:57 AM ::1 GET /js/main.js
+ HTTP  9/27/2026 1:02:57 AM ::1 Returned 200 in 0 ms
+ HTTP  9/27/2026 1:02:57 AM ::1 GET /css/main.css
+ HTTP  9/27/2026 1:02:57 AM ::1 Returned 304 in 1 ms
+ HTTP  9/27/2026 1:02:58 AM ::1 GET /js/modules/navigationUI.js
+ HTTP  9/27/2026 1:02:58 AM ::1 Returned 304 in 1 ms
+ HTTP  9/27/2026 1:02:58 AM ::1 GET /js/modules/countersUI.js
+ HTTP  9/27/2026 1:02:58 AM ::1 Returned 200 in 0 ms
+ HTTP  9/27/2026 1:02:58 AM ::1 GET /js/modules/galleryUI.js
+ HTTP  9/27/2026 1:02:58 AM ::1 Returned 304 in 0 ms
+ HTTP  9/27/2026 1:02:58 AM ::1 GET /js/modules/lightboxUI.js
+ HTTP  9/27/2026 1:02:58 AM ::1 Returned 304 in 0 ms
+ HTTP  9/27/2026 1:02:58 AM ::1 GET /css/layout.css
+ HTTP  9/27/2026 1:02:58 AM ::1 GET /css/base.css
+ HTTP  9/27/2026 1:02:58 AM ::1 Returned 304 in 5 ms
+ HTTP  9/27/2026 1:02:58 AM ::1 Returned 200 in 6 ms
+ HTTP  9/27/2026 1:02:58 AM ::1 GET /css/components.css
+ HTTP  9/27/2026 1:02:58 AM ::1 Returned 200 in 2 ms
+ HTTP  9/27/2026 1:02:58 AM ::1 GET /js/modules/icons.js
+ HTTP  9/27/2026 1:02:58 AM ::1 Returned 304 in 0 ms
+ HTTP  9/27/2026 1:02:58 AM ::1 GET /js/modules/content.js
+ HTTP  9/27/2026 1:02:58 AM ::1 Returned 304 in 0 ms
+ HTTP  9/27/2026 1:02:59 AM ::1 GET /assets/images/Hero-con2colas.png
+ HTTP  9/27/2026 1:02:59 AM ::1 Returned 304 in 1 ms
+ HTTP  9/27/2026 1:02:59 AM ::1 GET /assets/images/Benebone.png
+ HTTP  9/27/2026 1:02:59 AM ::1 Returned 304 in 1 ms
+ HTTP  9/27/2026 1:02:59 AM ::1 GET /assets/images/ruffwear.png
+ HTTP  9/27/2026 1:02:59 AM ::1 Returned 304 in 1 ms
+ HTTP  9/27/2026 1:02:59 AM ::1 GET /assets/images/Kong.png
+ HTTP  9/27/2026 1:02:59 AM ::1 Returned 304 in 0 ms
+ HTTP  9/27/2026 1:02:59 AM ::1 GET /assets/images/romina-video.png
+ HTTP  9/27/2026 1:02:59 AM ::1 Returned 304 in 0 ms
+ HTTP  9/27/2026 1:02:59 AM ::1 GET /assets/images/LickiMat.png
+ HTTP  9/27/2026 1:02:59 AM ::1 Returned 304 in 0 ms
+ HTTP  9/27/2026 1:02:59 AM ::1 GET /assets/images/Moderna.png
+ HTTP  9/27/2026 1:02:59 AM ::1 Returned 304 in 1 ms
+ HTTP  9/27/2026 1:03:03 AM ::1 GET /assets/images/prod-1.png
+ HTTP  9/27/2026 1:03:03 AM ::1 GET /assets/images/prod-2.png
+ HTTP  9/27/2026 1:03:03 AM ::1 Returned 304 in 2 ms
+ HTTP  9/27/2026 1:03:03 AM ::1 Returned 304 in 1 ms
+ HTTP  9/27/2026 1:03:03 AM ::1 GET /assets/images/prod-3.png
+ HTTP  9/27/2026 1:03:03 AM ::1 Returned 304 in 1 ms
+ HTTP  9/27/2026 1:03:03 AM ::1 GET /assets/images/prod-4.png
+ HTTP  9/27/2026 1:03:03 AM ::1 Returned 304 in 1 ms
+ HTTP  9/27/2026 1:03:03 AM ::1 GET /assets/images/prod-6.png
+ HTTP  9/27/2026 1:03:03 AM ::1 Returned 304 in 0 ms
+ HTTP  9/27/2026 1:03:03 AM ::1 GET /assets/images/prod-5.png
+ HTTP  9/27/2026 1:03:03 AM ::1 Returned 304 in 1 ms
+ HTTP  9/27/2026 1:03:10 AM ::1 GET /assets/images/prod-7.png
+ HTTP  9/27/2026 1:03:10 AM ::1 Returned 304 in 2 ms
+ HTTP  9/27/2026 1:03:10 AM ::1 GET /assets/images/prod-8.png
+ HTTP  9/27/2026 1:03:10 AM ::1 Returned 304 in 1 ms
+ HTTP  9/27/2026 1:03:10 AM ::1 GET /assets/images/prod-9.png
+ HTTP  9/27/2026 1:03:10 AM ::1 Returned 304 in 0 ms
+ HTTP  9/27/2026 1:03:11 AM ::1 GET /assets/images/prod-10.png
+ HTTP  9/27/2026 1:03:11 AM ::1 Returned 304 in 2 ms
+ HTTP  9/27/2026 1:03:11 AM ::1 GET /assets/images/prod-12.png
+ HTTP  9/27/2026 1:03:11 AM ::1 Returned 304 in 1 ms
+ HTTP  9/27/2026 1:03:11 AM ::1 GET /assets/images/prod-11.png
+ HTTP  9/27/2026 1:03:11 AM ::1 Returned 304 in 1 ms
+ HTTP  9/27/2026 1:03:11 AM ::1 GET /assets/images/prod-15.png
+ HTTP  9/27/2026 1:03:11 AM ::1 Returned 304 in 1 ms
+ HTTP  9/27/2026 1:03:11 AM ::1 GET /assets/images/prod-13.png
+ HTTP  9/27/2026 1:03:11 AM ::1 GET /assets/images/prod-14.png
+ HTTP  9/27/2026 1:03:11 AM ::1 Returned 304 in 1 ms
+ HTTP  9/27/2026 1:03:11 AM ::1 Returned 304 in 1 ms
+ HTTP  9/27/2026 1:03:11 AM ::1 GET /assets/images/story-luna-1.png
+ HTTP  9/27/2026 1:03:11 AM ::1 Returned 304 in 1 ms
+ HTTP  9/27/2026 1:03:12 AM ::1 GET /assets/images/avatar-1.png
+ HTTP  9/27/2026 1:03:12 AM ::1 Returned 304 in 1 ms
+ HTTP  9/27/2026 1:03:12 AM ::1 GET /assets/images/avatar-3.png
+ HTTP  9/27/2026 1:03:12 AM ::1 Returned 304 in 1 ms
+ HTTP  9/27/2026 1:03:12 AM ::1 GET /assets/images/avatar-2.png
+ HTTP  9/27/2026 1:03:12 AM ::1 Returned 304 in 0 ms
+ HTTP  9/27/2026 1:05:51 AM ::1 GET /?spm=a2ty_o07.30620332.0.0.60593da9AcUT5U
+ HTTP  9/27/2026 1:05:51 AM ::1 Returned 200 in 1 ms
+ HTTP  9/27/2026 1:05:52 AM ::1 GET /js/main.js
+ HTTP  9/27/2026 1:05:52 AM ::1 Returned 200 in 1 ms
+ HTTP  9/27/2026 1:05:52 AM ::1 GET /css/main.css
+ HTTP  9/27/2026 1:05:52 AM ::1 Returned 304 in 0 ms
+ HTTP  9/27/2026 1:05:53 AM ::1 GET /js/modules/countersUI.js
+ HTTP  9/27/2026 1:05:53 AM ::1 Returned 200 in 1 ms
+ HTTP  9/27/2026 1:05:53 AM ::1 GET /css/base.css
+ HTTP  9/27/2026 1:05:53 AM ::1 Returned 200 in 1 ms
+ HTTP  9/27/2026 1:05:53 AM ::1 GET /css/components.css
+ HTTP  9/27/2026 1:05:53 AM ::1 GET /js/modules/galleryUI.js
+ HTTP  9/27/2026 1:05:53 AM ::1 Returned 304 in 1 ms
+ HTTP  9/27/2026 1:05:53 AM ::1 Returned 304 in 1 ms
+ HTTP  9/27/2026 1:05:53 AM ::1 GET /js/modules/navigationUI.js
+ HTTP  9/27/2026 1:05:53 AM ::1 Returned 304 in 1 ms
+ HTTP  9/27/2026 1:05:53 AM ::1 GET /js/modules/icons.js
+ HTTP  9/27/2026 1:05:53 AM ::1 Returned 304 in 1 ms
+ HTTP  9/27/2026 1:05:53 AM ::1 GET /js/modules/content.js
+ HTTP  9/27/2026 1:05:53 AM ::1 Returned 304 in 1 ms
+ HTTP  9/27/2026 1:05:53 AM ::1 GET /css/layout.css
+ HTTP  9/27/2026 1:05:53 AM ::1 Returned 304 in 2 ms
+ HTTP  9/27/2026 1:05:53 AM ::1 GET /js/modules/lightboxUI.js
+ HTTP  9/27/2026 1:05:53 AM ::1 Returned 304 in 1 ms
+ HTTP  9/27/2026 1:05:54 AM ::1 GET /assets/images/Kong.png
+ HTTP  9/27/2026 1:05:54 AM ::1 Returned 304 in 1 ms
+ HTTP  9/27/2026 1:05:54 AM ::1 GET /assets/images/romina-video.png
+ HTTP  9/27/2026 1:05:54 AM ::1 Returned 304 in 1 ms
+ HTTP  9/27/2026 1:05:54 AM ::1 GET /assets/images/Moderna.png
+ HTTP  9/27/2026 1:05:54 AM ::1 GET /assets/images/Benebone.png
+ HTTP  9/27/2026 1:05:54 AM ::1 Returned 304 in 0 ms
+ HTTP  9/27/2026 1:05:54 AM ::1 Returned 304 in 1 ms
+ HTTP  9/27/2026 1:05:54 AM ::1 GET /assets/images/ruffwear.png
+ HTTP  9/27/2026 1:05:54 AM ::1 Returned 304 in 1 ms
+ HTTP  9/27/2026 1:05:54 AM ::1 GET /assets/images/Hero-con2colas.png
+ HTTP  9/27/2026 1:05:54 AM ::1 Returned 304 in 0 ms
+ HTTP  9/27/2026 1:05:54 AM ::1 GET /assets/images/LickiMat.png
+ HTTP  9/27/2026 1:05:54 AM ::1 Returned 304 in 1 ms
+ HTTP  9/27/2026 1:06:00 AM ::1 GET /assets/images/prod-2.png
+ HTTP  9/27/2026 1:06:00 AM ::1 Returned 304 in 0 ms
+ HTTP  9/27/2026 1:06:00 AM ::1 GET /assets/images/prod-3.png
+ HTTP  9/27/2026 1:06:00 AM ::1 Returned 304 in 1 ms
+ HTTP  9/27/2026 1:06:00 AM ::1 GET /assets/images/prod-1.png
+ HTTP  9/27/2026 1:06:00 AM ::1 Returned 304 in 0 ms
+ HTTP  9/27/2026 1:06:00 AM ::1 GET /assets/images/prod-6.png
+ HTTP  9/27/2026 1:06:00 AM ::1 Returned 304 in 1 ms
+ HTTP  9/27/2026 1:06:00 AM ::1 GET /assets/images/prod-4.png
+ HTTP  9/27/2026 1:06:00 AM ::1 Returned 304 in 0 ms
+ HTTP  9/27/2026 1:06:00 AM ::1 GET /assets/images/prod-5.png
+ HTTP  9/27/2026 1:06:00 AM ::1 Returned 304 in 0 ms
+ HTTP  9/27/2026 1:06:00 AM ::1 GET /assets/images/prod-8.png
+ HTTP  9/27/2026 1:06:00 AM ::1 GET /assets/images/prod-9.png
+ HTTP  9/27/2026 1:06:00 AM ::1 Returned 304 in 1 ms
+ HTTP  9/27/2026 1:06:00 AM ::1 Returned 304 in 1 ms
+ HTTP  9/27/2026 1:06:00 AM ::1 GET /assets/images/prod-7.png
+ HTTP  9/27/2026 1:06:00 AM ::1 Returned 304 in 1 ms
+ HTTP  9/27/2026 1:06:01 AM ::1 GET /assets/images/prod-12.png
+ HTTP  9/27/2026 1:06:01 AM ::1 Returned 304 in 0 ms
+ HTTP  9/27/2026 1:06:01 AM ::1 GET /assets/images/prod-10.png
+ HTTP  9/27/2026 1:06:01 AM ::1 Returned 304 in 1 ms
+ HTTP  9/27/2026 1:06:01 AM ::1 GET /assets/images/prod-11.png
+ HTTP  9/27/2026 1:06:01 AM ::1 Returned 304 in 0 ms
