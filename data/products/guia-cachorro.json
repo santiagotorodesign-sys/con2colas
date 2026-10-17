@@ -1,0 +1,33 @@
+{
+  "id": "guia-cachorro",
+  "slug": "guia-cachorro",
+  "url": "/producto/guia-cachorro.html",
+  "name": "Guía de cachorro (PDF + video)",
+  "category": "Cachorros",
+  "subcategory": "Cachorros",
+  "line": "Básica",
+  "price": 15000,
+  "price_formatted": "$15.000",
+  "stock": 100,
+  "color": "—",
+  "size": "Digital",
+  "marketplace": "Consultor WSP",
+  "short_description": "Protocolo paso a paso (PDF 40 pág + video 45 min): socialización, mordida, primeros paseos, casa.",
+  "description": "La guía que tu cachorro desearía que leyeras antes de llegar a casa. PDF de 40 páginas + video de 45 minutos con Romina (especialista en conducta). Contenido: Semana 1-2 (llegada, zona segura, rutinas), Semana 3-4 (mordida: por qué muerden y cómo redirigir), Semana 5-8 (socialización: personas, perros, ruidos, objetos), Semana 9-12 (primeros paseos: correa, arnés, mundo exterior). Incluye checklists imprimibles y plan de 90 días.",
+  "additional_info": "Formato: PDF descargable (40 pág) + video streaming (45 min, acceso vitalicio). Idioma: español. Acceso inmediato tras compra. Incluye: plan de 90 días, 10 checklists, guía de productos recomendados por edad.",
+  "behavioral_function": "Protocolo paso a paso para socialización, mordida y primeros paseos sin miedo",
+  "sales_argument": "De caos a calma en 3 semanas: el plan que tu cachorro desearía que leyeras",
+  "target_problem": "Primer cachorro, mordida, socialización, primeros paseos",
+  "tags": [
+    "cachorros",
+    "educación",
+    "guía",
+    "digital"
+  ],
+  "image_main": "",
+  "image_alt": "Guía de cachorro (PDF + video)",
+  "prev_product_slug": "set-mordillores-suaves",
+  "next_product_slug": "arnes-puppy",
+  "prev_product_name": "Set de mordillores suaves",
+  "next_product_name": "Arnés ajustable Puppy"
+}

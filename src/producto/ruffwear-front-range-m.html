@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" id="meta-description" content="" />
+  <title id="page-title">Con 2 colas — Producto</title>
+  <link rel="icon" type="image/svg+xml" href="/images/favicon.svg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Inter:wght@400;500;600&display=swap"
+    rel="stylesheet"
+  />
+  <link rel="stylesheet" href="../css/main.css" />
+  <script type="module" src="../js/main.js"></script>
+  <!-- JSON-LD structured data will be injected by productDetail.js -->
+</head>
+<body>
+  <!-- ===== HEADER ===== -->
+  <header class="header">
+    <div class="container header__inner">
+      <a href="../index.html#inicio" class="header__logo" aria-label="Con 2 colas — inicio">
+        <img class="header__logo-img" src="../images/logo-con2colas.png"
+             alt="Con2colas - Bienestar Animal Ético" width="280" height="60" />
+      </a>
+
+      <nav class="nav" id="primary-nav" aria-label="Navegación principal">
+        <ul class="nav__list" role="list">
+          <li class="nav__item"><a class="nav__link" href="../index.html#paseo">Paseo</a></li>
+          <li class="nav__item"><a class="nav__link" href="../index.html#ansiedad">Ansiedad</a></li>
+          <li class="nav__item"><a class="nav__link" href="../index.html#cachorros">Cachorros</a></li>
+          <li class="nav__item"><a class="nav__link" href="../index.html#contacto">Contacto</a></li>
+        </ul>
+      </nav>
+
+      <div class="header__actions">
+        <ul class="header__social" role="list" aria-label="Redes sociales">
+          <li class="header__social-item">
+            <a class="header__social-link header__social-link--youtube"
+               href="https://www.youtube.com/@con2colas" target="_blank" rel="noopener noreferrer"
+               aria-label="YouTube de Con2colas">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M23.5 6.19a3.02 3.02 0 0 0-2.12-2.14C19.5 3.55 12 3.55 12 3.55s-7.5 0-9.38.5A3.02 3.02 0 0 0 .5 6.19 31.6 31.6 0 0 0 0 12a31.6 31.6 0 0 0 .5 5.81 3.02 3.02 0 0 0 2.12 2.14c1.88.5 9.38.5 9.38.5s7.5 0 9.38-.5a3.02 3.02 0 0 0 2.12-2.14A31.6 31.6 0 0 0 24 12a31.6 31.6 0 0 0-.5-5.81zM9.55 15.57V8.43L15.82 12z"/></svg>
+            </a>
+          </li>
+          <li class="header__social-item">
+            <a class="header__social-link header__social-link--instagram"
+               href="https://www.instagram.com/con2colas" target="_blank" rel="noopener noreferrer"
+               aria-label="Instagram de Con2colas">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2.16c3.2 0 3.58.01 4.85.07 3.25.15 4.77 1.69 4.92 4.92.06 1.27.07 1.65.07 4.85s-.01 3.58-.07 4.85c-.15 3.23-1.66 4.77-4.92 4.92-1.27.06-1.65.07-4.85.07s-3.58-.01-4.85-.07c-3.26-.15-4.77-1.7-4.92-4.92C2.17 15.58 2.16 15.2 2.16 12s.01-3.58.07-4.85C2.38 3.92 3.9 2.38 7.15 2.23 8.42 2.17 8.8 2.16 12 2.16zM12 0C8.74 0 8.33.01 7.05.07 2.7.27.27 2.69.06 7.05 0 8.33 0 8.74 0 12s.01 3.67.07 4.95c.2 4.36 2.62 6.78 6.98 6.98C8.33 24 8.74 24 12 24s3.67-.01 4.95-.07c4.35-.2 6.78-2.62 6.98-6.98C24 15.67 24 15.26 24 12s-.01-3.67-.07-4.95C23.73 2.7 21.31.27 16.95.06 15.67 0 15.26 0 12 0zm0 5.84A6.16 6.16 0 1 0 18.16 12 6.16 6.16 0 0 0 12 5.84zM12 16a4 4 0 1 1 4-4 4 4 0 0 1-4 4zm6.41-11.85a1.44 1.44 0 1 0 1.44 1.44 1.44 1.44 0 0 0-1.44-1.44z"/></svg>
+            </a>
+          </li>
+          <li class="header__social-item">
+            <a class="header__social-link header__social-link--whatsapp"
+               href="https://wa.me/56984024167?text=Hola%20Con2colas!%20%F0%9F%91%8B%20Quiero%20asesor%C3%ADa%20sobre%20mi%20mascota."
+               target="_blank" rel="noopener noreferrer"
+               aria-label="WhatsApp de Con2colas">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M19.05 4.91A9.82 9.82 0 0 0 12.04 2c-5.46 0-9.91 4.45-9.91 9.91 0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38a9.9 9.9 0 0 0 4.74 1.21h.01c5.46 0 9.91-4.45 9.91-9.91a9.86 9.86 0 0 0-2.91-7.13zM12.05 20.15h-.01a8.2 8.2 0 0 1-4.19-1.15l-.3-.18-3.12.82.83-3.04-.2-.31a8.2 8.2 0 0 1-1.26-4.38c0-4.54 3.7-8.24 8.25-8.24a8.2 8.2 0 0 1 8.24 8.25c0 4.54-3.7 8.23-8.24 8.23zm4.52-6.16c-.25-.12-1.47-.72-1.69-.81-.23-.08-.39-.12-.56.13-.16.24-.64.8-.78.97-.14.16-.29.18-.54.06-.25-.13-1.05-.39-1.99-1.23a7.5 7.5 0 0 1-1.38-1.72c-.14-.25-.02-.38.11-.51.11-.11.25-.29.37-.43.13-.15.17-.25.25-.42.08-.16.04-.31-.02-.43-.06-.13-.56-1.35-.77-1.85-.2-.48-.41-.42-.56-.43h-.48c-.16 0-.43.06-.66.31-.22.25-.87.85-.87 2.07 0 1.22.89 2.4 1.01 2.56.13.17 1.75 2.68 4.24 3.76.59.26 1.05.41 1.41.52.59.19 1.13.16 1.56.1.48-.07 1.47-.6 1.67-1.18.21-.58.21-1.07.15-1.18-.06-.1-.23-.16-.48-.28z"/></svg>
+            </a>
+          </li>
+        </ul>
+        <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="primary-nav" aria-label="Abrir menú">
+          <span class="nav-toggle__bar"></span>
+          <span class="nav-toggle__bar"></span>
+          <span class="nav-toggle__bar"></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main id="contenido">
+    <!-- ===== BREADCRUMB ===== -->
+    <nav class="breadcrumb" aria-label="Ruta de navegación">
+      <div class="container">
+        <ol class="breadcrumb__list" id="breadcrumb-list">
+          <li><a href="../index.html#inicio">Inicio</a></li>
+          <li><a href="../index.html#soluciones" id="breadcrumb-category">Categoría</a></li>
+          <li aria-current="page" id="breadcrumb-product">Producto</li>
+        </ol>
+      </div>
+    </nav>
+
+    <!-- ===== PRODUCT DETAIL ===== -->
+    <section class="product-detail" aria-labelledby="product-title">
+      <div class="container">
+        <div class="product-detail__grid">
+          <!-- Media Gallery -->
+          <div class="product-detail__media">
+            <img id="product-main-image" 
+                 src="" 
+                 alt="" 
+                 loading="eager" 
+                 width="600" 
+                 height="450" />
+          </div>
+
+          <!-- Info & Purchase -->
+          <div class="product-detail__info">
+            <div class="product-detail__header">
+              <p class="product-detail__category" id="product-category-label"></p>
+              <h1 id="product-title" class="product-detail__title"></h1>
+              <p id="product-price" class="product-detail__price"></p>
+            </div>
+
+            <!-- Dónde Comprar (3 Canales Disponibles) -->
+            <div class="product-detail__channels">
+              <h3 class="channels__title">Disponible en tus canales favoritos</h3>
+              <p class="channels__subtitle">Elige la opción de compra que más te acomode:</p>
+              
+              <div class="channels__grid">
+                <!-- Opción 1: WhatsApp / Consultora -->
+                <div class="channel-card channel-card--wsp">
+                  <div class="channel-card__header">
+                    <span class="channel-card__badge channel-card__badge--wsp">Recomendado</span>
+                    <h4 class="channel-card__name">Asesoría Directa por WhatsApp</h4>
+                  </div>
+                  <p class="channel-card__desc">Habla directamente con Romina para confirmar talla, uso y asesoría personalizada de conducta.</p>
+                  <a id="product-wa-btn" class="btn btn--cta channel-card__btn" target="_blank" rel="noopener noreferrer">
+                    <svg class="product-card__wa-icon" width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" focusable="false">
+                      <path d="M19.05 4.91A9.82 9.82 0 0 0 12.04 2c-5.46 0-9.91 4.45-9.91 9.91 0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38a9.9 9.9 0 0 0 4.74 1.21h.01c5.46 0 9.91-4.45 9.91-9.91a9.86 9.86 0 0 0-2.91-7.13zM12.05 20.15h-.01a8.2 8.2 0 0 1-4.19-1.15l-.3-.18-3.12.82.83-3.04-.2-.31a8.2 8.2 0 0 1-1.26-4.38c0-4.54 3.7-8.24 8.25-8.24a8.2 8.2 0 0 1 8.24 8.25c0 4.54-3.7 8.23-8.24 8.23zm4.52-6.16c-.25-.12-1.47-.72-1.69-.81-.23-.08-.39-.12-.56.13-.16.24-.64.8-.78.97-.14.16-.29.18-.54.06-.25-.13-1.05-.39-1.99-1.23a7.5 7.5 0 0 1-1.38-1.72c-.14-.25-.02-.38.11-.51.11-.11.25-.29.37-.43.13-.15.17-.25.25-.42.08-.16.04-.31-.02-.43-.06-.13-.56-1.35-.77-1.85-.2-.48-.41-.42-.56-.43h-.48c-.16 0-.43.06-.66.31-.22.25-.87.85-.87 2.07 0 1.22.89 2.4 1.01 2.56.13.17 1.75 2.68 4.24 3.76.59.26 1.05.41 1.41.52.59.19 1.13.16 1.56.1.48-.07 1.47-.6 1.67-1.18.21-.58.21-1.07.15-1.18-.06-.1-.23-.16-.48-.28z"/>
+                    </svg>
+                    <span>Consultar a Romina por WhatsApp</span>
+                  </a>
+                </div>
+
+                <!-- Opción 2: Mercado Libre -->
+                <div class="channel-card channel-card--ml">
+                  <div class="channel-card__header">
+                    <span class="channel-card__badge channel-card__badge--ml">Envío Rápido</span>
+                    <h4 class="channel-card__name">Mercado Libre</h4>
+                  </div>
+                  <p class="channel-card__desc">Compra garantizada con envío Full a todo Chile y cuotas sin interés.</p>
+                  <a href="https://www.mercadolibre.cl" target="_blank" rel="noopener noreferrer" class="btn channel-card__btn channel-card__btn--ml">
+                    <span>Comprar en Mercado Libre</span>
+                  </a>
+                </div>
+
+                <!-- Opción 3: Falabella -->
+                <div class="channel-card channel-card--falabella">
+                  <div class="channel-card__header">
+                    <span class="channel-card__badge channel-card__badge--falabella">CMR Puntos</span>
+                    <h4 class="channel-card__name">Falabella.com</h4>
+                  </div>
+                  <p class="channel-card__desc">Paga con tu tarjeta CMR, acumula puntos y retira en tienda.</p>
+                  <a href="https://www.falabella.com" target="_blank" rel="noopener noreferrer" class="btn channel-card__btn channel-card__btn--falabella">
+                    <span>Comprar en Falabella</span>
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <p id="product-target" class="product-detail__target"></p>
+          </div>
+
+          <!-- Pestaña e Información Adicional abajo de la imagen/info -->
+          <div class="product-detail__extra">
+            <!-- Tabs (Manejadas por JS) -->
+            <div class="product-detail__tabs" role="tablist">
+              <button role="tab" aria-selected="true" aria-controls="tab-desc" id="tab-btn-desc" class="product-detail__tab-btn product-detail__tab-btn--active" data-tab="desc">Descripción</button>
+              <button role="tab" aria-selected="false" aria-controls="tab-info" id="tab-btn-info" class="product-detail__tab-btn" data-tab="info">Información adicional</button>
+            </div>
+
+            <div role="tabpanel" id="tab-desc" class="product-detail__tab-panel product-detail__tab-panel--active" aria-labelledby="tab-btn-desc">
+              <h3>¿Por qué funciona?</h3>
+              <p id="product-behavioral-function"></p>
+              <p id="product-sales-argument"></p>
+              <div class="product-detail__full-desc">
+                <h4>Descripción completa</h4>
+                <p id="product-description"></p>
+              </div>
+            </div>
+
+            <div role="tabpanel" id="tab-info" class="product-detail__tab-panel" aria-labelledby="tab-btn-info" hidden>
+              <div class="product-detail__attributes" id="product-attributes">
+                <!-- Injected by JS -->
+              </div>
+              <div class="product-detail__additional-info">
+                <h4>Información técnica</h4>
+                <p id="product-additional-info"></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== RELATED PRODUCTS ===== -->
+    <hr class="product-detail__separator" />
+    <section class="related-products" aria-labelledby="related-title">
+      <div class="container">
+        <h2 id="related-title" class="section-title section-title--center">Productos relacionados</h2>
+        <ul class="problem__grid" id="related-grid" role="list"></ul>
+      </div>
+    </section>
+  </main>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer">
+    <div class="container footer__cols" id="footer-cols"></div>
+    <div class="container footer__bottom">
+      <p class="footer__copy">© 2026 Con 2 colas. Powered by WordPress.</p>
+      <ul class="footer__social" role="list" aria-label="Redes sociales">
+        <li class="footer__social-item"><a class="footer__social-link" href="#" aria-label="Instagram">IG</a></li>
+        <li class="footer__social-item"><a class="footer__social-link" href="#" aria-label="Facebook">FB</a></li>
+        <li class="footer__social-item"><a class="footer__social-link" href="#" aria-label="YouTube">YT</a></li>
+        <li class="footer__social-item"><a class="footer__social-link" href="#" aria-label="TikTok">TT</a></li>
+      </ul>
+      <p class="footer__tagline">Con 2 colas.</p>
+    </div>
+  </footer>
+
+  <!-- JSON-LD will be injected here -->
+  <script id="json-ld" type="application/ld+json"></script>
+
+  <script type="module">
+    import { initProductDetail } from "../js/modules/productDetail.js";
+    initProductDetail("ruffwear-front-range-m");
+  </script>
+</body>
+</html>

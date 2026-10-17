@@ -1,0 +1,33 @@
+{
+  "id": "kong-classic-s",
+  "slug": "kong-classic-s",
+  "url": "/producto/kong-classic-s.html",
+  "name": "Kong Classic talla S",
+  "category": "Ansiedad",
+  "subcategory": "Enriquecimiento Alimenticio",
+  "line": "Básica",
+  "price": 8600,
+  "price_formatted": "$8.600",
+  "stock": 10,
+  "color": "Rojo",
+  "size": "S",
+  "marketplace": "MercadoLibre",
+  "short_description": "Versión pequeña del Kong Classic: calma para razas toy y mini.",
+  "description": "El Kong Classic talla S ofrece la misma función conductual que su versión mayor pero adaptado a perros pequeños (hasta 9 kg). Su caucho natural ultra-resistente permite rellenarlo con comida húmeda o snacks, creando un desafío mental que libera endorfinas y reduce el estrés. Perfecto para ansiedad por separación en razas pequeñas.",
+  "additional_info": "Material: Caucho natural rojo. Talla S: para perros hasta 9 kg. Apto para congelador y lavavajillas. Incluye guía de rellenos calmantes para perros pequeños.",
+  "behavioral_function": "Satisface el instinto de masticación y libera endorfinas calmantes en perros pequeños",
+  "sales_argument": "El tamaño perfecto para razas pequeñas: calma garantizada en minutos",
+  "target_problem": "Ansiedad por separación, masticación destructiva en perros pequeños",
+  "tags": [
+    "enriquecimiento",
+    "ansiedad",
+    "masticación",
+    "pequeños"
+  ],
+  "image_main": "",
+  "image_alt": "Kong Classic talla S",
+  "prev_product_slug": "kong-classic",
+  "next_product_slug": "lickimat",
+  "prev_product_name": "Kong Classic Rellenable",
+  "next_product_name": "LickiMat Calma"
+}

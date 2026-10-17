@@ -1,0 +1,33 @@
+{
+  "id": "lickimat-calma-receta",
+  "slug": "lickimat-calma-receta",
+  "url": "/producto/lickimat-calma-receta.html",
+  "name": "LickiMat Calma + receta",
+  "category": "Ansiedad",
+  "subcategory": "Dispositivos de Calma",
+  "line": "Básica",
+  "price": 19000,
+  "price_formatted": "$19.000",
+  "stock": 10,
+  "color": "Azul",
+  "size": "Clásica",
+  "marketplace": "Consultor WSP",
+  "short_description": "LickiMat Calma + recetario exclusivo de rellenos calmantes para 30 días.",
+  "description": "Incluye el LickiMat Calma original más un recetario impreso con 30 combinaciones de rellenos diseñados por especialistas en conducta: desde yogur con arándanos (antioxidantes) hasta puré de batata con cúrcuma (antiinflamatorio). Cada receta está formulada para maximizar el tiempo de lamiendo y la liberación de endorfinas.",
+  "additional_info": "Material: TPE libre de tóxicos. Tamaño: 20 x 20 cm. Incluye recetario impreso (30 recetas). Apto para congelador, microondas y lavavajillas. Color: azul.",
+  "behavioral_function": "El lamiendo prolongado sobre la textura libera endorfinas y regula el sistema nervioso",
+  "sales_argument": "Incluye recetario de rellenos calmantes: calma en 10 min, diversión por 40 min",
+  "target_problem": "Ansiedad por tormentas, estrés por visitas, aburrimiento",
+  "tags": [
+    "enriquecimiento",
+    "ansiedad",
+    "fobias",
+    "calma"
+  ],
+  "image_main": "",
+  "image_alt": "LickiMat Calma + receta",
+  "prev_product_slug": "lickimat",
+  "next_product_slug": "benebone-dental-chew",
+  "prev_product_name": "LickiMat Calma",
+  "next_product_name": "Benebone Dental Chew Chicken talla S"
+}

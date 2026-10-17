@@ -24,6 +24,11 @@ function el(tag, className, html = "") {
   return node;
 }
 
+/** Formatea precio en CLP con separador de miles. */
+function formatCLP(price) {
+  return new Intl.NumberFormat("es-CL", { style: "currency", currency: "CLP", maximumFractionDigits: 0 }).format(price);
+}
+
 /* ---------- Características ---------- */
 function renderFeatures() {
   const grid = document.getElementById("features-grid");
@@ -48,18 +53,23 @@ function renderProblems() {
     const block = el("article", "problem");
     block.id = p.id;
 
-    // CAMBIO 3: cada tarjeta usa el componente reutilizable WhatsAppButton
-    // ("Consultar por WhatsApp" con mensaje prellenado dinámico).
     const cards = p.products
       .map(
         (prod, i) => `
         <li class="product-card">
-          <div class="product-card__media">
-            <img class="product-card__img" src="${IMG_BASE}${prod.img}"
-                 alt="${prod.name}" loading="lazy" width="380" height="285" />
-          </div>
-          <h4 class="product-card__title">${prod.name}</h4>
-          <p class="product-card__price">$${prod.price.toFixed(2)}</p>
+          <a class="product-card__link" href="/producto/${prod.id}.html" aria-label="Ver detalle de ${prod.name}">
+            <div class="product-card__media">
+              <img class="product-card__img" src="${IMG_BASE}products/${prod.img}"
+                   alt="${prod.name}" loading="lazy" width="380" height="285" />
+            </div>
+            <h4 class="product-card__title">${prod.name}</h4>
+            <p class="product-card__price">${formatCLP(prod.price)}</p>
+            <p class="product-card__short-desc">${prod.short_description}</p>
+            <div class="product-card__meta">
+              ${prod.color && prod.color !== "—" ? `<span class="product-card__color">${prod.color}</span>` : ""}
+              ${prod.size && prod.size !== "—" ? `<span class="product-card__size">${prod.size}</span>` : ""}
+            </div>
+          </a>
           <div class="product-card__actions" data-wa-slot="${i}"></div>
         </li>`
       )

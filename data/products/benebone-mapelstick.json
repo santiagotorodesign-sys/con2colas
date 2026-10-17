@@ -1,0 +1,31 @@
+{
+  "id": "benebone-mapelstick",
+  "slug": "benebone-mapelstick",
+  "url": "/producto/benebone-mapelstick.html",
+  "name": "Benebone Maplestick Puppy Wood",
+  "category": "Cachorros",
+  "subcategory": "Cachorros",
+  "line": "Básica",
+  "price": 7500,
+  "price_formatted": "$7.500",
+  "stock": 10,
+  "color": "Natural",
+  "size": "S/M",
+  "marketplace": "MercadoLibre",
+  "short_description": "Madera de arce real para cachorros: satisface mordida de dentición sin astillas ni tóxicos.",
+  "description": "El Maplestick es el único mordillo de madera 100% natural (arce americano) seguro para cachorros. A diferencia de palos del parque, no se astilla, no tiene hongos ni parásitos, y su dureza media es ideal para dientes de leche. Sabor natural a madera que atrae sin aditivos. Satisface el instinto de masticar durante la dentición (3-6 meses) enseñando qué es apropiado morder.",
+  "additional_info": "Material: Madera de arce americano (maple) sin tratar. Talla S/M: cachorros 3-15 kg. No comestible (dura 2-4 semanas). Hecho en USA. Color: natural (madera).",
+  "behavioral_function": "Madera de arce real para cachorros: satisface mordida de dentición sin astillas",
+  "sales_argument": "El único mordillo de madera segura para dentición: alivia encías y enseña qué morder",
+  "target_problem": "Dentición de cachorro, masticación inapropiada",
+  "tags": [
+    "cachorros",
+    "dentición",
+    "masticación"
+  ],
+  "image_main": "",
+  "image_alt": "Benebone Maplestick Puppy Wood",
+  "prev_product_slug": "arnes-puppy",
+  "next_product_slug": "",
+  "prev_product_name": "Arnés ajustable Puppy"
+}

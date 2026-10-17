@@ -1,0 +1,33 @@
+{
+  "id": "lickimat",
+  "slug": "lickimat",
+  "url": "/producto/lickimat.html",
+  "name": "LickiMat Calma",
+  "category": "Ansiedad",
+  "subcategory": "Dispositivos de Calma",
+  "line": "Básica",
+  "price": 14990,
+  "price_formatted": "$14.990",
+  "stock": 22,
+  "color": "Azul",
+  "size": "Clásica",
+  "marketplace": "Consultor WSP",
+  "short_description": "Textura diseñada para lamiendo prolongado: activa el sistema parasimpático y baja el pulso en 10 min.",
+  "description": "El LickiMat Calma utiliza la ciencia del lamiendo repetitivo: al extender comida húmeda sobre su superficie texturada, el perro lame de forma continua, lo que estimula el nervio vago y activa el sistema nervioso parasimpático. Resultado: reducción medible del pulso y la frecuencia respiratoria en 10 minutos. Ideal para tormentas, fuegos artificiales, visitas o momentos de estrés agudo.",
+  "additional_info": "Material: TPE libre de tóxicos (apto alimentario). Tamaño: 20 x 20 cm. Apto para congelador, microondas y lavavajillas. Incluye recetario de rellenos calmantes (yogur, puré de calabaza, paté). Color: azul.",
+  "behavioral_function": "El lamiendo sobre texturas activa el sistema nervioso parasimpático y baja el pulso",
+  "sales_argument": "Calma medible en 10 minutos durante tormentas o visitas",
+  "target_problem": "Ansiedad por tormentas, estrés por visitas",
+  "tags": [
+    "enriquecimiento",
+    "ansiedad",
+    "fobias",
+    "calma"
+  ],
+  "image_main": "",
+  "image_alt": "LickiMat Calma",
+  "prev_product_slug": "kong-classic-s",
+  "next_product_slug": "lickimat-calma-receta",
+  "prev_product_name": "Kong Classic talla S",
+  "next_product_name": "LickiMat Calma + receta"
+}

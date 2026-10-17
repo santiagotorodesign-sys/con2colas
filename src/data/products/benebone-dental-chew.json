@@ -1,0 +1,33 @@
+{
+  "id": "benebone-dental-chew",
+  "slug": "benebone-dental-chew",
+  "url": "/producto/benebone-dental-chew.html",
+  "name": "Benebone Dental Chew Chicken talla S",
+  "category": "Ansiedad",
+  "subcategory": "Enriquecimiento Alimenticio",
+  "line": "Básica",
+  "price": 10800,
+  "price_formatted": "$10.800",
+  "stock": 10,
+  "color": "Naranja",
+  "size": "S",
+  "marketplace": "MercadoLibre",
+  "short_description": "Mordillo de nylon con sabor real a pollo: limpia dientes y calma ansiedad por masticación prolongada.",
+  "description": "El Benebone Dental Chew combina tres funciones conductuales: 1) Sabor a pollo real (no artificial) que engancha al perro inmediato, 2) Diseño ergonómico 'wishbone' que permite agarre con las patas para masticación autónoma, 3) Textura con ranuras que limpian mecánicamente dientes y encías mientras mastican. La masticación prolongada libera dopamina y reduce cortisol.",
+  "additional_info": "Material: Nylon de grado alimentario + sabor natural a pollo. Talla S: perros hasta 13 kg. No comestible (dura semanas). Hecho en USA. Color: naranja.",
+  "behavioral_function": "La masticación prolongada libera dopamina y reduce cortisol; limpia dientes mecánicamente",
+  "sales_argument": "Sabor a pollo real que engancha: 30 min de masticación sana y dientes limpios",
+  "target_problem": "Ansiedad, masticación destructiva, higiene dental",
+  "tags": [
+    "enriquecimiento",
+    "ansiedad",
+    "masticación",
+    "dental"
+  ],
+  "image_main": "",
+  "image_alt": "Benebone Dental Chew Chicken talla S",
+  "prev_product_slug": "lickimat-calma-receta",
+  "next_product_slug": "benebone-wishbone",
+  "prev_product_name": "LickiMat Calma + receta",
+  "next_product_name": "Benebone Wishbone Chicken talla S"
+}

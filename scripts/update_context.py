@@ -116,6 +116,7 @@ def validate(product: dict) -> list[str]:
 FIELDS_TO_UPDATE = (
     "price", "stock", "behavioral_function", "sales_argument",
     "target_problem", "category", "line", "image_path", "tags",
+    "color", "size",
 )
 
 

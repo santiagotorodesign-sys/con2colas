@@ -1,0 +1,33 @@
+{
+  "id": "arnes-puppy",
+  "slug": "arnes-puppy",
+  "url": "/producto/arnes-puppy.html",
+  "name": "Arnés ajustable Puppy",
+  "category": "Cachorros",
+  "subcategory": "Cachorros",
+  "line": "Técnica",
+  "price": 28000,
+  "price_formatted": "$28.000",
+  "stock": 10,
+  "color": "Rosado",
+  "size": "XS/S",
+  "marketplace": "Consultor WSP",
+  "short_description": "Crece con tu cachorro: 4 puntos de ajuste evitan presión en crecimiento (2-8 meses).",
+  "description": "El único arnés diseñado específicamente para la morfología cambiante del cachorro. 4 puntos de ajuste independientes (pecho, cuello, laterales) permiten expandir el arnés conforme el perro crece, evitando compresión en costillas y columna en desarrollo. Panel de pecho suave previene rozaduras en piel sensible. Anillo trasero único para correa (enseña a caminar sin tirar desde el inicio).",
+  "additional_info": "Materiales: Nylon suave 300D + neopreno interior. Tallas: XS/S (pecho 30-50 cm, cuello 20-30 cm) = razas pequeñas/medianas 2-8 meses. Colores: Rosado. Hebillas de seguridad ITW. Lavable a mano.",
+  "behavioral_function": "Crece con tu cachorro: 4 puntos de ajuste evitan presión en crecimiento",
+  "sales_argument": "Un solo arnés de 2 a 8 meses: acompaña su desarrollo sin lastimar",
+  "target_problem": "Paseo primerizo, crecimiento rápido, sensibilidad",
+  "tags": [
+    "cachorros",
+    "arnés",
+    "paseo",
+    "ajustable"
+  ],
+  "image_main": "",
+  "image_alt": "Arnés ajustable Puppy",
+  "prev_product_slug": "guia-cachorro",
+  "next_product_slug": "benebone-mapelstick",
+  "prev_product_name": "Guía de cachorro (PDF + video)",
+  "next_product_name": "Benebone Maplestick Puppy Wood"
+}

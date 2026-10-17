@@ -1,0 +1,31 @@
+{
+  "id": "difusor-feromonas",
+  "slug": "difusor-feromonas",
+  "url": "/producto/difusor-feromonas.html",
+  "name": "Difusor de feromonas apaciguantes",
+  "category": "Ansiedad",
+  "subcategory": "Dispositivos de Calma",
+  "line": "Básica",
+  "price": 29000,
+  "price_formatted": "$29.000",
+  "stock": 10,
+  "color": "Blanco",
+  "size": "48 días",
+  "marketplace": "Falabella",
+  "short_description": "Réplica sintética de feromona materna: señal de seguridad que reduce reactividad en 70 m² por 30 días.",
+  "description": "El difusor libera una copia sintética de la feromona apaciguante canina (DAP), la misma que la madre emite al amamantar. Esta señal química le dice al cerebro del perro 'estás a salvo', reduciendo reactividad, ladridos, destrucción y marcaje. Cobertura 70 m² durante 30 días continuos. Sin sedantes, sin pastillas, sin efectos secundarios.",
+  "additional_info": "Cobertura: 70 m². Duración: 30 días (recambio disponible). Enchufe estándar 220V. Incluye 1 frasco de 48 ml. Certificado CE. Color: blanco.",
+  "behavioral_function": "Réplica sintética de feromona materna: señal de seguridad que reduce reactividad",
+  "sales_argument": "Cobertura 70 m² por 30 días: hogar tranquilo sin pastillas ni sedantes",
+  "target_problem": "Ansiedad generalizada, reactividad, adaptación a cambios",
+  "tags": [
+    "ansiedad",
+    "calma",
+    "feromonas"
+  ],
+  "image_main": "",
+  "image_alt": "Difusor de feromonas apaciguantes",
+  "prev_product_slug": "benebone-wishbone",
+  "next_product_slug": "",
+  "prev_product_name": "Benebone Wishbone Chicken talla S"
+}

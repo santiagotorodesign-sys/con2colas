@@ -1,0 +1,32 @@
+{
+  "id": "set-mordillores-suaves",
+  "slug": "set-mordillores-suaves",
+  "url": "/producto/set-mordillores-suaves.html",
+  "name": "Set de mordillores suaves",
+  "category": "Cachorros",
+  "subcategory": "Cachorros",
+  "line": "Básica",
+  "price": 24000,
+  "price_formatted": "$24.000",
+  "stock": 10,
+  "color": "Pastel",
+  "size": "S/M",
+  "marketplace": "Consultor WSP",
+  "short_description": "4 texturas en 1 pack: alivia encías de dentición y enseña qué morder desde el día 1.",
+  "description": "El set incluye 4 mordillores de materiales y texturas distintas: 1) Anillo de silicona suave (encías inflamadas), 2) Hueso de TPE con nódulos (masajea encías), 3) Cuerda de algodón trenzado (limpieza dental + juego), 4) Mordillo de tela con sonido crujiente (estimulación auditiva). Rotar texturas evita habituación y cubre todas las necesidades de la dentición (3-8 meses).",
+  "additional_info": "Materiales: Silicona alimentaria, TPE, algodón orgánico, poliéster reciclado. Edades: 3-8 meses. Apto para congelador (alivio extra). Lavables en lavavajillas. Colores: pastel (rosa, azul, menta, amarillo).",
+  "behavioral_function": "Variedad de texturas para exploración oral segura durante la dentición",
+  "sales_argument": "4 texturas en 1 pack: alivia encías y enseña qué morder desde el día 1",
+  "target_problem": "Dentición, masticación inapropiada, exploración oral",
+  "tags": [
+    "cachorros",
+    "dentición",
+    "masticación",
+    "educación"
+  ],
+  "image_main": "",
+  "image_alt": "Set de mordillores suaves",
+  "prev_product_slug": "",
+  "next_product_slug": "guia-cachorro",
+  "next_product_name": "Guía de cachorro (PDF + video)"
+}

@@ -4,9 +4,9 @@
       "id": "kong-classic",
       "name": "Kong Classic Rellenable",
       "line": "Básica",
-      "category": "Enriquecimiento Alimenticio",
+      "category": "Ansiedad",
       "price": 24990,
-      "stock": 15,
+      "stock": 10,
       "behavioral_function": "Fomenta el lamiendo repetitivo, libera endorfinas y reduce cortisol",
       "sales_argument": "Transforma la hora de comer en 20 minutos de paz y calma mental",
       "target_problem": "Ansiedad por separación, masticación destructiva",
@@ -17,7 +17,9 @@
         "ansiedad",
         "masticación",
         "calma"
-      ]
+      ],
+      "color": "Rojo",
+      "size": "M (7-16 kg)"
     },
     {
       "id": "arnes-y",
@@ -36,15 +38,17 @@
         "arnés",
         "ergonómico",
         "sin-aversivos"
-      ]
+      ],
+      "color": "Gris mareado",
+      "size": "M"
     },
     {
       "id": "lickimat",
       "name": "LickiMat Calma",
       "line": "Básica",
-      "category": "Dispositivos de Calma",
+      "category": "Ansiedad",
       "price": 14990.0,
-      "stock": 22,
+      "stock": 10,
       "behavioral_function": "El lamiendo sobre texturas activa el sistema nervioso parasimpático y baja el pulso",
       "sales_argument": "Calma medible en 10 minutos durante tormentas o visitas",
       "target_problem": "Ansiedad por tormentas, estrés por visitas",
@@ -55,8 +59,531 @@
         "fobias",
         "calma"
       ],
-      "whatsapp_message": "Hola Con2colas! Me interesa el LickiMat Calma. ¿Podrían asesorarme?"
+      "whatsapp_message": "Hola Con2colas! Me interesa el LickiMat Calma. ¿Podrían asesorarme?",
+      "color": "Azul",
+      "size": "Clásica (20x20 cm)"
+    },
+    {
+      "id": "arnes-y-walk-easy",
+      "name": "Arnés en Y Walk Easy",
+      "line": "Técnica",
+      "category": "Paseo Estructurado",
+      "price": 39000.0,
+      "stock": 10,
+      "image_path": "/images/products/arnes-y-walk-easy.jpg",
+      "tags": [
+        "paseo",
+        "arnés",
+        "ergonómico",
+        "sin-aversivos"
+      ],
+      "color": "Gris mareado",
+      "size": "M",
+      "whatsapp_message": "Hola Con2colas! Me interesa el Arnés en Y Walk Easy. ¿Podrían asesorarme?"
+    },
+    {
+      "id": "correa-doble-amortiguada",
+      "name": "Correa doble amortiguada",
+      "line": "Técnica",
+      "category": "Paseo Estructurado",
+      "price": 29000.0,
+      "stock": 10,
+      "image_path": "/images/products/correa-doble-amortiguada.jpg",
+      "tags": [
+        "paseo",
+        "correa",
+        "amortiguación",
+        "sin-aversivos"
+      ],
+      "color": "Verde bosque",
+      "size": "120 cm",
+      "whatsapp_message": "Hola Con2colas! Me interesa el Correa doble amortiguada. ¿Podrían asesorarme?"
+    },
+    {
+      "id": "cinturon-manos-libres",
+      "name": "Cinturón de paseo manos libres",
+      "line": "Técnica",
+      "category": "Paseo Estructurado",
+      "price": 25000.0,
+      "stock": 10,
+      "image_path": "/images/products/cinturon-manos-libres.jpg",
+      "tags": [
+        "paseo",
+        "cinturón",
+        "manos-libres"
+      ],
+      "color": "Negro",
+      "size": "Única",
+      "whatsapp_message": "Hola Con2colas! Me interesa el Cinturón de paseo manos libres. ¿Podrían asesorarme?"
+    },
+    {
+      "id": "lickimat-calma-receta",
+      "name": "LickiMat Calma + receta",
+      "line": "Básica",
+      "category": "Ansiedad",
+      "price": 19000.0,
+      "stock": 10,
+      "image_path": "/images/products/lickimat-calma-receta.jpg",
+      "tags": [
+        "enriquecimiento",
+        "ansiedad",
+        "fobias",
+        "calma"
+      ],
+      "color": "Azul",
+      "size": "Clásica (20x20 cm)",
+      "whatsapp_message": "Hola Con2colas! Me interesa el LickiMat Calma + receta. ¿Podrían asesorarme?",
+      "behavioral_function": "El lamiendo prolongado libera endorfinas y regula el sistema nervioso",
+      "sales_argument": "Incluye recetario: calma en 10 min, diversión por 40 min",
+      "target_problem": "Ansiedad por tormentas, estrés por visitas, aburrimiento"
+    },
+    {
+      "id": "kong-classic-rellenable",
+      "name": "Kong Classic rellenable",
+      "line": "Básica",
+      "category": "Enriquecimiento Alimenticio",
+      "price": 22000.0,
+      "stock": 10,
+      "image_path": "/images/products/kong-classic-rellenable.jpg",
+      "tags": [
+        "enriquecimiento",
+        "ansiedad",
+        "masticación"
+      ],
+      "color": "Rojo",
+      "size": "M",
+      "whatsapp_message": "Hola Con2colas! Me interesa el Kong Classic rellenable. ¿Podrían asesorarme?"
+    },
+    {
+      "id": "difusor-feromonas",
+      "name": "Difusor de feromonas apaciguantes",
+      "line": "Básica",
+      "category": "Ansiedad",
+      "price": 29000.0,
+      "stock": 10,
+      "image_path": "/images/products/difusor-feromonas.jpg",
+      "tags": [
+        "ansiedad",
+        "calma",
+        "feromonas"
+      ],
+      "color": "Blanco",
+      "size": "48 días (70 m²)",
+      "whatsapp_message": "Hola Con2colas! Me interesa el Difusor de feromonas apaciguantes. ¿Podrían asesorarme?",
+      "behavioral_function": "Señal de seguridad ambiental que reduce reactividad y ansiedad",
+      "sales_argument": "Hogar tranquilo sin pastillas ni sedantes",
+      "target_problem": "Ansiedad generalizada, reactividad, adaptación a cambios"
+    },
+    {
+      "id": "zoomball",
+      "name": "Pelota interactiva ZoomBall",
+      "line": "Básica",
+      "category": "Juguetes Interactivos",
+      "price": 18000.0,
+      "stock": 10,
+      "image_path": "/images/products/zoomball.jpg",
+      "tags": [
+        "energía",
+        "juego",
+        "interactivo",
+        "ejercicio"
+      ],
+      "color": "Naranja",
+      "size": "M",
+      "whatsapp_message": "Hola Con2colas! Me interesa el Pelota interactiva ZoomBall. ¿Podrían asesorarme?",
+      "behavioral_function": "Movimiento errático activa instinto de persecución: gasto mental y físico simultáneo",
+      "sales_argument": "20 min de ZoomBall = 1 hora de paseo: cansancio real sin salir de casa",
+      "target_problem": "Exceso de energía, aburrimiento, destrucción por energía"
+    },
+    {
+      "id": "snuffle",
+      "name": "Tapete de olfato Snuffle",
+      "line": "Básica",
+      "category": "Enriquecimiento Alimenticio",
+      "price": 26000.0,
+      "stock": 10,
+      "image_path": "/images/products/snuffle.jpg",
+      "tags": [
+        "enriquecimiento",
+        "olfato",
+        "calma",
+        "comedero-lento"
+      ],
+      "color": "Gris",
+      "size": "90×60 cm",
+      "whatsapp_message": "Hola Con2colas! Me interesa el Tapete de olfato Snuffle. ¿Podrían asesorarme?",
+      "behavioral_function": "Búsqueda olfativa: 15 min de olfateo = 1 hora de paseo en gasto cognitivo",
+      "sales_argument": "Convierte la cena en trabajo mental: come lento, se cansa sano, duerme profundo",
+      "target_problem": "Comida rápida, aburrimiento, ansiedad, exceso de energía"
+    },
+    {
+      "id": "tugpro",
+      "name": "Juguete de arrastre TugPro",
+      "line": "Básica",
+      "category": "Juguetes Interactivos",
+      "price": 21000.0,
+      "stock": 10,
+      "image_path": "/images/products/tugpro.jpg",
+      "tags": [
+        "energía",
+        "juego",
+        "vínculo",
+        "autocontrol"
+      ],
+      "color": "Azul marino",
+      "size": "L",
+      "whatsapp_message": "Hola Con2colas! Me interesa el Juguete de arrastre TugPro. ¿Podrían asesorarme?",
+      "behavioral_function": "Juego de tira-y-afloja estructurado: enseña autocontrol y fortalece vínculo",
+      "sales_argument": "El juego que educa: reglas claras, descarga de energía y conexión real",
+      "target_problem": "Exceso de energía, falta de vínculo, mordida en juego"
+    },
+    {
+      "id": "set-mordillores-suaves",
+      "name": "Set de mordillores suaves",
+      "line": "Básica",
+      "category": "Cachorros",
+      "price": 24000.0,
+      "stock": 10,
+      "image_path": "/images/products/set-mordillores-suaves.jpg",
+      "tags": [
+        "cachorros",
+        "dentición",
+        "masticación",
+        "educación"
+      ],
+      "color": "Pastel",
+      "size": "S/M",
+      "whatsapp_message": "Hola Con2colas! Me interesa el Set de mordillores suaves. ¿Podrían asesorarme?",
+      "behavioral_function": "Variedad de texturas para exploración oral segura",
+      "sales_argument": "4 texturas en 1 pack: alivia encías y enseña qué morder desde el día 1",
+      "target_problem": "Dentición, masticación inapropiada"
+    },
+    {
+      "id": "guia-cachorro",
+      "name": "Guía de cachorro (PDF + video)",
+      "line": "Básica",
+      "category": "Cachorros",
+      "price": 15000.0,
+      "stock": 10,
+      "image_path": "/images/products/guia-cachorro.jpg",
+      "tags": [
+        "cachorros",
+        "educación",
+        "guía",
+        "digital"
+      ],
+      "color": "—",
+      "size": "Digital",
+      "whatsapp_message": "Hola Con2colas! Me interesa el Guía de cachorro (PDF + video). ¿Podrían asesorarme?",
+      "behavioral_function": "Protocolo para socialización, mordida y rutinas",
+      "sales_argument": "El plan que tu cachorro desearía que leyeras",
+      "target_problem": "Primer cachorro, mordida, socialización"
+    },
+    {
+      "id": "arnes-puppy",
+      "name": "Arnés ajustable Puppy",
+      "line": "Técnica",
+      "category": "Cachorros",
+      "price": 28000.0,
+      "stock": 10,
+      "image_path": "/images/products/arnes-puppy.jpg",
+      "tags": [
+        "cachorros",
+        "arnés",
+        "paseo"
+      ],
+      "color": "Rosado",
+      "size": "XS/S",
+      "whatsapp_message": "Hola Con2colas! Me interesa el Arnés ajustable Puppy. ¿Podrían asesorarme?",
+      "behavioral_function": "Ajuste anatómico evolutivo sin puntos de opresión",
+      "sales_argument": "Acompaña su desarrollo sin lastimar",
+      "target_problem": "Paseo, crecimiento rápido"
+    },
+    {
+      "id": "brainy",
+      "name": "Rompecabezas cognitivo Brainy",
+      "line": "Experta",
+      "category": "Estimulación Cognitiva",
+      "price": 27000.0,
+      "stock": 10,
+      "image_path": "/images/products/brainy.jpg",
+      "tags": [
+        "senior",
+        "cognitivo",
+        "estimulación",
+        "alzheimer-canino"
+      ],
+      "color": "Verde",
+      "size": "Nivel 2",
+      "whatsapp_message": "Hola Con2colas! Me interesa el Rompecabezas cognitivo Brainy. ¿Podrían asesorarme?",
+      "behavioral_function": "Resolución de problemas: retrasa deterioro cognitivo y reduce ansiedad senil",
+      "sales_argument": "Nivel 2: el gimnasio mental que mantiene a tu senior agudo y tranquilo",
+      "target_problem": "Deterioro cognitivo, ansiedad senil, aburrimiento en senior"
+    },
+    {
+      "id": "cama-senior-rest",
+      "name": "Cama ortopédica Senior Rest",
+      "line": "Básica",
+      "category": "Confort y Descanso",
+      "price": 59000.0,
+      "stock": 5,
+      "image_path": "/images/products/cama-senior-rest.jpg",
+      "tags": [
+        "senior",
+        "ortopédica",
+        "descanso",
+        "artrosis"
+      ],
+      "color": "Beige",
+      "size": "L",
+      "whatsapp_message": "Hola Con2colas! Me interesa el Cama ortopédica Senior Rest. ¿Podrían asesorarme?",
+      "behavioral_function": "Espuma viscoelástica de grado médico: alivia presión articular y mejora sueño reparador",
+      "sales_argument": "La cama que tu senior elige: despertar sin rigidez, calidad de vida real",
+      "target_problem": "Artrosis, dolor articular, sueño fragmentado, senior"
+    },
+    {
+      "id": "suplemento-articular",
+      "name": "Suplemento articular (30 días)",
+      "line": "Experta",
+      "category": "Salud y Bienestar",
+      "price": 32000.0,
+      "stock": 10,
+      "image_path": "/images/products/suplemento-articular.jpg",
+      "tags": [
+        "senior",
+        "articulaciones",
+        "salud",
+        "suplemento"
+      ],
+      "color": "—",
+      "size": "120 comprimidos",
+      "whatsapp_message": "Hola Con2colas! Me interesa el Suplemento articular (30 días). ¿Podrían asesorarme?",
+      "behavioral_function": "Glucosamina + condroitina + MSM: nutre cartílago y reduce inflamación crónica",
+      "sales_argument": "30 días = movilidad visible: vuelve a subir escaleras y pedir paseo",
+      "target_problem": "Artrosis, rigidez matutina, dolor crónico, senior"
+    },
+    {
+      "id": "kong-classic-s",
+      "name": "Kong Classic talla S",
+      "line": "Básica",
+      "category": "Ansiedad",
+      "price": 8600.0,
+      "stock": 10,
+      "behavioral_function": "Satisface el instinto de masticación y libera endorfinas calmantes",
+      "sales_argument": "El tamaño perfecto para razas pequeñas: calma garantizada en minutos",
+      "target_problem": "Ansiedad por separación, masticación en perros pequeños",
+      "image_path": "/images/products/kong-classic-s.jpg",
+      "tags": [
+        "enriquecimiento",
+        "ansiedad",
+        "masticación",
+        "pequeños"
+      ],
+      "color": "Rojo",
+      "size": "S (< 9 kg)",
+      "external_link": "https://www.con2colas.cl/downloads/yoga-studio/",
+      "marketplace": "MercadoLibre",
+      "whatsapp_message": "Hola Con2colas! Me interesa el Kong Classic talla S. ¿Podrían asesorarme?"
+    },
+    {
+      "id": "benebone-dental-chew",
+      "name": "Benebone Dental Chew Chicken talla S",
+      "line": "Básica",
+      "category": "Ansiedad",
+      "price": 10800.0,
+      "stock": 10,
+      "behavioral_function": "La masticación prolongada libera dopamina y reduce cortisol; limpia dientes mecánicamente",
+      "sales_argument": "Sabor a pollo real: 30 min de masticación sana y dientes limpios",
+      "target_problem": "Ansiedad, masticación destructiva, higiene dental",
+      "image_path": "/images/products/benebone-dental-chew.jpg",
+      "tags": [
+        "enriquecimiento",
+        "ansiedad",
+        "masticación",
+        "dental"
+      ],
+      "color": "Naranja (Pollo)",
+      "size": "Small (< 13 kg)",
+      "external_link": "https://www.con2colas.cl/downloads/outdoor-adventure/",
+      "marketplace": "MercadoLibre",
+      "whatsapp_message": "Hola Con2colas! Me interesa el Benebone Dental Chew Chicken talla S. ¿Podrían asesorarme?"
+    },
+    {
+      "id": "benebone-wishbone",
+      "name": "Benebone Wishbone Chicken talla S",
+      "line": "Básica",
+      "category": "Ansiedad",
+      "price": 10800.0,
+      "stock": 10,
+      "behavioral_function": "Favorece calma profunda mediante acción motora repetitiva de roer",
+      "sales_argument": "Forma en Y = agarre fácil + sabor real = perro tranquilo",
+      "target_problem": "Ansiedad, aburrimiento, masticación destructiva",
+      "image_path": "/images/products/benebone-wishbone.jpg",
+      "tags": [
+        "enriquecimiento",
+        "ansiedad",
+        "masticación"
+      ],
+      "color": "Naranja (Pollo)",
+      "size": "Small (< 13 kg)",
+      "external_link": "https://www.con2colas.cl/downloads/love-nature/",
+      "marketplace": "MercadoLibre",
+      "whatsapp_message": "Hola Con2colas! Me interesa el Benebone Wishbone Chicken talla S. ¿Podrían asesorarme?"
+    },
+    {
+      "id": "benebone-mapelstick",
+      "name": "Benebone Maplestick Puppy Wood",
+      "line": "Básica",
+      "category": "Cachorros",
+      "price": 7500.0,
+      "stock": 10,
+      "behavioral_function": "Satisface la necesidad de roer durante el recambio dental",
+      "sales_argument": "Palo real seguro que nunca se astilla",
+      "target_problem": "Dentición, masticación inapropiada",
+      "image_path": "/images/products/benebone-mapelstick.jpg",
+      "tags": [
+        "cachorros",
+        "dentición",
+        "masticación"
+      ],
+      "color": "Madera Natural",
+      "size": "S/M",
+      "external_link": "https://www.con2colas.cl/downloads/steak-house/",
+      "marketplace": "MercadoLibre",
+      "whatsapp_message": "Hola Con2colas! Me interesa el Benebone Maplestick Puppy Wood. ¿Podrían asesorarme?"
+    },
+    {
+      "id": "ruffwear-hi-light-xs",
+      "name": "RUFFWEAR Hi & Light Harness – Sage Green talla XS",
+      "line": "Técnica",
+      "category": "Paseos",
+      "price": 45990.0,
+      "stock": 10,
+      "behavioral_function": "Elimina presión en vías respiratorias y columna cervical",
+      "sales_argument": "El arnés más ligero: paseos sin tirones desde 2 kg",
+      "target_problem": "Tirones de correa, tos o arcadas, rechazo al arnés",
+      "image_path": "/images/products/ruffwear-hi-light-xs.jpg",
+      "tags": [
+        "paseo",
+        "arnés",
+        "ergonómico",
+        "ruffwear"
+      ],
+      "color": "Sage Green",
+      "size": "XS (Pecho 43-56 cm)",
+      "external_link": "https://www.con2colas.cl/downloads/baby-store/",
+      "marketplace": "Falabella",
+      "whatsapp_message": "Hola Con2colas! Me interesa el RUFFWEAR Hi & Light Harness – Sage Green talla XS. ¿Podrían asesorarme?"
+    },
+    {
+      "id": "ruffwear-hi-light-s",
+      "name": "RUFFWEAR Hi & Light Harness – Sage Green talla S",
+      "line": "Técnica",
+      "category": "Paseos",
+      "price": 45990.0,
+      "stock": 10,
+      "behavioral_function": "Favorece marcha equilibrada y natural sin puntos de dolor",
+      "sales_argument": "Máxima ligereza con durabilidad de montaña",
+      "target_problem": "Sensibilidad al tacto, paseos agitados, sobrecalentamiento",
+      "image_path": "/images/products/ruffwear-hi-light-s.jpg",
+      "tags": [
+        "paseo",
+        "arnés",
+        "ergonómico",
+        "ruffwear"
+      ],
+      "color": "Sage Green",
+      "size": "S (Pecho 56-69 cm)",
+      "external_link": "https://www.con2colas.cl/downloads/pet-lover/",
+      "marketplace": "Falabella",
+      "whatsapp_message": "Hola Con2colas! Me interesa el RUFFWEAR Hi & Light Harness – Sage Green talla S. ¿Podrían asesorarme?"
+    },
+    {
+      "id": "ruffwear-front-range-s",
+      "name": "RUFFWEAR Front Range Harness – talla S – Spring Mountains",
+      "line": "Técnica",
+      "category": "Paseos",
+      "price": 46800.0,
+      "stock": 10,
+      "behavioral_function": "Punto frontal redirige el eje de marcha suavemente sin fuerza",
+      "sales_argument": "El estándar oro en arneses anti-tirones",
+      "target_problem": "Tirones de correa, perros reactivos, paseos urbanos",
+      "image_path": "/images/products/ruffwear-front-range-s.jpg",
+      "tags": [
+        "paseo",
+        "arnés",
+        "anti-tirones",
+        "ruffwear"
+      ],
+      "color": "Spring Mountains",
+      "size": "S (Pecho 56-69 cm)",
+      "external_link": "https://www.con2colas.cl/downloads/starter-templates-3-0/",
+      "marketplace": "Falabella",
+      "whatsapp_message": "Hola Con2colas! Me interesa el RUFFWEAR Front Range Harness – talla S – Spring Mountains. ¿Podrían asesorarme?"
+    },
+    {
+      "id": "ruffwear-front-range-m",
+      "name": "RUFFWEAR Front Range Harness – talla M – Spring Mountains",
+      "line": "Técnica",
+      "category": "Paseos",
+      "price": 46800.0,
+      "stock": 10,
+      "behavioral_function": "Brinda seguridad corporal al perro y control gentil al tutor sin causar asfixia",
+      "sales_argument": "El arnés número uno recomendado por educadores caninos",
+      "target_problem": "Fuerza desmedida en el paseo, reactividad, tirones constantes",
+      "image_path": "/images/products/ruffwear-front-range-m.jpg",
+      "tags": [
+        "paseo",
+        "arnés",
+        "anti-tirones",
+        "ruffwear"
+      ],
+      "color": "Spring Mountains",
+      "size": "M (Pecho 69-81 cm)",
+      "external_link": "https://www.con2colas.cl/downloads/coffee-shop/",
+      "marketplace": "Falabella",
+      "whatsapp_message": "Hola Con2colas! Me interesa el RUFFWEAR Front Range Harness – talla M – Spring Mountains. ¿Podrían asesorarme?"
+    },
+    {
+      "id": "kong-classic-m",
+      "sku": "K11121",
+      "name": "Kong Classic talla M",
+      "category": "Ansiedad",
+      "subcategory": "Enriquecimiento Alimenticio",
+      "line": "Básica",
+      "price": 11500.0,
+      "stock": 1,
+      "color": "Rojo",
+      "size": "M",
+      "img": "kong-classic.jpg",
+      "short_description": "El juguete rellenable clásico para perros medianos (7 a 16 kg). Durabilidad y estimulación mental diaria.",
+      "description": "El Kong Classic talla M satisface la necesidad instintiva de masticar de tu perro mientras proporciona estimulación mental. Fabricado con caucho natural resistente, ofrece un rebote impredecible para juegos de búsqueda y puede rellenarse con alimento para prolongar el tiempo de juego y reducir el estrés cuando se quedan solos.",
+      "additional_info": "Material: Caucho natural rojo. Talla M: Para perros de 7 a 16 kg. Apto para congelar y lavar en máquina. Origen: EE. UU.",
+      "behavioral_function": "Canaliza la masticación hacia un objeto adecuado, reduciendo niveles de cortisol",
+      "sales_argument": "Transforma la frustración y la energía acumulada en concentración y calma",
+      "target_problem": "Masticación destructiva, estrés por soledad, ansiedad",
+      "whatsapp_message": "Hola Con2colas! Me interesa el Kong Classic talla M. ¿Podrían asesorarme?"
+    },
+    {
+      "id": "benebone-maplestick",
+      "sku": "BB00473",
+      "name": "Benebone Maplestick Puppy Wood",
+      "category": "Cachorros",
+      "subcategory": "Dentición y Desarrollo",
+      "line": "Básica",
+      "price": 7500.0,
+      "stock": 35,
+      "color": "Madera Natural",
+      "size": "Puppy / Small (< 13 kg)",
+      "img": "benebone-mapelstick.jpg",
+      "short_description": "Mordedor seguro para cachorros hecho con madera de arce real y nylon suave especial para dientes en desarrollo.",
+      "description": "A los cachorros les fascinan los palos del parque, pero son peligrosos por las astillas. El Maplestick de Benebone está formulado con un material un poco más suave para dientes de cachorro y combina madera de arce 100% natural con nylon no tóxico. No se astilla, tiene textura rugosa que alivia las encías adoloridas por el cambio dental.",
+      "additional_info": "Material: Compuesto especial Puppy (nylon más blando) con madera de arce real de EE. UU. Para cachorros de hasta 13 kg en dentición.",
+      "behavioral_function": "Satisface la necesidad biológica de masticar durante el recambio dental sin peligro de asfixia o punción",
+      "sales_argument": "Salva tus zapatillas y patas de mesas dándole un palo real que nunca se astilla",
+      "target_problem": "Mordisqueo de muebles y manos en cachorros, dolor de encías por dentición",
+      "whatsapp_message": "Hola Con2colas! Me interesa el Benebone Maplestick Puppy Wood. ¿Podrían asesorarme?"
     }
   ],
-  "last_updated": "2026-09-27T03:07:46Z"
+  "last_updated": "2026-10-17T05:01:52Z"
 }

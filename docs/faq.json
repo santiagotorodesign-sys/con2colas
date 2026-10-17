@@ -3,10 +3,12 @@
     {
       "id": "faq-001",
       "question": "¿Cómo ayudo a mi perro con: ansiedad por separación?",
-      "category": "Enriquecimiento Alimenticio",
-      "answer": "Comer rápido dispara el estrés. El enriquecimiento alimenticio convierte cada toma en trabajo cognitivo: lamer y masticar activa la calma real. Recomendamos: Kong Classic Rellenable.",
+      "category": "Ansiedad",
+      "answer": "Cada conducta tiene una función. Te ayudamos a entenderla y redirigirla con herramientas libres de aversivos. Recomendamos: Kong Classic Rellenable.",
       "related_products": [
-        "kong-classic"
+        "kong-classic",
+        "lickimat",
+        "lickimat-calma-receta"
       ],
       "tags": [
         "enriquecimiento",
@@ -18,10 +20,12 @@
     {
       "id": "faq-002",
       "question": "¿Cómo ayudo a mi perro con: masticación destructiva?",
-      "category": "Enriquecimiento Alimenticio",
-      "answer": "Comer rápido dispara el estrés. El enriquecimiento alimenticio convierte cada toma en trabajo cognitivo: lamer y masticar activa la calma real. Recomendamos: Kong Classic Rellenable.",
+      "category": "Ansiedad",
+      "answer": "Cada conducta tiene una función. Te ayudamos a entenderla y redirigirla con herramientas libres de aversivos. Recomendamos: Kong Classic Rellenable.",
       "related_products": [
-        "kong-classic"
+        "kong-classic",
+        "lickimat",
+        "lickimat-calma-receta"
       ],
       "tags": [
         "enriquecimiento",
@@ -36,7 +40,9 @@
       "category": "Paseo Estructurado",
       "answer": "Antes se creía que tirar de la correa era un problema de jerarquía, pero la ciencia muestra que suele ser dolor o sobrecarga ambiental. Un arnés en Y libera su anatomía y una correa larga le permite gestionar distancias. Recomendamos: Arnés Ergonómico en Y.",
       "related_products": [
-        "arnes-y"
+        "arnes-y",
+        "arnes-y-walk-easy",
+        "correa-doble-amortiguada"
       ],
       "tags": [
         "paseo",
@@ -51,7 +57,9 @@
       "category": "Paseo Estructurado",
       "answer": "Antes se creía que tirar de la correa era un problema de jerarquía, pero la ciencia muestra que suele ser dolor o sobrecarga ambiental. Un arnés en Y libera su anatomía y una correa larga le permite gestionar distancias. Recomendamos: Arnés Ergonómico en Y.",
       "related_products": [
-        "arnes-y"
+        "arnes-y",
+        "arnes-y-walk-easy",
+        "correa-doble-amortiguada"
       ],
       "tags": [
         "paseo",
@@ -63,10 +71,12 @@
     {
       "id": "faq-005",
       "question": "¿Cómo ayudo a mi perro con: ansiedad por tormentas?",
-      "category": "Dispositivos de Calma",
-      "answer": "El lamiendo repetitivo activa el sistema nervioso parasimpático y baja el pulso. No es un truco: es fisiología aplicada al bienestar. Recomendamos: LickiMat Calma.",
+      "category": "Ansiedad",
+      "answer": "Cada conducta tiene una función. Te ayudamos a entenderla y redirigirla con herramientas libres de aversivos. Recomendamos: LickiMat Calma.",
       "related_products": [
-        "lickimat"
+        "kong-classic",
+        "lickimat",
+        "lickimat-calma-receta"
       ],
       "tags": [
         "enriquecimiento",
@@ -78,10 +88,12 @@
     {
       "id": "faq-006",
       "question": "¿Cómo ayudo a mi perro con: estrés por visitas?",
-      "category": "Dispositivos de Calma",
-      "answer": "El lamiendo repetitivo activa el sistema nervioso parasimpático y baja el pulso. No es un truco: es fisiología aplicada al bienestar. Recomendamos: LickiMat Calma.",
+      "category": "Ansiedad",
+      "answer": "Cada conducta tiene una función. Te ayudamos a entenderla y redirigirla con herramientas libres de aversivos. Recomendamos: LickiMat Calma.",
       "related_products": [
-        "lickimat"
+        "kong-classic",
+        "lickimat",
+        "lickimat-calma-receta"
       ],
       "tags": [
         "enriquecimiento",
@@ -89,7 +101,450 @@
         "fobias",
         "calma"
       ]
+    },
+    {
+      "id": "faq-007",
+      "question": "¿Cómo ayudo a mi perro con: ansiedad generalizada?",
+      "category": "Ansiedad",
+      "answer": "Cada conducta tiene una función. Te ayudamos a entenderla y redirigirla con herramientas libres de aversivos. Recomendamos: Difusor de feromonas apaciguantes.",
+      "related_products": [
+        "kong-classic",
+        "lickimat",
+        "lickimat-calma-receta"
+      ],
+      "tags": [
+        "ansiedad",
+        "calma",
+        "feromonas"
+      ]
+    },
+    {
+      "id": "faq-008",
+      "question": "¿Cómo ayudo a mi perro con: reactividad?",
+      "category": "Ansiedad",
+      "answer": "Cada conducta tiene una función. Te ayudamos a entenderla y redirigirla con herramientas libres de aversivos. Recomendamos: Difusor de feromonas apaciguantes.",
+      "related_products": [
+        "kong-classic",
+        "lickimat",
+        "lickimat-calma-receta"
+      ],
+      "tags": [
+        "ansiedad",
+        "calma",
+        "feromonas"
+      ]
+    },
+    {
+      "id": "faq-009",
+      "question": "¿Cómo ayudo a mi perro con: exceso de energía?",
+      "category": "Juguetes Interactivos",
+      "answer": "Cada conducta tiene una función. Te ayudamos a entenderla y redirigirla con herramientas libres de aversivos. Recomendamos: Pelota interactiva ZoomBall.",
+      "related_products": [
+        "zoomball",
+        "tugpro"
+      ],
+      "tags": [
+        "energía",
+        "juego",
+        "interactivo",
+        "ejercicio"
+      ]
+    },
+    {
+      "id": "faq-010",
+      "question": "¿Cómo ayudo a mi perro con: aburrimiento?",
+      "category": "Juguetes Interactivos",
+      "answer": "Cada conducta tiene una función. Te ayudamos a entenderla y redirigirla con herramientas libres de aversivos. Recomendamos: Pelota interactiva ZoomBall.",
+      "related_products": [
+        "zoomball",
+        "tugpro"
+      ],
+      "tags": [
+        "energía",
+        "juego",
+        "interactivo",
+        "ejercicio"
+      ]
+    },
+    {
+      "id": "faq-011",
+      "question": "¿Cómo ayudo a mi perro con: comida rápida?",
+      "category": "Enriquecimiento Alimenticio",
+      "answer": "Comer rápido dispara el estrés. El enriquecimiento alimenticio convierte cada toma en trabajo cognitivo: lamer y masticar activa la calma real. Recomendamos: Tapete de olfato Snuffle.",
+      "related_products": [
+        "kong-classic-rellenable",
+        "snuffle"
+      ],
+      "tags": [
+        "enriquecimiento",
+        "olfato",
+        "calma",
+        "comedero-lento"
+      ]
+    },
+    {
+      "id": "faq-012",
+      "question": "¿Cómo ayudo a mi perro con: falta de vínculo?",
+      "category": "Juguetes Interactivos",
+      "answer": "Cada conducta tiene una función. Te ayudamos a entenderla y redirigirla con herramientas libres de aversivos. Recomendamos: Juguete de arrastre TugPro.",
+      "related_products": [
+        "zoomball",
+        "tugpro"
+      ],
+      "tags": [
+        "energía",
+        "juego",
+        "vínculo",
+        "autocontrol"
+      ]
+    },
+    {
+      "id": "faq-013",
+      "question": "¿Cómo ayudo a mi perro con: dentición?",
+      "category": "Cachorros",
+      "answer": "Cada conducta tiene una función. Te ayudamos a entenderla y redirigirla con herramientas libres de aversivos. Recomendamos: Set de mordillores suaves.",
+      "related_products": [
+        "set-mordillores-suaves",
+        "guia-cachorro",
+        "arnes-puppy"
+      ],
+      "tags": [
+        "cachorros",
+        "dentición",
+        "masticación",
+        "educación"
+      ]
+    },
+    {
+      "id": "faq-014",
+      "question": "¿Cómo ayudo a mi perro con: masticación inapropiada?",
+      "category": "Cachorros",
+      "answer": "Cada conducta tiene una función. Te ayudamos a entenderla y redirigirla con herramientas libres de aversivos. Recomendamos: Set de mordillores suaves.",
+      "related_products": [
+        "set-mordillores-suaves",
+        "guia-cachorro",
+        "arnes-puppy"
+      ],
+      "tags": [
+        "cachorros",
+        "dentición",
+        "masticación",
+        "educación"
+      ]
+    },
+    {
+      "id": "faq-015",
+      "question": "¿Cómo ayudo a mi perro con: primer cachorro?",
+      "category": "Cachorros",
+      "answer": "Cada conducta tiene una función. Te ayudamos a entenderla y redirigirla con herramientas libres de aversivos. Recomendamos: Guía de cachorro (PDF + video).",
+      "related_products": [
+        "set-mordillores-suaves",
+        "guia-cachorro",
+        "arnes-puppy"
+      ],
+      "tags": [
+        "cachorros",
+        "educación",
+        "guía",
+        "digital"
+      ]
+    },
+    {
+      "id": "faq-016",
+      "question": "¿Cómo ayudo a mi perro con: mordida?",
+      "category": "Cachorros",
+      "answer": "Cada conducta tiene una función. Te ayudamos a entenderla y redirigirla con herramientas libres de aversivos. Recomendamos: Guía de cachorro (PDF + video).",
+      "related_products": [
+        "set-mordillores-suaves",
+        "guia-cachorro",
+        "arnes-puppy"
+      ],
+      "tags": [
+        "cachorros",
+        "educación",
+        "guía",
+        "digital"
+      ]
+    },
+    {
+      "id": "faq-017",
+      "question": "¿Cómo ayudo a mi perro con: paseo?",
+      "category": "Cachorros",
+      "answer": "Cada conducta tiene una función. Te ayudamos a entenderla y redirigirla con herramientas libres de aversivos. Recomendamos: Arnés ajustable Puppy.",
+      "related_products": [
+        "set-mordillores-suaves",
+        "guia-cachorro",
+        "arnes-puppy"
+      ],
+      "tags": [
+        "cachorros",
+        "arnés",
+        "paseo"
+      ]
+    },
+    {
+      "id": "faq-018",
+      "question": "¿Cómo ayudo a mi perro con: crecimiento rápido?",
+      "category": "Cachorros",
+      "answer": "Cada conducta tiene una función. Te ayudamos a entenderla y redirigirla con herramientas libres de aversivos. Recomendamos: Arnés ajustable Puppy.",
+      "related_products": [
+        "set-mordillores-suaves",
+        "guia-cachorro",
+        "arnes-puppy"
+      ],
+      "tags": [
+        "cachorros",
+        "arnés",
+        "paseo"
+      ]
+    },
+    {
+      "id": "faq-019",
+      "question": "¿Cómo ayudo a mi perro con: deterioro cognitivo?",
+      "category": "Estimulación Cognitiva",
+      "answer": "Cada conducta tiene una función. Te ayudamos a entenderla y redirigirla con herramientas libres de aversivos. Recomendamos: Rompecabezas cognitivo Brainy.",
+      "related_products": [
+        "brainy"
+      ],
+      "tags": [
+        "senior",
+        "cognitivo",
+        "estimulación",
+        "alzheimer-canino"
+      ]
+    },
+    {
+      "id": "faq-020",
+      "question": "¿Cómo ayudo a mi perro con: ansiedad senil?",
+      "category": "Estimulación Cognitiva",
+      "answer": "Cada conducta tiene una función. Te ayudamos a entenderla y redirigirla con herramientas libres de aversivos. Recomendamos: Rompecabezas cognitivo Brainy.",
+      "related_products": [
+        "brainy"
+      ],
+      "tags": [
+        "senior",
+        "cognitivo",
+        "estimulación",
+        "alzheimer-canino"
+      ]
+    },
+    {
+      "id": "faq-021",
+      "question": "¿Cómo ayudo a mi perro con: artrosis?",
+      "category": "Confort y Descanso",
+      "answer": "Cada conducta tiene una función. Te ayudamos a entenderla y redirigirla con herramientas libres de aversivos. Recomendamos: Cama ortopédica Senior Rest.",
+      "related_products": [
+        "cama-senior-rest"
+      ],
+      "tags": [
+        "senior",
+        "ortopédica",
+        "descanso",
+        "artrosis"
+      ]
+    },
+    {
+      "id": "faq-022",
+      "question": "¿Cómo ayudo a mi perro con: dolor articular?",
+      "category": "Confort y Descanso",
+      "answer": "Cada conducta tiene una función. Te ayudamos a entenderla y redirigirla con herramientas libres de aversivos. Recomendamos: Cama ortopédica Senior Rest.",
+      "related_products": [
+        "cama-senior-rest"
+      ],
+      "tags": [
+        "senior",
+        "ortopédica",
+        "descanso",
+        "artrosis"
+      ]
+    },
+    {
+      "id": "faq-023",
+      "question": "¿Cómo ayudo a mi perro con: rigidez matutina?",
+      "category": "Salud y Bienestar",
+      "answer": "Cada conducta tiene una función. Te ayudamos a entenderla y redirigirla con herramientas libres de aversivos. Recomendamos: Suplemento articular (30 días).",
+      "related_products": [
+        "suplemento-articular"
+      ],
+      "tags": [
+        "senior",
+        "articulaciones",
+        "salud",
+        "suplemento"
+      ]
+    },
+    {
+      "id": "faq-024",
+      "question": "¿Cómo ayudo a mi perro con: masticación en perros pequeños?",
+      "category": "Ansiedad",
+      "answer": "Cada conducta tiene una función. Te ayudamos a entenderla y redirigirla con herramientas libres de aversivos. Recomendamos: Kong Classic talla S.",
+      "related_products": [
+        "kong-classic",
+        "lickimat",
+        "lickimat-calma-receta"
+      ],
+      "tags": [
+        "enriquecimiento",
+        "ansiedad",
+        "masticación",
+        "pequeños"
+      ]
+    },
+    {
+      "id": "faq-025",
+      "question": "¿Cómo ayudo a mi perro con: ansiedad?",
+      "category": "Ansiedad",
+      "answer": "Cada conducta tiene una función. Te ayudamos a entenderla y redirigirla con herramientas libres de aversivos. Recomendamos: Benebone Dental Chew Chicken talla S.",
+      "related_products": [
+        "kong-classic",
+        "lickimat",
+        "lickimat-calma-receta"
+      ],
+      "tags": [
+        "enriquecimiento",
+        "ansiedad",
+        "masticación",
+        "dental"
+      ]
+    },
+    {
+      "id": "faq-026",
+      "question": "¿Cómo ayudo a mi perro con: tirones de correa?",
+      "category": "Paseos",
+      "answer": "Cada conducta tiene una función. Te ayudamos a entenderla y redirigirla con herramientas libres de aversivos. Recomendamos: RUFFWEAR Hi & Light Harness – Sage Green talla XS.",
+      "related_products": [
+        "ruffwear-hi-light-xs",
+        "ruffwear-hi-light-s",
+        "ruffwear-front-range-s"
+      ],
+      "tags": [
+        "paseo",
+        "arnés",
+        "ergonómico",
+        "ruffwear"
+      ]
+    },
+    {
+      "id": "faq-027",
+      "question": "¿Cómo ayudo a mi perro con: tos o arcadas?",
+      "category": "Paseos",
+      "answer": "Cada conducta tiene una función. Te ayudamos a entenderla y redirigirla con herramientas libres de aversivos. Recomendamos: RUFFWEAR Hi & Light Harness – Sage Green talla XS.",
+      "related_products": [
+        "ruffwear-hi-light-xs",
+        "ruffwear-hi-light-s",
+        "ruffwear-front-range-s"
+      ],
+      "tags": [
+        "paseo",
+        "arnés",
+        "ergonómico",
+        "ruffwear"
+      ]
+    },
+    {
+      "id": "faq-028",
+      "question": "¿Cómo ayudo a mi perro con: sensibilidad al tacto?",
+      "category": "Paseos",
+      "answer": "Cada conducta tiene una función. Te ayudamos a entenderla y redirigirla con herramientas libres de aversivos. Recomendamos: RUFFWEAR Hi & Light Harness – Sage Green talla S.",
+      "related_products": [
+        "ruffwear-hi-light-xs",
+        "ruffwear-hi-light-s",
+        "ruffwear-front-range-s"
+      ],
+      "tags": [
+        "paseo",
+        "arnés",
+        "ergonómico",
+        "ruffwear"
+      ]
+    },
+    {
+      "id": "faq-029",
+      "question": "¿Cómo ayudo a mi perro con: paseos agitados?",
+      "category": "Paseos",
+      "answer": "Cada conducta tiene una función. Te ayudamos a entenderla y redirigirla con herramientas libres de aversivos. Recomendamos: RUFFWEAR Hi & Light Harness – Sage Green talla S.",
+      "related_products": [
+        "ruffwear-hi-light-xs",
+        "ruffwear-hi-light-s",
+        "ruffwear-front-range-s"
+      ],
+      "tags": [
+        "paseo",
+        "arnés",
+        "ergonómico",
+        "ruffwear"
+      ]
+    },
+    {
+      "id": "faq-030",
+      "question": "¿Cómo ayudo a mi perro con: perros reactivos?",
+      "category": "Paseos",
+      "answer": "Cada conducta tiene una función. Te ayudamos a entenderla y redirigirla con herramientas libres de aversivos. Recomendamos: RUFFWEAR Front Range Harness – talla S – Spring Mountains.",
+      "related_products": [
+        "ruffwear-hi-light-xs",
+        "ruffwear-hi-light-s",
+        "ruffwear-front-range-s"
+      ],
+      "tags": [
+        "paseo",
+        "arnés",
+        "anti-tirones",
+        "ruffwear"
+      ]
+    },
+    {
+      "id": "faq-031",
+      "question": "¿Cómo ayudo a mi perro con: fuerza desmedida en el paseo?",
+      "category": "Paseos",
+      "answer": "Cada conducta tiene una función. Te ayudamos a entenderla y redirigirla con herramientas libres de aversivos. Recomendamos: RUFFWEAR Front Range Harness – talla M – Spring Mountains.",
+      "related_products": [
+        "ruffwear-hi-light-xs",
+        "ruffwear-hi-light-s",
+        "ruffwear-front-range-s"
+      ],
+      "tags": [
+        "paseo",
+        "arnés",
+        "anti-tirones",
+        "ruffwear"
+      ]
+    },
+    {
+      "id": "faq-032",
+      "question": "¿Cómo ayudo a mi perro con: estrés por soledad?",
+      "category": "Ansiedad",
+      "answer": "Cada conducta tiene una función. Te ayudamos a entenderla y redirigirla con herramientas libres de aversivos. Recomendamos: Kong Classic talla M.",
+      "related_products": [
+        "kong-classic",
+        "lickimat",
+        "lickimat-calma-receta"
+      ],
+      "tags": []
+    },
+    {
+      "id": "faq-033",
+      "question": "¿Cómo ayudo a mi perro con: mordisqueo de muebles y manos en cachorros?",
+      "category": "Cachorros",
+      "answer": "Cada conducta tiene una función. Te ayudamos a entenderla y redirigirla con herramientas libres de aversivos. Recomendamos: Benebone Maplestick Puppy Wood.",
+      "related_products": [
+        "set-mordillores-suaves",
+        "guia-cachorro",
+        "arnes-puppy"
+      ],
+      "tags": []
+    },
+    {
+      "id": "faq-034",
+      "question": "¿Cómo ayudo a mi perro con: dolor de encías por dentición?",
+      "category": "Cachorros",
+      "answer": "Cada conducta tiene una función. Te ayudamos a entenderla y redirigirla con herramientas libres de aversivos. Recomendamos: Benebone Maplestick Puppy Wood.",
+      "related_products": [
+        "set-mordillores-suaves",
+        "guia-cachorro",
+        "arnes-puppy"
+      ],
+      "tags": []
     }
   ],
-  "last_updated": "2026-09-27T03:07:46Z"
+  "last_updated": "2026-10-17T05:01:52Z"
 }

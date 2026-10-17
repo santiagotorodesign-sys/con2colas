@@ -5,3 +5,53 @@ Archivos actualizados: docs/products.json, docs/faq.json
 Productos totales: 3 | Agregados: 1 | Modificados: 0
 FAQs generadas: 6
 Agregados: lickimat
+
+===== Ejecución 2026-10-17T01:30:02Z =====
+Fuente: data/products_data.csv (18 filas)
+Archivos actualizados: docs/products.json, docs/faq.json
+Productos totales: 18 | Agregados: 15 | Modificados: 3
+FAQs generadas: 6
+Agregados: arnes-y-walk-easy, correa-doble-amortiguada, cinturon-manos-libres, lickimat-calma-receta, kong-classic-rellenable, difusor-feromonas, zoomball, snuffle, tugpro, set-mordillores-suaves, guia-cachorro, arnes-puppy, brainy, cama-senior-rest, suplemento-articular
+Modificados: kong-classic (color, size); arnes-y (color, size); lickimat (color, size)
+
+===== Ejecución 2026-10-17T01:47:40Z =====
+Fuente: data/products_data.csv (22 filas)
+Archivos actualizados: docs/products.json, docs/faq.json
+Productos totales: 26 | Agregados: 8 | Modificados: 11
+FAQs generadas: 29
+Agregados: kong-classic-s, benebone-dental-chew, benebone-wishbone, benebone-mapelstick, ruffwear-hi-light-xs, ruffwear-hi-light-s, ruffwear-front-range-s, ruffwear-front-range-m
+Modificados: lickimat-calma-receta (behavioral_function, sales_argument, target_problem); difusor-feromonas (behavioral_function, sales_argument, target_problem); set-mordillores-suaves (behavioral_function, sales_argument, target_problem, tags); arnes-puppy (behavioral_function, sales_argument, target_problem, tags); guia-cachorro (stock, behavioral_function, sales_argument, target_problem, tags); zoomball (behavioral_function, sales_argument, target_problem, tags); snuffle (behavioral_function, sales_argument, target_problem, tags); tugpro (behavioral_function, sales_argument, target_problem, tags); brainy (behavioral_function, sales_argument, target_problem, tags); cama-senior-rest (stock, behavioral_function, sales_argument, target_problem, tags); suplemento-articular (behavioral_function, sales_argument, target_problem, tags)
+
+===== Ejecución 2026-10-17T02:32:42Z =====
+Fuente: data/products_data.csv (15 filas)
+Archivos actualizados: docs/products.json, docs/faq.json
+Productos totales: 26 | Agregados: 0 | Modificados: 11
+FAQs generadas: 29
+Modificados: kong-classic (category); kong-classic-s (category); lickimat (category); lickimat-calma-receta (category); benebone-dental-chew (category); benebone-wishbone (category); difusor-feromonas (category); ruffwear-hi-light-xs (category); ruffwear-hi-light-s (category); ruffwear-front-range-s (category); ruffwear-front-range-m (category)
+
+===== Ejecución 2026-10-17T04:48:48Z =====
+Fuente: data/products_data.csv (9 filas)
+Archivos actualizados: docs/products.json, docs/faq.json
+Productos totales: 28 | Agregados: 2 | Modificados: 7
+FAQs generadas: 37
+Agregados: kong-classic-m, benebone-maplestick
+Modificados: kong-classic-s (stock, behavioral_function, sales_argument, target_problem); benebone-dental-chew (stock, behavioral_function, sales_argument, target_problem, color, size); benebone-wishbone (stock, behavioral_function, sales_argument, target_problem, color, size); ruffwear-hi-light-xs (stock, behavioral_function, sales_argument, target_problem, size); ruffwear-hi-light-s (stock, behavioral_function, sales_argument, target_problem, size); ruffwear-front-range-s (stock, behavioral_function, sales_argument, target_problem, size); ruffwear-front-range-m (stock, behavioral_function, sales_argument, target_problem, size)
+
+===== Ejecución 2026-10-17T04:55:11Z =====
+Fuente: data/products_data.csv (9 filas)
+Archivos actualizados: docs/products.json, docs/faq.json
+Productos totales: 28 | Agregados: 0 | Modificados: 0
+FAQs generadas: 37
+
+===== Ejecución 2026-10-17T05:01:34Z =====
+Fuente: data/products_data.csv (15 filas)
+Archivos actualizados: docs/products.json, docs/faq.json
+Productos totales: 28 | Agregados: 0 | Modificados: 0
+FAQs generadas: 37
+
+===== Ejecución 2026-10-17T05:01:52Z =====
+Fuente: data/products_data.csv (15 filas)
+Archivos actualizados: docs/products.json, docs/faq.json
+Productos totales: 28 | Agregados: 0 | Modificados: 15
+FAQs generadas: 34
+Modificados: kong-classic (stock, size); kong-classic-s (stock, behavioral_function, sales_argument, target_problem, size); lickimat (stock, size); lickimat-calma-receta (behavioral_function, sales_argument, size); benebone-dental-chew (stock, behavioral_function, sales_argument, target_problem, color); benebone-wishbone (stock, behavioral_function, sales_argument, target_problem, color); difusor-feromonas (behavioral_function, sales_argument, size); ruffwear-hi-light-xs (stock, behavioral_function, sales_argument, target_problem, tags); ruffwear-hi-light-s (stock, behavioral_function, sales_argument, target_problem); ruffwear-front-range-s (stock, behavioral_function, sales_argument, target_problem); ruffwear-front-range-m (stock, sales_argument); set-mordillores-suaves (behavioral_function, target_problem); guia-cachorro (stock, behavioral_function, sales_argument, target_problem); arnes-puppy (behavioral_function, sales_argument, target_problem, tags); benebone-mapelstick (behavioral_function, sales_argument, target_problem, color)

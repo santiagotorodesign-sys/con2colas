@@ -1,0 +1,32 @@
+{
+  "id": "kong-classic",
+  "slug": "kong-classic",
+  "url": "/producto/kong-classic.html",
+  "name": "Kong Classic Rellenable",
+  "category": "Ansiedad",
+  "subcategory": "Enriquecimiento Alimenticio",
+  "line": "Básica",
+  "price": 24990,
+  "price_formatted": "$24.990",
+  "stock": 15,
+  "color": "Rojo",
+  "size": "M",
+  "marketplace": "MercadoLibre",
+  "short_description": "El juguete rellenable #1 para calmar ansiedad por separación y masticación destructiva.",
+  "description": "El Kong Classic satisface el instinto natural de masticación y lamiendo, liberando endorfinas que reducen el cortisol y transforman la ansiedad en calma. Su caucho natural ultra-resistente permite rellenarlo con comida húmeda, yogur o snacks, creando un desafío mental que mantiene al perro ocupado 20-40 minutos. Ideal para dejar solo en casa, visitas o tormentas.",
+  "additional_info": "Material: Caucho natural rojo (libre de BPA, ftalatos y látex). Talla M: para perros 7-16 kg. Apto para congelador y lavavajillas. Incluye guía de rellenos calmantes.",
+  "behavioral_function": "Fomenta el lamiendo repetitivo, libera endorfinas y reduce cortisol",
+  "sales_argument": "Transforma la hora de comer en 20 minutos de paz y calma mental",
+  "target_problem": "Ansiedad por separación, masticación destructiva",
+  "tags": [
+    "enriquecimiento",
+    "ansiedad",
+    "masticación",
+    "calma"
+  ],
+  "image_main": "",
+  "image_alt": "Kong Classic Rellenable",
+  "prev_product_slug": "",
+  "next_product_slug": "kong-classic-s",
+  "next_product_name": "Kong Classic talla S"
+}

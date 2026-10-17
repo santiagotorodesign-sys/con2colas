@@ -1,6 +1,7 @@
 /**
  * content.js — Datos de contenido del sitio "Con 2 colas".
- * Textos y productos extraídos del diseño Figma (Home - Con 2 colas, node 34-1246).
+ * Catálogo real: 15 productos en 3 categorías (Ansiedad, Paseos, Cachorros).
+ * Fuente: data/products_data.csv (pipeline: scripts/update_context.py)
  */
 
 export const features = [
@@ -37,39 +38,136 @@ export const features = [
 ];
 
 /**
- * Bloques de "Soluciones por problema". Cada problema lista 3 productos
- * recomendados (los placeholders del diseño se reemplazaron por productos
- * reales del catálogo canino).
+ * Bloques de "Soluciones por problema" — 3 categorías reales.
+ * Cada producto incluye: id, name, price, color, size, img, short_description,
+ * description, additional_info, behavioral_function, sales_argument,
+ * target_problem, marketplace
  */
 export const problems = [
-  {
-    id: "paseo",
-    title: "Tirones en el paseo",
-    desc: "Pasear se ha vuelto un estrés constante, te duele el brazo y las manos...",
-    products: [
-      { img: "prod-1.png", name: "Arnés en Y Walk Easy", price: 39.0, color: "Gris mareado", size: "M" },
-      { img: "prod-2.png", name: "Correa doble amortiguada", price: 29.0, color: "Verde bosque", size: "120 cm" },
-      { img: "prod-3.png", name: "Cinturón de paseo manos libres", price: 25.0, color: "Negro", size: "Única" },
-    ],
-  },
   {
     id: "ansiedad",
     title: "Ansiedad al quedarse solo",
     desc: "Llora, ladra o lo pasa muy mal cada vez que sales por la puerta.",
     products: [
-      { img: "prod-4.png", name: "LickiMat Calma + receta", price: 19.0, color: "Azul", size: "Clásica" },
-      { img: "prod-5.png", name: "Kong Classic rellenable", price: 22.0, color: "Rojo", size: "M" },
-      { img: "prod-6.png", name: "Difusor de feromonas apaciguantes", price: 29.0, color: "Blanco", size: "48 días" },
+      {
+        id: "kong-classic-s",
+        name: "Kong Classic talla S",
+        price: 8600,
+        color: "Rojo",
+        size: "S",
+        img: "kong-classic-s.jpg",
+        short_description: "El juguete rellenable clásico para perros pequeños (hasta 9 kg).",
+        description: "El Kong Classic talla S es el estándar de oro en juguetes caninos para perros pequeños.",
+        additional_info: "Material: Caucho natural no tóxico. Talla S: Para perros de hasta 9 kg.",
+        behavioral_function: "Satisface el instinto natural de masticación y libera endorfinas que calman el sistema nervioso",
+        sales_argument: "20 minutos de lamiendo equivalen a un paseo en gasto mental y relajación",
+        target_problem: "Ansiedad por separación, masticación destructiva, aburrimiento"
+      },
+      {
+        id: "kong-classic-m",
+        name: "Kong Classic talla M",
+        price: 11500,
+        color: "Rojo",
+        size: "M",
+        img: "kong-classic.jpg",
+        short_description: "El juguete rellenable clásico para perros medianos (7 a 16 kg).",
+        description: "El Kong Classic talla M satisface la necesidad instintiva de masticar de tu perro.",
+        additional_info: "Material: Caucho natural rojo. Talla M: Para perros de 7 a 16 kg.",
+        behavioral_function: "Canaliza la masticación hacia un objeto adecuado, reduciendo niveles de cortisol",
+        sales_argument: "Transforma la frustración y la energía acumulada en concentración y calma",
+        target_problem: "Masticación destructiva, estrés por soledad, ansiedad"
+      },
+      {
+        id: "benebone-dental-chew",
+        name: "Benebone Dental Chew Chicken Small",
+        price: 10800,
+        color: "Naranja / Pollo",
+        size: "Small (< 13 kg)",
+        img: "benebone-dental-chew.jpg",
+        short_description: "Mordedor ergonómico con crestas estimulantes y sabor 100% a pollo real.",
+        description: "Los perros no tienen pulgares, pero el Dental Chew de Benebone está diseñado con crestas y curvas patentadas.",
+        additional_info: "Material: Nylon duradero con pollo real infusionado. Talla Small.",
+        behavioral_function: "La masticación prolongada activa receptores de dopamina y relaja la mandíbula",
+        sales_argument: "Satisface las ganas intensas de morder sin astillarse ni ensuciar tu casa",
+        target_problem: "Masticación inapropiada de muebles, tensión por encierro, sarro dental"
+      },
+      {
+        id: "benebone-wishbone",
+        name: "Benebone Wishbone Chicken Small",
+        price: 10800,
+        color: "Naranja / Pollo",
+        size: "Small (< 13 kg)",
+        img: "benebone-wishbone.jpg",
+        short_description: "El icónico diseño en horquilla que permite agarre fácil y masticación prolongada.",
+        description: "El diseño curvado del Wishbone permite que el perro mantenga un extremo elevado con sus patas.",
+        additional_info: "Material: Nylon resistente con pollo real infusionado. Talla Small.",
+        behavioral_function: "Favorece estados de calma profunda mediante la acción motora de roer",
+        sales_argument: "El favorito de los perros por su agarre ergonómico: no se les resbala",
+        target_problem: "Ansiedad generalizada, hiperactividad vespertina, estrés de soledad"
+      }
     ],
   },
   {
-    id: "energia",
-    title: "Exceso de energía",
-    desc: "Parece que no se cansa con nada y demanda atención todo el día.",
+    id: "paseo",
+    title: "Tirones en el paseo",
+    desc: "Pasear se ha vuelto un estrés constante, te duele el brazo y las manos...",
     products: [
-      { img: "prod-7.png", name: "Pelota interactiva ZoomBall", price: 18.0, color: "Naranja", size: "M" },
-      { img: "prod-8.png", name: "Tapete de olfato Snuffle", price: 26.0, color: "Gris", size: "90×60 cm" },
-      { img: "prod-9.png", name: "Juguete de arrastre TugPro", price: 21.0, color: "Azul marino", size: "L" },
+      {
+        id: "ruffwear-hi-light-xs",
+        name: "Ruffwear Hi & Light Harness – Sage Green XS",
+        price: 45990,
+        color: "Sage Green",
+        size: "XS (Pecho 43-56 cm)",
+        img: "ruffwear-hi-light-xs.jpg",
+        short_description: "Arnés ultraligero y de perfil bajo para máxima libertad de movimiento.",
+        description: "El arnés Ruffwear Hi & Light™ es una opción liviana y minimalista para paseos diarios.",
+        additional_info: "Material: Ripstop de poliéster 150D. Talla XS: Pecho 43-56 cm.",
+        behavioral_function: "Elimina la presión sobre las vías respiratorias y columna cervical",
+        sales_argument: "Tu perro casi no sentirá que lo lleva puesto: adiós a las rozaduras",
+        target_problem: "Tirones de correa, tos o arcadas durante el paseo, rechazo al arnés"
+      },
+      {
+        id: "ruffwear-hi-light-s",
+        name: "Ruffwear Hi & Light Harness – Sage Green S",
+        price: 45990,
+        color: "Sage Green",
+        size: "S (Pecho 56-69 cm)",
+        img: "ruffwear-hi-light-s.jpg",
+        short_description: "Arnés técnico ultraliviano de perfil bajo para paseos cómodos.",
+        description: "Construido para velocidad, ligereza y paseos cómodos sin añadir peso extra.",
+        additional_info: "Material: Poliéster ripstop 150D. Talla S: Pecho 56-69 cm.",
+        behavioral_function: "Favorece una marcha equilibrada y natural sin puntos de dolor",
+        sales_argument: "Máxima ligereza con la durabilidad de montaña que caracteriza a Ruffwear",
+        target_problem: "Sensibilidad al tacto, paseos agitados, sobrecalentamiento"
+      },
+      {
+        id: "ruffwear-front-range-s",
+        name: "Ruffwear Front Range Harness – Spring Mountains S",
+        price: 46800,
+        color: "Spring Mountains",
+        size: "S (Pecho 56-69 cm)",
+        img: "ruffwear-front-range-s.jpg",
+        short_description: "El arnés acolchado con doble punto de enganche (anti-tirones en pecho).",
+        description: "El Front Range® es el arnés de uso diario definitivo con dos puntos de enganche.",
+        additional_info: "Material: Poliéster 300D con relleno de espuma foam. Talla S: Pecho 56-69 cm.",
+        behavioral_function: "El punto frontal permite redirigir el eje de marcha suavemente",
+        sales_argument: "Paseos agradables y sin forcejeos respetando 100% el bienestar de tu mascota",
+        target_problem: "Tirones intensos de correa, perros reactivos ante estímulos externos"
+      },
+      {
+        id: "ruffwear-front-range-m",
+        name: "Ruffwear Front Range Harness – Spring Mountains M",
+        price: 46800,
+        color: "Spring Mountains",
+        size: "M (Pecho 69-81 cm)",
+        img: "ruffwear-front-range-m.jpg",
+        short_description: "Arnés acolchado de alto rendimiento con fijación frontal anti-tirones.",
+        description: "Ideal para perros de tamaño mediano a grande con amplio panel acolchado.",
+        additional_info: "Material: Poliéster antidesgarro con forro acolchado. Talla M: Pecho 69-81 cm.",
+        behavioral_function: "Brinda seguridad corporal al perro y control gentil al tutor sin causar asfixia",
+        sales_argument: "El arnés número uno recomendado por educadores caninos respetuosos",
+        target_problem: "Fuerza desmedida en el paseo, reactividad, tirones constantes"
+      }
     ],
   },
   {
@@ -77,19 +175,20 @@ export const problems = [
     title: "Llegada de un nuevo cachorro",
     desc: "Exceso de energía, salta todo el tiempo y muerde por juego.",
     products: [
-      { img: "prod-10.png", name: "Set de mordillores suaves", price: 24.0, color: "Pastel", size: "S/M" },
-      { img: "prod-11.png", name: "Guía de cachorro (PDF + video)", price: 15.0, color: "—", size: "Digital" },
-      { img: "prod-12.png", name: "Arnés ajustable Puppy", price: 28.0, color: "Rosado", size: "XS/S" },
-    ],
-  },
-  {
-    id: "senior",
-    title: "Cuidados para los “senior”",
-    desc: "Estimulación cognitiva, higiene y otros...",
-    products: [
-      { img: "prod-13.png", name: "Rompecabezas cognitivo Brainy", price: 27.0, color: "Verde", size: "Nivel 2" },
-      { img: "prod-14.png", name: "Cama ortopédica Senior Rest", price: 59.0, color: "Beige", size: "L" },
-      { img: "prod-15.png", name: "Suplemento articular (30 días)", price: 32.0, color: "—", size: "120 comprimidos" },
+      {
+        id: "benebone-maplestick",
+        name: "Benebone Maplestick Puppy Wood",
+        price: 7500,
+        color: "Madera Natural",
+        size: "Puppy / Small (< 13 kg)",
+        img: "benebone-mapelstick.jpg",
+        short_description: "Mordedor seguro para cachorros hecho con madera de arce real y nylon suave.",
+        description: "A los cachorros les fascinan los palos, pero son peligrosos por las astillas. El Maplestick combina arce con nylon no tóxico.",
+        additional_info: "Material: Compuesto especial Puppy con madera de arce real de EE. UU.",
+        behavioral_function: "Satisface la necesidad biológica de masticar durante el recambio dental",
+        sales_argument: "Salva tus zapatillas dándole un palo real que nunca se astilla",
+        target_problem: "Mordisqueo de muebles y manos en cachorros, dolor de encías por dentición"
+      }
     ],
   },
 ];
